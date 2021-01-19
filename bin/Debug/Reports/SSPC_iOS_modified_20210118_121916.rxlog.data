@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="58.11s"
+		durationms="58109"
+		type="root"
+		rid="24ddf9831f016dfe"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="18-Jan-21 12:19:16 PM"
+		timestampiso="2021-01-18T06:49:16"
+		endtime="18-Jan-21 12:20:15 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="52.78s"
+			durationms="52777"
+			type="test-suite"
+			rid="16a6c491afb949d0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="SSPC_iOS_modified"
+			headertext="SSPC_iOS_modified"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="38.4s"
+				durationms="38395"
+				type="iteration-container"
+				rid="2c178dfc0555f80"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Launch_and_Login"
+				headertext="Launch_and_Login"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="f236ba45-53a4-472b-b171-bdac8306596a"
+				datasource="QACredCSV"
+				dataiterationcount="1">
+				<params>
+					<param
+						name="Email">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="38.39s"
+					durationms="38385"
+					type="test-case"
+					rid="1c37535b0c4ec53e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="2"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Launch_and_Login"
+					testcontainerid="f236ba45-53a4-472b-b171-bdac8306596a"
+					headertext="Launch_and_Login"
+					displayName="Launch_and_Login"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Endpoint">
+							Jyoti’s iPhone
+						</field>
+						<field
+							name="UserID">
+							flowqaauto@mailinator.com
+						</field>
+						<field
+							name="Password">
+							Pentair@123
+						</field>
+						<field
+							name="DeviceID">
+							PNR02SPC1000008091
+						</field>
+						<field
+							name="WiFi SSID">
+							satsaheb
+						</field>
+						<field
+							name="WiFi Password">
+							satkabirdaya
+						</field>
+						<field
+							name="New WiFi SSID">
+							Galaxy S20+f314
+						</field>
+						<field
+							name="New Password">
+							osys9456
+						</field>
+						<field
+							name="Nickname">
+							SPC QA 8091
+						</field>
+						<field
+							name="manualfrequency">
+							1
+						</field>
+						<field
+							name="manualduration">
+							10
+						</field>
+						<field
+							name="manualWaittime">
+							70s
+						</field>
+						<field
+							name="New NickName">
+							SSPC QA 8091
+						</field>
+						<field
+							name="DryRunInput">
+							10
+						</field>
+						<field
+							name="ExtraRuntime">
+							2
+						</field>
+						<field
+							name="NickNameClick">
+							Nickname SPC QA 8091
+						</field>
+						<field
+							name="WifiInputContainer">
+							Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE
+						</field>
+						<field
+							name="New WifiInputContainer">
+							Connect YourDevice to WiFi NETWORK Galaxy S20+f314 Password Save Password CONTINUE
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="16.05s"
+						durationms="16051"
+						type="test-module"
+						rid="1aa55a11f0d9cdc2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Launch_App"
+						displayName="Launch_App"
+						moduleid="136b4c93-a94b-4c80-b8ab-e8b9d3bc7e7d"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="Endpoint"
+								value="Jyoti’s iPhone">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.069"
+							timeRelativeToTestModuleStartTime="00:00.010"
+							timeWallClock="12:19:22"
+							time="00:00.069"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Endpoint = 'Jyoti’s iPhone'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.119"
+							timeRelativeToTestModuleStartTime="00:00.060"
+							timeWallClock="12:19:22"
+							time="00:00.119"
+							level="Info"
+							category="Application">
+							<message>
+								Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Launch_App.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.417"
+							timeRelativeToTestModuleStartTime="00:08.358"
+							timeWallClock="12:19:30"
+							time="00:08.417"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.firstscreensipe'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']"
+								itempath="form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.firstscreensipe"
+								id="4b1073091dd640f3850642a7d972701c"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Launch_App.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.196"
+							timeRelativeToTestModuleStartTime="00:12.137"
+							timeWallClock="12:19:34"
+							time="00:12.196"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.SecondScreenSipe'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']"
+								itempath="form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.SecondScreenSipe"
+								id="ca1a9a33105f43e3aa2e46b26e689aeb"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Launch_App.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.688"
+							timeRelativeToTestModuleStartTime="00:13.629"
+							timeWallClock="12:19:35"
+							time="00:13.688"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ThirdScreenSwipe'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']"
+								itempath="form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ThirdScreenSwipe"
+								id="53846f8e294845ba914284cb0fc04610"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Launch_App.cs"
+								codeline="107"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.079"
+							timeRelativeToTestModuleStartTime="00:15.020"
+							timeWallClock="12:19:37"
+							time="00:15.079"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.LastScreen_Next_button' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']"
+								itempath="form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.LastScreen_Next_button"
+								id="a160189d551d4c0fa37b858ef718fc53"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Launch_App.cs"
+								codeline="111"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="22.3s"
+						durationms="22301"
+						type="test-module"
+						rid="80c0a1b02c6fe77"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Login"
+						displayName="Login"
+						moduleid="113daff0-e45c-4210-9244-d9147ec1a700"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="Email"
+								value="flowqaauto@mailinator.com">
+							</varbinding>
+							<varbinding
+								name="Passord"
+								value="Pentair@123">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.116"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="12:19:38"
+							time="00:16.116"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Email = 'flowqaauto@mailinator.com', $Passord = 'Pentair@123'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.161"
+							timeRelativeToTestModuleStartTime="00:00.045"
+							timeWallClock="12:19:38"
+							time="00:16.161"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$Email' on item 'ComPentairPentairhome.Email_input'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form//text[@accessibilityid='LoginEmailTextField']"
+								itempath="form//text[@accessibilityid='LoginEmailTextField']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.Email_input"
+								id="c130c93730e14ae5ad3f94702942e02d"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.507"
+							timeRelativeToTestModuleStartTime="00:00.391"
+							timeWallClock="12:19:38"
+							time="00:16.507"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="112"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.545"
+							timeRelativeToTestModuleStartTime="00:02.429"
+							timeWallClock="12:19:40"
+							time="00:18.545"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.EnterEmailTextLogin' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter your email to get started.']"
+								itempath=".//container[@accessibilitylabel='Enter your email to get started.']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.EnterEmailTextLogin"
+								id="ecb2253c99ba4c5ab205efcef67356c8"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="115"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.568"
+							timeRelativeToTestModuleStartTime="00:03.453"
+							timeWallClock="12:19:41"
+							time="00:19.568"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="119"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.642"
+							timeRelativeToTestModuleStartTime="00:05.527"
+							timeWallClock="12:19:43"
+							time="00:21.642"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.GetStartedLogin' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='LoginEmailNextButton']"
+								itempath=".//container[@accessibilityid='LoginEmailNextButton']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.GetStartedLogin"
+								id="8e44d3c098e24c97b05a163b289503d2"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="122"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.627"
+							timeRelativeToTestModuleStartTime="00:06.512"
+							timeWallClock="12:19:44"
+							time="00:22.627"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="126"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.687"
+							timeRelativeToTestModuleStartTime="00:08.571"
+							timeWallClock="12:19:46"
+							time="00:24.687"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$Passord' on item 'ComPentairPentairhome.PassordInput'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='SignInPasswordField']"
+								itempath=".//text[@accessibilityid='SignInPasswordField']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.PassordInput"
+								id="11b8d39725d44392941932efd6e7a8be"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="129"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.031"
+							timeRelativeToTestModuleStartTime="00:08.916"
+							timeWallClock="12:19:47"
+							time="00:25.031"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="7"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="133"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.081"
+							timeRelativeToTestModuleStartTime="00:10.965"
+							timeWallClock="12:19:49"
+							time="00:27.081"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.LoginUpperRight' at UpperRight
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']"
+								itempath=".//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.LoginUpperRight"
+								id="41ea38b8cc26410a855b65ccdb806f8d"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="136"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.075"
+							timeRelativeToTestModuleStartTime="00:11.959"
+							timeWallClock="12:19:50"
+							time="00:28.075"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="9"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="140"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.124"
+							timeRelativeToTestModuleStartTime="00:14.008"
+							timeWallClock="12:19:52"
+							time="00:30.124"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.LOGIN' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']"
+								itempath=".//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.LOGIN"
+								id="32226905c9fe46e8bce2869e48fd700d"
+								timeout="60000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="143"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.364"
+							timeRelativeToTestModuleStartTime="00:15.249"
+							timeWallClock="12:19:53"
+							time="00:31.364"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 7s.
+							</message>
+							<metainfo
+								itemindex="11"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Login.cs"
+								codeline="147"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="14.35s"
+				durationms="14349"
+				type="iteration-container"
+				rid="2900a57be55e9784"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Provisioning_of_SSPC"
+				headertext="Provisioning_of_SSPC"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="be6529cb-fff3-40a0-ace6-6e4cd3c26b27"
+				datasource="QACredCSV"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="14.35s"
+					durationms="14349"
+					type="test-case"
+					rid="23c7ecabd1903f68"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Provisioning_of_SSPC"
+					testcontainerid="be6529cb-fff3-40a0-ace6-6e4cd3c26b27"
+					headertext="Provisioning_of_SSPC"
+					displayName="Provisioning_of_SSPC"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Endpoint">
+							Jyoti’s iPhone
+						</field>
+						<field
+							name="UserID">
+							flowqaauto@mailinator.com
+						</field>
+						<field
+							name="Password">
+							Pentair@123
+						</field>
+						<field
+							name="DeviceID">
+							PNR02SPC1000008091
+						</field>
+						<field
+							name="WiFi SSID">
+							satsaheb
+						</field>
+						<field
+							name="WiFi Password">
+							satkabirdaya
+						</field>
+						<field
+							name="New WiFi SSID">
+							Galaxy S20+f314
+						</field>
+						<field
+							name="New Password">
+							osys9456
+						</field>
+						<field
+							name="Nickname">
+							SPC QA 8091
+						</field>
+						<field
+							name="manualfrequency">
+							1
+						</field>
+						<field
+							name="manualduration">
+							10
+						</field>
+						<field
+							name="manualWaittime">
+							70s
+						</field>
+						<field
+							name="New NickName">
+							SSPC QA 8091
+						</field>
+						<field
+							name="DryRunInput">
+							10
+						</field>
+						<field
+							name="ExtraRuntime">
+							2
+						</field>
+						<field
+							name="NickNameClick">
+							Nickname SPC QA 8091
+						</field>
+						<field
+							name="WifiInputContainer">
+							Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE
+						</field>
+						<field
+							name="New WifiInputContainer">
+							Connect YourDevice to WiFi NETWORK Galaxy S20+f314 Password Save Password CONTINUE
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="14.35s"
+						durationms="14346"
+						type="test-module"
+						rid="22a721b439652fa8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Provisioning"
+						displayName="Provisioning"
+						moduleid="c623303e-27fe-4914-b669-cbcffdf3b2bb"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="DeviceID"
+								value="PNR02SPC1000008091">
+							</varbinding>
+							<varbinding
+								name="Nickname"
+								value="SPC QA 8091">
+							</varbinding>
+							<varbinding
+								name="WifiPassword"
+								value="satkabirdaya">
+							</varbinding>
+							<varbinding
+								name="Wifissid"
+								value="satsaheb">
+							</varbinding>
+							<varbinding
+								name="WifiPageContainer"
+								value="Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.433"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:20:00"
+							time="00:38.433"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$DeviceID = 'PNR02SPC1000008091', $Nickname = 'SPC QA 8091', $WifiPassword = 'satkabirdaya', $Wifissid = 'satsaheb', $WifiPageContainer = 'Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.488"
+							timeRelativeToTestModuleStartTime="00:00.057"
+							timeWallClock="12:20:00"
+							time="00:38.488"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.UIWindow.AddADevice' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']"
+								itempath="container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.UIWindow.AddADevice"
+								id="71073362717a4b38b405910e4011de39"
+								timeout="90000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Provisioning.cs"
+								codeline="138"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.931"
+							timeRelativeToTestModuleStartTime="00:02.500"
+							timeWallClock="12:20:03"
+							time="00:40.931"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.UIWindow.SumpController' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Sump Controller ']/container[@accessibilitylabel='Sump Controller ']"
+								itempath="container[@caption='']//container[@accessibilitylabel='Sump Controller ']/container[@accessibilitylabel='Sump Controller ']"
+								fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.UIWindow.SumpController"
+								id="78a19a1e110648cf9d055e0d10279e91"
+								timeout="90000"
+								codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\Provisioning.cs"
+								codeline="142"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:52.777"
+							timeRelativeToTestModuleStartTime="00:14.346"
+							timeWallClock="12:20:14"
+							time="00:52.777"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f9153055-21b9-4911-a207-042de76e1046"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ScheduleHealthTestMonthly"
+	namespace="SSPC_iOS">
+	</codegen>
+	<variables>
+		<var
+		id="870b59e1-b8f4-4c6c-a5a6-71a397b44c22"
+		name="TimeValue">
+		</var>
+		<var
+		id="6dfa3646-8693-45f7-8d23-37c4a748e0f1"
+		name="DateSchedule">
+		</var>
+		<var
+		id="3ddb319f-a384-4a9d-bd2a-7d33a6da1b1c"
+		name="TimeHrs">
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="042761be-07e8-4710-9090-4657c7a8ba3d"
+	name="SSPC_iOS_modifiedRepository"
+	relativepath="SSPC_iOS_modifiedRepository.rxrep">
+		<codegen
+		classname="SSPC_iOS_modifiedRepository"
+		namespace="SSPC_iOS">
+		</codegen>
+		<rootfolder
+		id="f06284d3-1084-4358-8b35-59ebc0068d7e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ScheduleHealthTestMonthly.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

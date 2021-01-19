@@ -1,0 +1,2723 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSPC_iOS_modified</name>
+    </assembly>
+    <members>
+        <member name="T:SSPC_iOS.analytics">
+             <summary>
+            The analytics recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.analytics.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.analytics.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.analytics.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.analytics.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.analytics.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.analytics.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.analytics.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.analytics.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.AutoMode">
+             <summary>
+            The AutoMode recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.AutoMode.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.AutoMode.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.AutoMode.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.AutoMode.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.AutoMode.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.AutoMode.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.AutoMode.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.AutoMode.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.CancelEmptyWater">
+             <summary>
+            The CancelEmptyWater recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.CancelEmptyWater.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.CancelEmptyWater.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.CancelEmptyWater.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.CancelEmptyWater.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.CancelEmptyWater.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.CancelEmptyWater.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.CancelEmptyWater.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.CancelEmptyWater.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ChangetoManualMode">
+             <summary>
+            The ChangetoManualMode recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ChangetoManualMode.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ChangetoManualMode.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ChangetoManualMode.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ChangetoManualMode.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ChangetoManualMode.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ChangetoManualMode.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ChangetoManualMode.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ClickSPCtile">
+             <summary>
+            The ClickSPCtile recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ClickSPCtile.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ClickSPCtile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ClickSPCtile.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ClickSPCtile.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ClickSPCtile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ClickSPCtile.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ClickSPCtile.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ClickSPCtile.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.configurations">
+             <summary>
+            The configurations recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.configurations.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.configurations.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.configurations.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.configurations.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.configurations.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.configurations.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.configurations.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.configurations.DryRunInput">
+            <summary>
+            Gets or sets the value of variable DryRunInput.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.configurations.ExtraRunTimeInput">
+            <summary>
+            Gets or sets the value of variable ExtraRunTimeInput.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.configurations.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.contactpentair">
+             <summary>
+            The contactpentair recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.contactpentair.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.contactpentair.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.contactpentair.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.contactpentair.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.contactpentair.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.contactpentair.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.contactpentair.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.contactpentair.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.EmptyWater">
+             <summary>
+            The EmptyWater recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.EmptyWater.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.EmptyWater.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.EmptyWater.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.EmptyWater.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.EmptyWater.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.EmptyWater.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.EmptyWater.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.EmptyWater.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ManualModeSwitch">
+             <summary>
+            The ManualModeSwitch recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ManualModeSwitch.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ManualModeSwitch.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ManualModeSwitch.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ManualModeSwitch.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ManualModeSwitch.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ManualModeSwitch.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ManualModeSwitch.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ManualModeSwitch.ManualFrequency">
+            <summary>
+            Gets or sets the value of variable ManualFrequency.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ManualModeSwitch.ManualDuration">
+            <summary>
+            Gets or sets the value of variable ManualDuration.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ManualModeSwitch.ManualWaitTime">
+            <summary>
+            Gets or sets the value of variable ManualWaitTime.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ManualModeSwitch.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.notifications">
+             <summary>
+            The notifications recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.notifications.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.notifications.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.notifications.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.notifications.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.notifications.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.notifications.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.notifications.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.notifications.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ProductOverview">
+             <summary>
+            The ProductOverview recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ProductOverview.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ProductOverview.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ProductOverview.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ProductOverview.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ProductOverview.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ProductOverview.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ProductOverview.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ProductOverview.NewNickname">
+            <summary>
+            Gets or sets the value of variable NewNickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ProductOverview.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ProductOverview.NickNameClick">
+            <summary>
+            Gets or sets the value of variable NickNameClick.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.productsupport">
+             <summary>
+            The productsupport recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.productsupport.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.productsupport.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.productsupport.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.productsupport.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.productsupport.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.productsupport.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.productsupport.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.productsupport.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.Launch_App">
+             <summary>
+            The Launch_App recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.Launch_App.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Launch_App.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Launch_App.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.Launch_App.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Launch_App.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.Launch_App.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Launch_App.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Launch_App.Endpoint">
+            <summary>
+            Gets or sets the value of variable Endpoint.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.Login.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Login.Email">
+            <summary>
+            Gets or sets the value of variable Email.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Login.Passord">
+            <summary>
+            Gets or sets the value of variable Passord.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.Provisioning">
+             <summary>
+            The Provisioning recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.Provisioning.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Provisioning.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Provisioning.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.Provisioning.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Provisioning.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.Provisioning.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.WifiPassword">
+            <summary>
+            Gets or sets the value of variable WifiPassword.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.DeviceID">
+            <summary>
+            Gets or sets the value of variable DeviceID.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.Wifissid">
+            <summary>
+            Gets or sets the value of variable Wifissid.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.WifiPageContainer">
+            <summary>
+            Gets or sets the value of variable WifiPageContainer.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Provisioning.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.removedevice">
+             <summary>
+            The removedevice recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.removedevice.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.removedevice.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.removedevice.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.removedevice.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.removedevice.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.removedevice.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.removedevice.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.removedevice.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.RunHealthTest">
+             <summary>
+            The RunHealthTest recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.RunHealthTest.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.RunHealthTest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.RunHealthTest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.RunHealthTest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.RunHealthTest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.RunHealthTest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.RunHealthTest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.RunHealthTest.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ScheduleHealthTestClick">
+             <summary>
+            The ScheduleHealthTestClick recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ScheduleHealthTestClick.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestClick.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestClick.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ScheduleHealthTestClick.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestClick.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestClick.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestClick.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ScheduleHealthTestDaily">
+             <summary>
+            The ScheduleHealthTestDaily recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ScheduleHealthTestDaily.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDaily.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDaily.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ScheduleHealthTestDaily.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDaily.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDaily.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.TimeValue">
+            <summary>
+            Gets or sets the value of variable TimeValue.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.Day">
+            <summary>
+            Gets or sets the value of variable Day.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.DateSchedule">
+            <summary>
+            Gets or sets the value of variable DateSchedule.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.TimeHrs">
+            <summary>
+            Gets or sets the value of variable TimeHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.TimeMins">
+            <summary>
+            Gets or sets the value of variable TimeMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.TimeAmPm">
+            <summary>
+            Gets or sets the value of variable TimeAmPm.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ScheduleHealthTestDisable">
+             <summary>
+            The ScheduleHealthTestDisable recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ScheduleHealthTestDisable.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDisable.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDisable.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ScheduleHealthTestDisable.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDisable.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestDisable.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDisable.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDisable.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ScheduleHealthTestMonthly">
+             <summary>
+            The ScheduleHealthTestMonthly recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ScheduleHealthTestMonthly.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestMonthly.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestMonthly.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ScheduleHealthTestMonthly.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestMonthly.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestMonthly.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.TimeValue">
+            <summary>
+            Gets or sets the value of variable TimeValue.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.DateSchedule">
+            <summary>
+            Gets or sets the value of variable DateSchedule.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.TimeHrs">
+            <summary>
+            Gets or sets the value of variable TimeHrs.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.ScheduleHealthTestWeekly">
+             <summary>
+            The ScheduleHealthTestWeekly recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.ScheduleHealthTestWeekly.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestWeekly.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestWeekly.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.ScheduleHealthTestWeekly.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestWeekly.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.ScheduleHealthTestWeekly.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.GoogleSearchTimeNow">
+            <summary>
+            Gets or sets the value of variable GoogleSearchTimeNow.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.TimeValue">
+            <summary>
+            Gets or sets the value of variable TimeValue.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.Day">
+            <summary>
+            Gets or sets the value of variable Day.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateSchedule">
+            <summary>
+            Gets or sets the value of variable DateSchedule.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateNumber">
+            <summary>
+            Gets or sets the value of variable DateNumber.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateMonth">
+            <summary>
+            Gets or sets the value of variable DateMonth.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DayInitial">
+            <summary>
+            Gets or sets the value of variable DayInitial.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.TimeHrs">
+            <summary>
+            Gets or sets the value of variable TimeHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.TimeMins">
+            <summary>
+            Gets or sets the value of variable TimeMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.TimeAmPm">
+            <summary>
+            Gets or sets the value of variable TimeAmPm.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepository">
+            <summary>
+            The class representing the SSPC_iOS_modifiedRepository element repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SSPC_iOS_modifiedRepository element repository.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.DeviceID">
+            <summary>
+            Gets or sets the value of variable DeviceID.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.Wifissid">
+            <summary>
+            Gets or sets the value of variable Wifissid.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimerModeHrs">
+            <summary>
+            Gets or sets the value of variable TimerModeHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimerModeMins">
+            <summary>
+            Gets or sets the value of variable TimerModeMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.DayInitial">
+            <summary>
+            Gets or sets the value of variable DayInitial.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimeHrs">
+            <summary>
+            Gets or sets the value of variable TimeHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimeMins">
+            <summary>
+            Gets or sets the value of variable TimeMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimeAmPm">
+            <summary>
+            Gets or sets the value of variable TimeAmPm.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.NickNameClick">
+            <summary>
+            Gets or sets the value of variable NickNameClick.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.WifiPageContainer">
+            <summary>
+            Gets or sets the value of variable WifiPageContainer.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimerMins">
+            <summary>
+            Gets or sets the value of variable TimerMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimerHrs">
+            <summary>
+            Gets or sets the value of variable TimerHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.ComPentairPentairhome">
+            <summary>
+            The ComPentairPentairhome folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.NodeREDDashboard">
+            <summary>
+            The NodeREDDashboard folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.Google">
+            <summary>
+            The Google folder.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder">
+            <summary>
+            The ComPentairPentairhomeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ComPentairPentairhome  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Skip">
+            <summary>
+            The Skip item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SkipInfo">
+            <summary>
+            The Skip item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.firstscreensipe">
+            <summary>
+            The firstscreensipe item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.firstscreensipeInfo">
+            <summary>
+            The firstscreensipe item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SecondScreenSipe">
+            <summary>
+            The SecondScreenSipe item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SecondScreenSipeInfo">
+            <summary>
+            The SecondScreenSipe item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ThirdScreenSwipe">
+            <summary>
+            The ThirdScreenSwipe item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ThirdScreenSwipeInfo">
+            <summary>
+            The ThirdScreenSwipe item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LastScreen_Next_button">
+            <summary>
+            The LastScreen_Next_button item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LastScreen_Next_buttonInfo">
+            <summary>
+            The LastScreen_Next_button item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.HomeIcon">
+            <summary>
+            The HomeIcon item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.HomeIconInfo">
+            <summary>
+            The HomeIcon item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeWiFiNetwork">
+            <summary>
+            The ChangeWiFiNetwork item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeWiFiNetworkInfo">
+            <summary>
+            The ChangeWiFiNetwork item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Email_input">
+            <summary>
+            The Email_input item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Email_inputInfo">
+            <summary>
+            The Email_input item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PassordInput">
+            <summary>
+            The PassordInput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PassordInputInfo">
+            <summary>
+            The PassordInput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.GetStartedLogin">
+            <summary>
+            The GetStartedLogin item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.GetStartedLoginInfo">
+            <summary>
+            The GetStartedLogin item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ViewPassord">
+            <summary>
+            The ViewPassord item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ViewPassordInfo">
+            <summary>
+            The ViewPassord item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LOGIN">
+            <summary>
+            The LOGIN item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LOGINInfo">
+            <summary>
+            The LOGIN item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RunTestButton">
+            <summary>
+            The RunTestButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RunTestButtonInfo">
+            <summary>
+            The RunTestButton item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.CancelEmptyWater">
+            <summary>
+            The CancelEmptyWater item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.CancelEmptyWaterInfo">
+            <summary>
+            The CancelEmptyWater item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SSPCtileClick">
+            <summary>
+            The SSPCtileClick item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SSPCtileClickInfo">
+            <summary>
+            The SSPCtileClick item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WiFiUpdateOK">
+            <summary>
+            The WiFiUpdateOK item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WiFiUpdateOKInfo">
+            <summary>
+            The WiFiUpdateOK item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EMPTYWATER">
+            <summary>
+            The EMPTYWATER item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EMPTYWATERInfo">
+            <summary>
+            The EMPTYWATER item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.setupBluetoothScerollUp">
+            <summary>
+            The setupBluetoothScerollUp item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.setupBluetoothScerollUpInfo">
+            <summary>
+            The setupBluetoothScerollUp item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Manual">
+            <summary>
+            The Manual item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ManualInfo">
+            <summary>
+            The Manual item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AutoMode">
+            <summary>
+            The AutoMode item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AutoModeInfo">
+            <summary>
+            The AutoMode item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHealthTestClick">
+            <summary>
+            The ScheduleHealthTestClick item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHealthTestClickInfo">
+            <summary>
+            The ScheduleHealthTestClick item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHealthTestDropDown">
+            <summary>
+            The ScheduleHealthTestDropDown item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHealthTestDropDownInfo">
+            <summary>
+            The ScheduleHealthTestDropDown item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ManualScrollUp">
+            <summary>
+            The ManualScrollUp item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ManualScrollUpInfo">
+            <summary>
+            The ManualScrollUp item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTDailySelect">
+            <summary>
+            The ScheduleHTDailySelect item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTDailySelectInfo">
+            <summary>
+            The ScheduleHTDailySelect item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyDaily">
+            <summary>
+            The FrequencyDaily item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyDailyInfo">
+            <summary>
+            The FrequencyDaily item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyWeekly">
+            <summary>
+            The FrequencyWeekly item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyWeeklyInfo">
+            <summary>
+            The FrequencyWeekly item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyMonthly">
+            <summary>
+            The FrequencyMonthly item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyMonthlyInfo">
+            <summary>
+            The FrequencyMonthly item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyDisable">
+            <summary>
+            The FrequencyDisable item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyDisableInfo">
+            <summary>
+            The FrequencyDisable item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTWeeklySelec">
+            <summary>
+            The ScheduleHTWeeklySelec item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTWeeklySelecInfo">
+            <summary>
+            The ScheduleHTWeeklySelec item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTmonthlySelect">
+            <summary>
+            The ScheduleHTmonthlySelect item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTmonthlySelectInfo">
+            <summary>
+            The ScheduleHTmonthlySelect item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTDisableSelect">
+            <summary>
+            The ScheduleHTDisableSelect item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleHTDisableSelectInfo">
+            <summary>
+            The ScheduleHTDisableSelect item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Manual_frequency">
+            <summary>
+            The Manual_frequency item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Manual_frequencyInfo">
+            <summary>
+            The Manual_frequency item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Manula_Duration">
+            <summary>
+            The Manula_Duration item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Manula_DurationInfo">
+            <summary>
+            The Manula_Duration item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Timer_Mode">
+            <summary>
+            The Timer_Mode item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Timer_ModeInfo">
+            <summary>
+            The Timer_Mode item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimerModeHrs">
+            <summary>
+            The TimerModeHrs item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimerModeHrsInfo">
+            <summary>
+            The TimerModeHrs item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimerModeMins">
+            <summary>
+            The TimerModeMins item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimerModeMinsInfo">
+            <summary>
+            The TimerModeMins item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverview">
+            <summary>
+            The ProductOverview item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ProductOverviewInfo">
+            <summary>
+            The ProductOverview item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Settingsicon">
+            <summary>
+            The Settingsicon item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SettingsiconInfo">
+            <summary>
+            The Settingsicon item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Notifications">
+            <summary>
+            The Notifications item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.NotificationsInfo">
+            <summary>
+            The Notifications item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ProductSupport">
+            <summary>
+            The ProductSupport item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ProductSupportInfo">
+            <summary>
+            The ProductSupport item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ContactPentair">
+            <summary>
+            The ContactPentair item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ContactPentairInfo">
+            <summary>
+            The ContactPentair item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AllNotifications">
+            <summary>
+            The AllNotifications item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AllNotificationsInfo">
+            <summary>
+            The AllNotifications item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PushNotifications">
+            <summary>
+            The PushNotifications item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PushNotificationsInfo">
+            <summary>
+            The PushNotifications item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EmailNotifications">
+            <summary>
+            The EmailNotifications item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EmailNotificationsInfo">
+            <summary>
+            The EmailNotifications item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextNotifications">
+            <summary>
+            The TextNotifications item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextNotificationsInfo">
+            <summary>
+            The TextNotifications item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WiFi">
+            <summary>
+            The WiFi item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WiFiInfo">
+            <summary>
+            The WiFi item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Configurations">
+            <summary>
+            The Configurations item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ConfigurationsInfo">
+            <summary>
+            The Configurations item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunToggle">
+            <summary>
+            The DryRunToggle item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunToggleInfo">
+            <summary>
+            The DryRunToggle item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunInput">
+            <summary>
+            The DryRunInput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunInputInfo">
+            <summary>
+            The DryRunInput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ExtraRunTimeInput">
+            <summary>
+            The ExtraRunTimeInput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ExtraRunTimeInputInfo">
+            <summary>
+            The ExtraRunTimeInput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunHelp">
+            <summary>
+            The DryRunHelp item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DryRunHelpInfo">
+            <summary>
+            The DryRunHelp item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ExtraRuntimeHelp">
+            <summary>
+            The ExtraRuntimeHelp item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ExtraRuntimeHelpInfo">
+            <summary>
+            The ExtraRuntimeHelp item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ConfiguratioonsOK">
+            <summary>
+            The ConfiguratioonsOK item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ConfiguratioonsOKInfo">
+            <summary>
+            The ConfiguratioonsOK item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Analytics">
+            <summary>
+            The Analytics item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AnalyticsInfo">
+            <summary>
+            The Analytics item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DailyAnalytics">
+            <summary>
+            The DailyAnalytics item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DailyAnalyticsInfo">
+            <summary>
+            The DailyAnalytics item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyAnalytics">
+            <summary>
+            The WeeklyAnalytics item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyAnalyticsInfo">
+            <summary>
+            The WeeklyAnalytics item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyAnalytics">
+            <summary>
+            The MonthlyAnalytics item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyAnalyticsInfo">
+            <summary>
+            The MonthlyAnalytics item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.QuarterlyAnalytics">
+            <summary>
+            The QuarterlyAnalytics item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.QuarterlyAnalyticsInfo">
+            <summary>
+            The QuarterlyAnalytics item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveDevice">
+            <summary>
+            The RemoveDevice item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveDeviceInfo">
+            <summary>
+            The RemoveDevice item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveButton">
+            <summary>
+            The RemoveButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveButtonInfo">
+            <summary>
+            The RemoveButton item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveCancelButton">
+            <summary>
+            The RemoveCancelButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveCancelButtonInfo">
+            <summary>
+            The RemoveCancelButton item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveCrossButton">
+            <summary>
+            The RemoveCrossButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RemoveCrossButtonInfo">
+            <summary>
+            The RemoveCrossButton item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SettingsScrollUp">
+            <summary>
+            The SettingsScrollUp item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SettingsScrollUpInfo">
+            <summary>
+            The SettingsScrollUp item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.nickname">
+            <summary>
+            The nickname item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.nicknameInfo">
+            <summary>
+            The nickname item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.nicknameedit">
+            <summary>
+            The nicknameedit item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.nicknameeditInfo">
+            <summary>
+            The nicknameedit item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.current_address">
+            <summary>
+            The current_address item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.current_addressInfo">
+            <summary>
+            The current_address item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.StartManual">
+            <summary>
+            The StartManual item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.StartManualInfo">
+            <summary>
+            The StartManual item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceUpdatedOK">
+            <summary>
+            The DeviceUpdatedOK item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceUpdatedOKInfo">
+            <summary>
+            The DeviceUpdatedOK item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleDay">
+            <summary>
+            The ScheduleDay item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleDayInfo">
+            <summary>
+            The ScheduleDay item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SSPCSupport">
+            <summary>
+            The SSPCSupport item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SSPCSupportInfo">
+            <summary>
+            The SSPCSupport item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PentairSupport">
+            <summary>
+            The PentairSupport item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.PentairSupportInfo">
+            <summary>
+            The PentairSupport item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.NotificationsContinue">
+            <summary>
+            The NotificationsContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.NotificationsContinueInfo">
+            <summary>
+            The NotificationsContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AppFeedbackClose">
+            <summary>
+            The AppFeedbackClose item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AppFeedbackCloseInfo">
+            <summary>
+            The AppFeedbackClose item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextSMSAccept">
+            <summary>
+            The TextSMSAccept item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextSMSAcceptInfo">
+            <summary>
+            The TextSMSAccept item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextSMSCancel">
+            <summary>
+            The TextSMSCancel item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TextSMSCancelInfo">
+            <summary>
+            The TextSMSCancel item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EnterEmailTextLogin">
+            <summary>
+            The EnterEmailTextLogin item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EnterEmailTextLoginInfo">
+            <summary>
+            The EnterEmailTextLogin item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LoginUpperRight">
+            <summary>
+            The LoginUpperRight item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.LoginUpperRightInfo">
+            <summary>
+            The LoginUpperRight item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddress">
+            <summary>
+            The ChangeAddress item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddressInfo">
+            <summary>
+            The ChangeAddress item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddressDropDown">
+            <summary>
+            The ChangeAddressDropDown item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddressDropDownInfo">
+            <summary>
+            The ChangeAddressDropDown item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AddNewAddress">
+            <summary>
+            The AddNewAddress item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AddNewAddressInfo">
+            <summary>
+            The AddNewAddress item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EMainStOrange">
+            <summary>
+            The EMainStOrange item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.EMainStOrangeInfo">
+            <summary>
+            The EMainStOrange item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Container22475EMunozStQueenCreek">
+            <summary>
+            The Container22475EMunozStQueenCreek item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Container22475EMunozStQueenCreekInfo">
+            <summary>
+            The Container22475EMunozStQueenCreek item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddressContinue">
+            <summary>
+            The ChangeAddressContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ChangeAddressContinueInfo">
+            <summary>
+            The ChangeAddressContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AddressUpdatedOK">
+            <summary>
+            The AddressUpdatedOK item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AddressUpdatedOKInfo">
+            <summary>
+            The AddressUpdatedOK item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WEREWAITINGTOHEARFROMYOU">
+            <summary>
+            The WEREWAITINGTOHEARFROMYOU item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WEREWAITINGTOHEARFROMYOUInfo">
+            <summary>
+            The WEREWAITINGTOHEARFROMYOU item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SumpControllerSupport">
+            <summary>
+            The SumpControllerSupport item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SumpControllerSupportInfo">
+            <summary>
+            The SumpControllerSupport item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleSave">
+            <summary>
+            The ScheduleSave item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ScheduleSaveInfo">
+            <summary>
+            The ScheduleSave item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyDayClick">
+            <summary>
+            The MonthlyDayClick item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyDayClickInfo">
+            <summary>
+            The MonthlyDayClick item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.timerStart">
+            <summary>
+            The timerStart item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.timerStartInfo">
+            <summary>
+            The timerStart item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.UIWindow">
+            <summary>
+            The UIWindow folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Hours">
+            <summary>
+            The Hours folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Minutes">
+            <summary>
+            The Minutes folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.AMPM">
+            <summary>
+            The AMPM folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimeMinutes">
+            <summary>
+            The TimeMinutes folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.TimerHours">
+            <summary>
+            The TimerHours folder.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder">
+            <summary>
+            The UIWindowFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UIWindow  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ContinueonProvisiom">
+            <summary>
+            The ContinueonProvisiom item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ContinueonProvisiomInfo">
+            <summary>
+            The ContinueonProvisiom item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.SumpController">
+            <summary>
+            The SumpController item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.SumpControllerInfo">
+            <summary>
+            The SumpController item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.AddADevice">
+            <summary>
+            The AddADevice item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.AddADeviceInfo">
+            <summary>
+            The AddADevice item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.BluetoothContinue">
+            <summary>
+            The BluetoothContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.BluetoothContinueInfo">
+            <summary>
+            The BluetoothContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.DeviceSelection">
+            <summary>
+            The DeviceSelection item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.DeviceSelectionInfo">
+            <summary>
+            The DeviceSelection item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ConnectionEstablishedContinue">
+            <summary>
+            The ConnectionEstablishedContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ConnectionEstablishedContinueInfo">
+            <summary>
+            The ConnectionEstablishedContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiSelection">
+            <summary>
+            The WifiSelection item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiSelectionInfo">
+            <summary>
+            The WifiSelection item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiPasswordinput">
+            <summary>
+            The WifiPasswordinput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiPasswordinputInfo">
+            <summary>
+            The WifiPasswordinput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiContinue">
+            <summary>
+            The WifiContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.WifiContinueInfo">
+            <summary>
+            The WifiContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.NicknameInput">
+            <summary>
+            The NicknameInput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.NicknameInputInfo">
+            <summary>
+            The NicknameInput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.AddressContinue">
+            <summary>
+            The AddressContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.AddressContinueInfo">
+            <summary>
+            The AddressContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.NicknameSave">
+            <summary>
+            The NicknameSave item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.NicknameSaveInfo">
+            <summary>
+            The NicknameSave item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.InstallationCompleteContinue">
+            <summary>
+            The InstallationCompleteContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.InstallationCompleteContinueInfo">
+            <summary>
+            The InstallationCompleteContinue item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder">
+            <summary>
+            The HoursFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Hours  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder.SchduleHrs">
+            <summary>
+            The SchduleHrs item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder.SchduleHrsInfo">
+            <summary>
+            The SchduleHrs item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder">
+            <summary>
+            The MinutesFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Minutes  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder.ScheduleMins">
+            <summary>
+            The ScheduleMins item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.MinutesFolder.ScheduleMinsInfo">
+            <summary>
+            The ScheduleMins item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder">
+            <summary>
+            The AMPMFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AMPM  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder.ScheduleAMPM">
+            <summary>
+            The ScheduleAMPM item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.AMPMFolder.ScheduleAMPMInfo">
+            <summary>
+            The ScheduleAMPM item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder">
+            <summary>
+            The TimeMinutesFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TimeMinutes  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder.TimerMins">
+            <summary>
+            The TimerMins item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder.TimerMinsInfo">
+            <summary>
+            The TimerMins item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder">
+            <summary>
+            The TimerHoursFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TimerHours  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder.timerHrs">
+            <summary>
+            The timerHrs item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder.timerHrsInfo">
+            <summary>
+            The timerHrs item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder">
+            <summary>
+            The NodeREDDashboardAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NodeREDDashboard  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.NgMdIcon">
+            <summary>
+            The NgMdIcon item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.NgMdIconInfo">
+            <summary>
+            The NgMdIcon item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.MdButtonMdInkRippleMdNoStyleNgS">
+            <summary>
+            The MdButtonMdInkRippleMdNoStyleNgS item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.MdButtonMdInkRippleMdNoStyleNgSInfo">
+            <summary>
+            The MdButtonMdInkRippleMdNoStyleNgS item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder">
+            <summary>
+            The GoogleAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Google  folder.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.GoogleInput">
+            <summary>
+            The GoogleInput item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.GoogleInputInfo">
+            <summary>
+            The GoogleInput item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.GoogleSearchButton">
+            <summary>
+            The GoogleSearchButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.GoogleSearchButtonInfo">
+            <summary>
+            The GoogleSearchButton item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.Time">
+            <summary>
+            The Time item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.TimeInfo">
+            <summary>
+            The Time item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.Date">
+            <summary>
+            The Date item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.DateInfo">
+            <summary>
+            The Date item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.day">
+            <summary>
+            The day item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder.dayInfo">
+            <summary>
+            The day item info.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.TimerMode">
+             <summary>
+            The TimerMode recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.TimerMode.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.TimerMode.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.TimerMode.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.TimerMode.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.TimerMode.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.TimerMode.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.TimerModeHours">
+            <summary>
+            Gets or sets the value of variable TimerModeHours.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.TimerModeMinutes">
+            <summary>
+            Gets or sets the value of variable TimerModeMinutes.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.TimerHrs">
+            <summary>
+            Gets or sets the value of variable TimerHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.TimerMode.TimerMins">
+            <summary>
+            Gets or sets the value of variable TimerMins.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.wifi">
+             <summary>
+            The wifi recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.wifi.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.wifi.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.wifi.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.wifi.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.wifi.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.wifi.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.WifiPassword">
+            <summary>
+            Gets or sets the value of variable WifiPassword.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.DeviceID">
+            <summary>
+            Gets or sets the value of variable DeviceID.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.Wifissid">
+            <summary>
+            Gets or sets the value of variable Wifissid.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.wifi.WifiPageContainer">
+            <summary>
+            Gets or sets the value of variable WifiPageContainer.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

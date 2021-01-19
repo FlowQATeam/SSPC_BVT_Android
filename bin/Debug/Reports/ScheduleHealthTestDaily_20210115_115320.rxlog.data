@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.9m"
+		durationms="113044"
+		type="root"
+		rid="99b6e1e746f24c6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="15-Jan-21 11:53:25 AM"
+		timestampiso="2021-01-15T06:23:25"
+		endtime="15-Jan-21 11:55:18 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ScheduleHealthTestDaily">
+		<detail>
+			ScheduleHealthTestDaily
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.545"
+			timeRelativeToTestModuleStartTime="00:11.545"
+			timeWallClock="11:53:37"
+			time="00:11.545"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>TimeValue, Day, DateSchedule, TimeHrs, TimeMins, TimeAmPm
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.568"
+			timeRelativeToTestModuleStartTime="00:11.568"
+			timeWallClock="11:53:37"
+			time="00:11.568"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']"
+				itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ScheduleHealthTestDropDown"
+				id="189bacf90d5e40fa9d4481a406083e69"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="151"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.742"
+			timeRelativeToTestModuleStartTime="00:18.742"
+			timeWallClock="11:53:44"
+			time="00:18.742"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="155"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.751"
+			timeRelativeToTestModuleStartTime="00:20.751"
+			timeWallClock="11:53:46"
+			time="00:20.751"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ScheduleHTDailySelect' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ScheduleHTDailySelect"
+				id="7014a20516714535b47b8432337d41f2"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="158"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.077"
+			timeRelativeToTestModuleStartTime="00:23.077"
+			timeWallClock="11:53:48"
+			time="00:23.077"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="162"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.079"
+			timeRelativeToTestModuleStartTime="00:25.079"
+			timeWallClock="11:53:50"
+			time="00:25.079"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.google.com' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="165"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.284"
+			timeRelativeToTestModuleStartTime="00:25.284"
+			timeWallClock="11:53:50"
+			time="00:25.284"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="169"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.286"
+			timeRelativeToTestModuleStartTime="00:27.286"
+			timeWallClock="11:53:52"
+			time="00:27.286"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Queen Creek time now' with focus on 'Google.GoogleInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//form[#'tsf']//input[@title='Search']"
+				itempath=".//form[#'tsf']//input[@title='Search']"
+				fullname="SSPC_iOS_modifiedRepository.Google.GoogleInput"
+				id="fccd9930634b45bd97961a6b969c6d29"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="172"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.408"
+			timeRelativeToTestModuleStartTime="00:31.408"
+			timeWallClock="11:53:56"
+			time="00:31.408"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="176"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.418"
+			timeRelativeToTestModuleStartTime="00:33.418"
+			timeWallClock="11:53:58"
+			time="00:33.418"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'Google.GoogleSearchButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']"
+				itempath=".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']"
+				fullname="SSPC_iOS_modifiedRepository.Google.GoogleSearchButton"
+				id="6bee8828b0ec47a0bc799d7dd6faba79"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="179"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.801"
+			timeRelativeToTestModuleStartTime="00:33.801"
+			timeWallClock="11:53:59"
+			time="00:33.801"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="183"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.811"
+			timeRelativeToTestModuleStartTime="00:35.811"
+			timeWallClock="11:54:01"
+			time="00:35.811"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Google.Time' and assigning its value to variable 'TimeValue'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//div[#'rso']//div[@innertext&lt;'am' or @innertext&lt;'pm']"
+				itempath=".//div[#'rso']//div[@innertext&lt;'am' or @innertext&lt;'pm']"
+				fullname="SSPC_iOS_modifiedRepository.Google.Time"
+				id="36c41d672c1b4f1f87275b7178245ac1"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="186"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.204"
+			timeRelativeToTestModuleStartTime="00:36.204"
+			timeWallClock="11:54:01"
+			time="00:36.204"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="193"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.206"
+			timeRelativeToTestModuleStartTime="00:38.206"
+			timeWallClock="11:54:03"
+			time="00:38.206"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Google'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']"
+				itempath="/dom[@domain='www.google.com']"
+				fullname="SSPC_iOS_modifiedRepository.Google.Self"
+				id="47b23a982f5e40fa93246a4fd4552a0c"
+				timeout="30000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="196"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.568"
+			timeRelativeToTestModuleStartTime="00:38.568"
+			timeWallClock="11:54:04"
+			time="00:38.568"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="200"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.583"
+			timeRelativeToTestModuleStartTime="00:40.583"
+			timeWallClock="11:54:06"
+			time="00:40.583"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'ComPentairPentairhome.SchduleHrs'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@accessibilityid='hourPicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel='11']"
+				itempath=".//iospicker[@accessibilityid='hourPicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimeHrs]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.SchduleHrs"
+				id="9613783bb93f407c80e497f09947b781"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="203"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.513"
+			timeRelativeToTestModuleStartTime="00:41.513"
+			timeWallClock="11:54:07"
+			time="00:41.513"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="207"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.517"
+			timeRelativeToTestModuleStartTime="00:43.517"
+			timeWallClock="11:54:09"
+			time="00:43.517"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'ComPentairPentairhome.ScheduleMins'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@accessibilityid='minutePicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel='25']"
+				itempath=".//iospicker[@accessibilityid='minutePicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimeMins]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ScheduleMins"
+				id="3c6a2953c2dd47d5aab6c57516768607"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="210"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.419"
+			timeRelativeToTestModuleStartTime="00:44.419"
+			timeWallClock="11:54:09"
+			time="00:44.419"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="18"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="214"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.430"
+			timeRelativeToTestModuleStartTime="00:46.430"
+			timeWallClock="11:54:11"
+			time="00:46.430"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'ComPentairPentairhome.ScheduleAMPM'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@accessibilityid='secondPicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel='PM']"
+				itempath=".//iospicker[@accessibilityid='secondPicker']/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimeAmPm]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ScheduleAMPM"
+				id="97d2b7ded180409a8d86c611b6936497"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="217"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.318"
+			timeRelativeToTestModuleStartTime="00:47.318"
+			timeWallClock="11:54:12"
+			time="00:47.318"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="221"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.325"
+			timeRelativeToTestModuleStartTime="00:49.325"
+			timeWallClock="11:54:14"
+			time="00:49.325"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ScheduleSave' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				itempath=".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.ScheduleSave"
+				id="64dcdca314ed41879b885248a9ceb08d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="224"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.035"
+			timeRelativeToTestModuleStartTime="00:53.035"
+			timeWallClock="11:54:18"
+			time="00:53.035"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1m.
+			</message>
+			<metainfo
+				itemindex="22"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\ScheduleHealthTestDaily.cs"
+				codeline="228"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

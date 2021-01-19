@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dfb1c611-4e35-4ea4-bae0-4930e52c206f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ScheduleHealthTestClick"
+	namespace="SSPC_iOS">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="28d87284-c91e-4e85-ab89-1470de5a5afd"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e3a9451c-c388-491f-b063-273b19cd079f"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="042761be-07e8-4710-9090-4657c7a8ba3d"
+	name="SSPC_iOS_modifiedRepository"
+	relativepath="SSPC_iOS_modifiedRepository.rxrep">
+		<codegen
+		classname="SSPC_iOS_modifiedRepository"
+		namespace="SSPC_iOS">
+		</codegen>
+		<rootfolder
+		id="f06284d3-1084-4358-8b35-59ebc0068d7e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ScheduleHealthTestClick.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

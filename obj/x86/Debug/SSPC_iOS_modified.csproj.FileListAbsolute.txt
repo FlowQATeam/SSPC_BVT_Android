@@ -1,0 +1,15 @@
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\QACredCSV.csv
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.rxtmg
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.rxtst
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.exe.config
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.xml
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\SSPC_iOS_modified.pdb
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\obj\x86\Debug\SSPC_iOS_modified.csprojResolveAssemblyReference.cache
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\obj\x86\Debug\SSPC_iOS_modified.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\obj\x86\Debug\SSPC_iOS_modified.pdb

@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{CD393739-EE34-416A-86AD-E8F279672D0C}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SSPC_iOS</RootNamespace>
+    <AssemblyName>SSPC_iOS_modified</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>1257abc7-ec7a-489a-80bb-d04e1f4294b1</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="analytics.cs">
+      <BoundTo>783c6662-db48-4c8b-93c2-d26b50db55df</BoundTo>
+      <DependentUpon>analytics.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f717950-19c7-4c5b-b12a-0ee2634ca0a4</id>
+    </Compile>
+    <Compile Include="analytics.UserCode.cs">
+      <BoundTo>783c6662-db48-4c8b-93c2-d26b50db55df</BoundTo>
+      <DependentUpon>analytics.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>930c6bc5-bc33-4c24-a68e-5ab52a3d8222</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>358ea76b-8753-4b11-bc11-b044d9f36dce</id>
+    </Compile>
+    <Compile Include="AutoMode.cs">
+      <BoundTo>8964aded-1201-4d40-b973-a1787fe982bc</BoundTo>
+      <DependentUpon>AutoMode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a484d83f-26d3-4118-a63e-57e33cc0abb7</id>
+    </Compile>
+    <Compile Include="AutoMode.UserCode.cs">
+      <BoundTo>8964aded-1201-4d40-b973-a1787fe982bc</BoundTo>
+      <DependentUpon>AutoMode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2d9d605-7fac-4e87-8b8f-338ce0c6f714</id>
+    </Compile>
+    <Compile Include="CancelEmptyWater.cs">
+      <BoundTo>0b98f0d1-f585-4c9e-8084-6b75a20acd73</BoundTo>
+      <DependentUpon>CancelEmptyWater.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02fda58b-b74c-4655-8944-2d734c10a1e3</id>
+    </Compile>
+    <Compile Include="CancelEmptyWater.UserCode.cs">
+      <BoundTo>0b98f0d1-f585-4c9e-8084-6b75a20acd73</BoundTo>
+      <DependentUpon>CancelEmptyWater.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>81db7576-cbd2-420c-a531-2b3fb3303d75</id>
+    </Compile>
+    <Compile Include="ChangetoManualMode.cs">
+      <BoundTo>f423525d-f98b-4126-a7fe-68669c169599</BoundTo>
+      <DependentUpon>ChangetoManualMode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09269541-4cd2-4c96-8ed5-bfb7f445c72e</id>
+    </Compile>
+    <Compile Include="ChangetoManualMode.UserCode.cs">
+      <BoundTo>f423525d-f98b-4126-a7fe-68669c169599</BoundTo>
+      <DependentUpon>ChangetoManualMode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a3077d4-2184-46f9-8efd-53da95c0a7cb</id>
+    </Compile>
+    <Compile Include="ClickSPCtile.cs">
+      <BoundTo>1686bdc8-eaa7-428c-b998-3f4d1f5f0479</BoundTo>
+      <DependentUpon>ClickSPCtile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8da1d4c3-2e2d-4540-b547-377c5344d27f</id>
+    </Compile>
+    <Compile Include="ClickSPCtile.UserCode.cs">
+      <BoundTo>1686bdc8-eaa7-428c-b998-3f4d1f5f0479</BoundTo>
+      <DependentUpon>ClickSPCtile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>18f5b458-7311-4cae-931b-fd027684ecdc</id>
+    </Compile>
+    <Compile Include="configurations.cs">
+      <BoundTo>bdd914b6-7e7c-49b2-9959-390721a2fa48</BoundTo>
+      <DependentUpon>configurations.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3a3d657-7317-434a-9297-734cf48c2609</id>
+    </Compile>
+    <Compile Include="configurations.UserCode.cs">
+      <BoundTo>bdd914b6-7e7c-49b2-9959-390721a2fa48</BoundTo>
+      <DependentUpon>configurations.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>65322694-ed7b-4b26-937e-83a05f9e45a2</id>
+    </Compile>
+    <Compile Include="contactpentair.cs">
+      <BoundTo>3c4c1208-1cca-49b9-b111-0d1364e7ba56</BoundTo>
+      <DependentUpon>contactpentair.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed9e788b-cda9-4065-93ad-f1e7e4ea7d7c</id>
+    </Compile>
+    <Compile Include="contactpentair.UserCode.cs">
+      <BoundTo>3c4c1208-1cca-49b9-b111-0d1364e7ba56</BoundTo>
+      <DependentUpon>contactpentair.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5948dc90-7ccc-4aef-a426-aeb404fe028d</id>
+    </Compile>
+    <Compile Include="EmptyWater.cs">
+      <BoundTo>ca7bc8e3-d1bd-4f89-958c-db4c9ba8b622</BoundTo>
+      <DependentUpon>EmptyWater.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aecdaf14-4758-418e-9064-ce09d825edf9</id>
+    </Compile>
+    <Compile Include="EmptyWater.UserCode.cs">
+      <BoundTo>ca7bc8e3-d1bd-4f89-958c-db4c9ba8b622</BoundTo>
+      <DependentUpon>EmptyWater.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>023c6aa1-b438-4652-87e1-ea679dbeb875</id>
+    </Compile>
+    <Compile Include="ManualModeSwitch.cs">
+      <BoundTo>8cb3ee7e-4648-4bab-bb04-32659851ce34</BoundTo>
+      <DependentUpon>ManualModeSwitch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>15857dca-7a8f-4626-baa0-e02486544ba3</id>
+    </Compile>
+    <Compile Include="ManualModeSwitch.UserCode.cs">
+      <BoundTo>8cb3ee7e-4648-4bab-bb04-32659851ce34</BoundTo>
+      <DependentUpon>ManualModeSwitch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c8dee6de-5618-486d-8caf-fee62e79c039</id>
+    </Compile>
+    <Compile Include="notifications.cs">
+      <BoundTo>57fc99b6-bd34-43ac-943a-c18c360a1efd</BoundTo>
+      <DependentUpon>notifications.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47825c38-6b13-4b9b-9af7-77f5fd18eb9c</id>
+    </Compile>
+    <Compile Include="notifications.UserCode.cs">
+      <BoundTo>57fc99b6-bd34-43ac-943a-c18c360a1efd</BoundTo>
+      <DependentUpon>notifications.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dcff1047-9217-45a1-a0df-732a2fa9a23e</id>
+    </Compile>
+    <Compile Include="ProductOverview.cs">
+      <BoundTo>36a5749b-6e00-4a14-975a-ad35708db35d</BoundTo>
+      <DependentUpon>ProductOverview.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9c96e8ab-34da-4933-b2cb-1407ccf701cb</id>
+    </Compile>
+    <Compile Include="ProductOverview.UserCode.cs">
+      <BoundTo>36a5749b-6e00-4a14-975a-ad35708db35d</BoundTo>
+      <DependentUpon>ProductOverview.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8fefed9a-b4e6-4026-a430-1c2aef4c63db</id>
+    </Compile>
+    <Compile Include="productsupport.cs">
+      <BoundTo>dd371898-fb2f-4f1d-a9da-96f5723535f6</BoundTo>
+      <DependentUpon>productsupport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>34cf1c3b-b550-4195-a820-1b120fba9d2e</id>
+    </Compile>
+    <Compile Include="productsupport.UserCode.cs">
+      <BoundTo>dd371898-fb2f-4f1d-a9da-96f5723535f6</BoundTo>
+      <DependentUpon>productsupport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>74da236f-490d-41f0-8191-b7c7d2f3c661</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>91cf50bf-de85-4645-bf4a-7c504a61b820</id>
+    </Compile>
+    <Compile Include="Launch_App.cs">
+      <BoundTo>3f971247-3a4e-4b61-8035-a776a9993b58</BoundTo>
+      <DependentUpon>Launch_App.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ad9f024-c200-43dd-9b93-13da1ad20472</id>
+    </Compile>
+    <Compile Include="Launch_App.UserCode.cs">
+      <BoundTo>3f971247-3a4e-4b61-8035-a776a9993b58</BoundTo>
+      <DependentUpon>Launch_App.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99c3b0ea-636f-42e1-ab8f-b10678426d32</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>4c02db2c-0be4-4384-887e-2c51eda316b6</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a49e3ba7-caf3-45ef-8451-77ba9a5d82b3</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>4c02db2c-0be4-4384-887e-2c51eda316b6</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1dbfdda-b10e-46fd-b8cd-09562f955c6e</id>
+    </Compile>
+    <Compile Include="Provisioning.cs">
+      <BoundTo>ea30512d-b0fc-473f-a343-2ef0c597df97</BoundTo>
+      <DependentUpon>Provisioning.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>767590f4-8e54-433b-964e-38ba68f2cdf4</id>
+    </Compile>
+    <Compile Include="Provisioning.UserCode.cs">
+      <BoundTo>ea30512d-b0fc-473f-a343-2ef0c597df97</BoundTo>
+      <DependentUpon>Provisioning.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6e34fa3-127e-4629-9f55-490481f9e444</id>
+    </Compile>
+    <Compile Include="removedevice.cs">
+      <BoundTo>f72c003e-1142-49f1-a6a2-4cfbf3841458</BoundTo>
+      <DependentUpon>removedevice.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>70bb022d-d969-4b8a-a722-2f66089d07d1</id>
+    </Compile>
+    <Compile Include="removedevice.UserCode.cs">
+      <BoundTo>f72c003e-1142-49f1-a6a2-4cfbf3841458</BoundTo>
+      <DependentUpon>removedevice.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e24b794-5f8f-4028-b149-f48d0498ab59</id>
+    </Compile>
+    <Compile Include="RunHealthTest.cs">
+      <BoundTo>d7c5449c-8066-41db-865f-647afb958666</BoundTo>
+      <DependentUpon>RunHealthTest.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b8a6a663-713a-436e-a20c-72a1bd622c96</id>
+    </Compile>
+    <Compile Include="RunHealthTest.UserCode.cs">
+      <BoundTo>d7c5449c-8066-41db-865f-647afb958666</BoundTo>
+      <DependentUpon>RunHealthTest.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e59a4180-6b69-464d-9df9-00fda7eff8cb</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestClick.cs">
+      <BoundTo>973e0388-8e7d-4f5a-b8a1-ce9a424989e5</BoundTo>
+      <DependentUpon>ScheduleHealthTestClick.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2204f32a-971e-4811-ba82-063ed9642ab6</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestClick.UserCode.cs">
+      <BoundTo>973e0388-8e7d-4f5a-b8a1-ce9a424989e5</BoundTo>
+      <DependentUpon>ScheduleHealthTestClick.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>95de8e47-5ecf-40a6-9c09-5c955f500b3a</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestDaily.cs">
+      <BoundTo>a99686cc-90eb-4ee7-9c24-cc819b004ddc</BoundTo>
+      <DependentUpon>ScheduleHealthTestDaily.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>832eb114-f4d1-43f1-b30f-c610a3d632bb</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestDaily.UserCode.cs">
+      <BoundTo>a99686cc-90eb-4ee7-9c24-cc819b004ddc</BoundTo>
+      <DependentUpon>ScheduleHealthTestDaily.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea61694e-5ca0-4619-b10f-0878a2a89c4c</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestDisable.cs">
+      <BoundTo>ecc710cd-6e3c-479e-93ea-922abb80dcff</BoundTo>
+      <DependentUpon>ScheduleHealthTestDisable.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4af16dc8-39ec-43e4-9e80-f4e5e5b56abb</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestDisable.UserCode.cs">
+      <BoundTo>ecc710cd-6e3c-479e-93ea-922abb80dcff</BoundTo>
+      <DependentUpon>ScheduleHealthTestDisable.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d152765f-d766-498b-95a7-00d5d4902b61</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestMonthly.cs">
+      <BoundTo>fc6a492b-2d6a-4aa8-8bde-f9043f8a48b4</BoundTo>
+      <DependentUpon>ScheduleHealthTestMonthly.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7eefaf8-542f-4187-816e-b21510b50233</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestMonthly.UserCode.cs">
+      <BoundTo>fc6a492b-2d6a-4aa8-8bde-f9043f8a48b4</BoundTo>
+      <DependentUpon>ScheduleHealthTestMonthly.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c1e72ef-48ba-4206-b480-5f53e63e7862</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestWeekly.cs">
+      <BoundTo>82b81088-a19a-4f83-81cf-ffc78363a005</BoundTo>
+      <DependentUpon>ScheduleHealthTestWeekly.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96e94784-4046-4110-b7cb-7c736c366d62</id>
+    </Compile>
+    <Compile Include="ScheduleHealthTestWeekly.UserCode.cs">
+      <BoundTo>82b81088-a19a-4f83-81cf-ffc78363a005</BoundTo>
+      <DependentUpon>ScheduleHealthTestWeekly.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b9400a1-4325-41ff-a3e2-a2444fe2b1fa</id>
+    </Compile>
+    <Compile Include="SSPC_iOS_modifiedRepository.cs">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <DependentUpon>SSPC_iOS_modifiedRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>0981acd9-1972-4212-b903-60c50f81572c</id>
+    </Compile>
+    <Compile Include="TimerMode.cs">
+      <BoundTo>9884a718-2224-433b-940d-c479353c7390</BoundTo>
+      <DependentUpon>TimerMode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e8d26a76-0316-48bb-abba-ee94037c09ab</id>
+    </Compile>
+    <Compile Include="TimerMode.UserCode.cs">
+      <BoundTo>9884a718-2224-433b-940d-c479353c7390</BoundTo>
+      <DependentUpon>TimerMode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4f2a93c-3201-41e6-802c-d3bb62b726b5</id>
+    </Compile>
+    <Compile Include="wifi.cs">
+      <BoundTo>656e3b68-2e98-4783-8dbd-7c8f274c2d27</BoundTo>
+      <DependentUpon>wifi.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1744292e-f509-43f5-a260-ef24652fe378</id>
+    </Compile>
+    <Compile Include="wifi.UserCode.cs">
+      <BoundTo>656e3b68-2e98-4783-8dbd-7c8f274c2d27</BoundTo>
+      <DependentUpon>wifi.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a51591a3-d6a4-4bb7-ae84-3b98f609b87b</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="analytics.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>783c6662-db48-4c8b-93c2-d26b50db55df</id>
+      <recordtableid>1d93cd4e-f8cc-4c6f-a34b-0c52e05ca3fc</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>4bfae04a-20bd-494d-a9fa-6b6a502b38ba</id>
+    </None>
+    <None Include="AutoMode.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>8964aded-1201-4d40-b973-a1787fe982bc</id>
+      <recordtableid>b9eef492-f006-44c5-bf5c-9967f8a7cef7</recordtableid>
+    </None>
+    <None Include="CancelEmptyWater.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>0b98f0d1-f585-4c9e-8084-6b75a20acd73</id>
+      <recordtableid>8107ddbb-0553-47cd-8ebb-550fd72192de</recordtableid>
+    </None>
+    <None Include="ChangetoManualMode.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>f423525d-f98b-4126-a7fe-68669c169599</id>
+      <recordtableid>24519d2a-2b18-4199-ab72-e90d01bf6506</recordtableid>
+    </None>
+    <None Include="ClickSPCtile.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>1686bdc8-eaa7-428c-b998-3f4d1f5f0479</id>
+      <recordtableid>ec5ceea7-5922-42f5-8b82-41d78050302d</recordtableid>
+    </None>
+    <None Include="configurations.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>bdd914b6-7e7c-49b2-9959-390721a2fa48</id>
+      <recordtableid>c11a2f29-76fc-4d23-af9c-693c3599c6be</recordtableid>
+    </None>
+    <None Include="contactpentair.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>3c4c1208-1cca-49b9-b111-0d1364e7ba56</id>
+      <recordtableid>53726207-098c-4403-aeff-f2ba58d3bae6</recordtableid>
+    </None>
+    <None Include="EmptyWater.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>ca7bc8e3-d1bd-4f89-958c-db4c9ba8b622</id>
+      <recordtableid>054358d2-3118-4289-8170-6c58e8b605c7</recordtableid>
+    </None>
+    <None Include="Launch_App.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>3f971247-3a4e-4b61-8035-a776a9993b58</id>
+      <recordtableid>136b4c93-a94b-4c80-b8ab-e8b9d3bc7e7d</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>4c02db2c-0be4-4384-887e-2c51eda316b6</id>
+      <recordtableid>113daff0-e45c-4210-9244-d9147ec1a700</recordtableid>
+    </None>
+    <None Include="ManualModeSwitch.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>8cb3ee7e-4648-4bab-bb04-32659851ce34</id>
+      <recordtableid>9beb82ba-3528-4f58-ba25-fa0744e44877</recordtableid>
+    </None>
+    <None Include="notifications.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>57fc99b6-bd34-43ac-943a-c18c360a1efd</id>
+      <recordtableid>31310716-e142-4b65-b108-f54241049f5f</recordtableid>
+    </None>
+    <None Include="ProductOverview.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>36a5749b-6e00-4a14-975a-ad35708db35d</id>
+      <recordtableid>b8338539-7110-4909-b2b8-d819b4807a59</recordtableid>
+    </None>
+    <None Include="productsupport.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>dd371898-fb2f-4f1d-a9da-96f5723535f6</id>
+      <recordtableid>f9f8fb1e-b31a-46f6-b2e0-ed5e71f1aa3b</recordtableid>
+    </None>
+    <None Include="Provisioning.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>ea30512d-b0fc-473f-a343-2ef0c597df97</id>
+      <recordtableid>c623303e-27fe-4914-b669-cbcffdf3b2bb</recordtableid>
+    </None>
+    <Content Include="QACredCSV.csv">
+      <Link>QACredCSV.csv</Link>
+      <BoundTo>f2f873db-e329-417c-b0e2-8edf9022e1fd</BoundTo>
+      <DependentUpon>SSPC_iOS_modified.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>709ce0ac-0a3f-4086-99a5-0851bcb23369</id>
+    </Content>
+    <None Include="removedevice.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>f72c003e-1142-49f1-a6a2-4cfbf3841458</id>
+      <recordtableid>8591d5f4-0269-4349-b554-025b30a84e22</recordtableid>
+    </None>
+    <None Include="RunHealthTest.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>d7c5449c-8066-41db-865f-647afb958666</id>
+      <recordtableid>34be0d2c-6938-43e1-be36-90d88d80a9b8</recordtableid>
+    </None>
+    <None Include="ScheduleHealthTestClick.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>973e0388-8e7d-4f5a-b8a1-ce9a424989e5</id>
+      <recordtableid>dfb1c611-4e35-4ea4-bae0-4930e52c206f</recordtableid>
+    </None>
+    <None Include="ScheduleHealthTestDaily.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>a99686cc-90eb-4ee7-9c24-cc819b004ddc</id>
+      <recordtableid>cb522195-7c18-4737-816a-396bcfdcbc0e</recordtableid>
+    </None>
+    <None Include="ScheduleHealthTestDisable.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>ecc710cd-6e3c-479e-93ea-922abb80dcff</id>
+      <recordtableid>590beac9-a152-4e13-a7ee-56991be6c19b</recordtableid>
+    </None>
+    <None Include="ScheduleHealthTestMonthly.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>fc6a492b-2d6a-4aa8-8bde-f9043f8a48b4</id>
+      <recordtableid>f9153055-21b9-4911-a207-042de76e1046</recordtableid>
+    </None>
+    <None Include="ScheduleHealthTestWeekly.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>82b81088-a19a-4f83-81cf-ffc78363a005</id>
+      <recordtableid>d8d8f3e6-092b-46e0-8f41-630fb24571c6</recordtableid>
+    </None>
+    <None Include="SSPC_iOS_modifiedRepository.rximg">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <DependentUpon>SSPC_iOS_modifiedRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>a17b8cf7-0bae-4351-bac9-0f6be9cc076d</id>
+    </None>
+    <None Include="SSPC_iOS_modifiedRepository.rxrep">
+      <id>1257abc7-ec7a-489a-80bb-d04e1f4294b1</id>
+      <repoid>042761be-07e8-4710-9090-4657c7a8ba3d</repoid>
+      <reporootid>f06284d3-1084-4358-8b35-59ebc0068d7e</reporootid>
+    </None>
+    <None Include="TimerMode.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>9884a718-2224-433b-940d-c479353c7390</id>
+      <recordtableid>18a36b11-3b89-4d4f-86f2-d967bf559f58</recordtableid>
+    </None>
+    <None Include="wifi.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>656e3b68-2e98-4783-8dbd-7c8f274c2d27</id>
+      <recordtableid>3f2192f7-6783-4d11-8d01-40269cb2cf52</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SSPC_iOS_modified.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a968b898-8eaf-4a9b-99a7-996a62ff330b</id>
+    </Content>
+    <Content Include="SSPC_iOS_modified.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f2f873db-e329-417c-b0e2-8edf9022e1fd</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{C2686CB0-391C-4839-80D2-2B84DB87CA8D}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

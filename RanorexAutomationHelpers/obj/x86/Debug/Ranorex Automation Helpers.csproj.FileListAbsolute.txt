@@ -1,0 +1,8 @@
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
