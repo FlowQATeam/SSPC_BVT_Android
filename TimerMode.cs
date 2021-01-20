@@ -41,10 +41,9 @@ namespace SSPC_iOS
         /// </summary>
         public TimerMode()
         {
-            TimerModeHours = "2";
-            TimerModeMinutes = "1";
-            TimerHrs = "1";
-            TimerMins = "56";
+            TimerHrs = "0";
+            TimerMins = "1";
+            TimerModewait = "300ms";
         }
 
         /// <summary>
@@ -57,28 +56,16 @@ namespace SSPC_iOS
 
 #region Variables
 
-        string _TimerModeHours;
+        string _TimerModewait;
 
         /// <summary>
-        /// Gets or sets the value of variable TimerModeHours.
+        /// Gets or sets the value of variable TimerModewait.
         /// </summary>
-        [TestVariable("d1a165cc-2228-44c2-9d43-71ea5888f548")]
-        public string TimerModeHours
+        [TestVariable("e644fac7-fd66-4575-b642-853d97953f8b")]
+        public string TimerModewait
         {
-            get { return _TimerModeHours; }
-            set { _TimerModeHours = value; }
-        }
-
-        string _TimerModeMinutes;
-
-        /// <summary>
-        /// Gets or sets the value of variable TimerModeMinutes.
-        /// </summary>
-        [TestVariable("43dd0c8e-111c-44d4-a36d-d67a4ce2b4b9")]
-        public string TimerModeMinutes
-        {
-            get { return _TimerModeMinutes; }
-            set { _TimerModeMinutes = value; }
+            get { return _TimerModewait; }
+            set { _TimerModewait = value; }
         }
 
         /// <summary>
@@ -181,6 +168,12 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.timerStart' at Center", repo.ComPentairPentairhome.timerStartInfo, new RecordItemIndex(12));
             repo.ComPentairPentairhome.timerStart.Touch();
             Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for time from variable $TimerModewait.", new RecordItemIndex(13));
+            Delay.Duration(Duration.Parse(TimerModewait), false);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(14));
+            Delay.Duration(3000, false);
             
         }
 

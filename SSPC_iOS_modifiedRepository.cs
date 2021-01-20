@@ -185,7 +185,7 @@ namespace SSPC_iOS
             set { _WifiPageContainer = value; }
         }
 
-        string _TimerMins = "56";
+        string _TimerMins = "1";
 
         /// <summary>
         /// Gets or sets the value of variable TimerMins.
@@ -197,7 +197,7 @@ namespace SSPC_iOS
             set { _TimerMins = value; }
         }
 
-        string _TimerHrs = "1";
+        string _TimerHrs = "0";
 
         /// <summary>
         /// Gets or sets the value of variable TimerHrs.
@@ -207,6 +207,18 @@ namespace SSPC_iOS
         {
             get { return _TimerHrs; }
             set { _TimerHrs = value; }
+        }
+
+        string _DateNumber = "5";
+
+        /// <summary>
+        /// Gets or sets the value of variable DateNumber.
+        /// </summary>
+        [TestVariable("e38a7db9-e45e-4146-afa5-cf333057007c")]
+        public string DateNumber
+        {
+            get { return _DateNumber; }
+            set { _DateNumber = value; }
         }
 
 #endregion
@@ -358,6 +370,7 @@ namespace SSPC_iOS
             RepoItemInfo _schedulesaveInfo;
             RepoItemInfo _monthlydayclickInfo;
             RepoItemInfo _timerstartInfo;
+            RepoItemInfo _monthlytimeclickInfo;
 
             /// <summary>
             /// Creates a new ComPentairPentairhome  folder.
@@ -458,8 +471,9 @@ namespace SSPC_iOS
                 _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", ".//dom[@caption>'Home App | Contact Us | P']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
                 _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", ".//dom[@caption>'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
                 _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", ".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
-                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//container[@accessibilitylabel='8']/container[@accessibilitylabel='8']", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
+                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
                 _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
+                _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
             }
 
             /// <summary>
@@ -2619,6 +2633,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _timerstartInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Monthlytimeclick item.
+            /// </summary>
+            [RepositoryItem("6e7d497c-d4ce-4e51-a01a-8123becf06f9")]
+            public virtual Ranorex.Container Monthlytimeclick
+            {
+                get
+                {
+                    return _monthlytimeclickInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Monthlytimeclick item info.
+            /// </summary>
+            [RepositoryItemInfo("6e7d497c-d4ce-4e51-a01a-8123becf06f9")]
+            public virtual RepoItemInfo MonthlytimeclickInfo
+            {
+                get
+                {
+                    return _monthlytimeclickInfo;
                 }
             }
 

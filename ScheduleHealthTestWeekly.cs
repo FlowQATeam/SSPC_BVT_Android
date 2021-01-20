@@ -48,7 +48,7 @@ namespace SSPC_iOS
             TimeAmPm = "";
             Day = "";
             DateSchedule = "";
-            DateNumber = "";
+            DateNumber = "5";
             DateMonth = "";
             DayInitial = "";
         }
@@ -111,18 +111,6 @@ namespace SSPC_iOS
             set { _DateSchedule = value; }
         }
 
-        string _DateNumber;
-
-        /// <summary>
-        /// Gets or sets the value of variable DateNumber.
-        /// </summary>
-        [TestVariable("cc943f3b-3900-4e08-8aaf-f66de3aa2368")]
-        public string DateNumber
-        {
-            get { return _DateNumber; }
-            set { _DateNumber = value; }
-        }
-
         string _DateMonth;
 
         /// <summary>
@@ -183,6 +171,16 @@ namespace SSPC_iOS
         {
             get { return repo.TimeAmPm; }
             set { repo.TimeAmPm = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable DateNumber.
+        /// </summary>
+        [TestVariable("cc943f3b-3900-4e08-8aaf-f66de3aa2368")]
+        public string DateNumber
+        {
+            get { return repo.DateNumber; }
+            set { repo.DateNumber = value; }
         }
 
 #endregion

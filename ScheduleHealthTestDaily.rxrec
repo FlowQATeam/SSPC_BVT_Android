@@ -35,6 +35,11 @@ mode="Global">
 		id="93db9715-8a35-4224-82f0-8367dcb82660"
 		name="DateSchedule">
 		</var>
+		<var
+		id="9d3a3f3a-c3aa-442f-8e84-e2718cc00d86"
+		name="googleSearchText">
+			Queen Creek time now
+		</var>
 	</variables>
 	<recorditems>
 		<touchrecorditem
@@ -496,6 +501,10 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="googleSearchText">
+				</binding>
 			</bindings>
 			<info
 			id="fccd9930-634b-45bd-9796-1a6b969c6d29"

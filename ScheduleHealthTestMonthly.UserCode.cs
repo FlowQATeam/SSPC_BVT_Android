@@ -32,5 +32,92 @@ namespace SSPC_iOS
         {
             // Your recording specific initialization code goes here.
         }
+
+        public void timeExtracter()
+        {
+            	String[] word = TimeValue.Split(':',' ');
+            	String[] array = {"0","0","0"};
+            	int c=0;
+            	foreach (String words in word) {
+             		array[c] = words;
+             		c++;
+            	}
+            	if (Int16.Parse(array[0])<10) {
+            		TimeHrs= "0" + array[0];
+            	}
+            	else{
+            		TimeHrs= array[0];
+            	}
+            	int number = Convert.ToInt32(array[1]);
+				number += 1;
+				array[1] = number.ToString();
+            	if (Int16.Parse(array[1])<10) {
+            		TimeMins= "0" + array[1];
+            	}
+            	else if(Int16.Parse(array[1])>59)
+            	{
+            		TimeMins="0"+ (Int16.Parse(array[1])-60);
+            	}
+            	else{
+            		TimeMins= array[1];
+            	}
+      
+            	
+            	TimeAmPm = array[2].ToUpper();
+        }
+        public void dateAndMonthExtracter(){
+     
+        String[] dates = DateSchedule.Split(' ');
+         	String[] arraynew = {"0","0","0"};
+            	int c=0;
+            	foreach (String words in dates) {
+             		arraynew[c] = words;
+             		Console.WriteLine(arraynew[c]);
+             		c++;
+            	}
+            	DateNumber= arraynew[0];
+         }
+
+        public void Swipe_gesture_AMPM(RepoItemInfo iospickerInfo)
+        {
+        	String check = "AM";
+        	bool areEqual = String.Equals(TimeAmPm, check, StringComparison.OrdinalIgnoreCase);
+        	if(areEqual == true){
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        	else{
+        		Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Down (90°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Down (90°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        }
+
+        public void Swipe_gesture_Minutes(RepoItemInfo iospickerInfo)
+        {
+            String check = "00";
+        	bool areEqual = String.Equals(TimeAmPm, check, StringComparison.OrdinalIgnoreCase);
+        	if(areEqual == true){
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        	else{
+        		Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Down (90°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Down (90°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        }
+
+        public void Swipe_gesture_Hours(RepoItemInfo iospickerInfo)
+        {
+           String check = "01";
+        	bool areEqual = String.Equals(TimeAmPm, check, StringComparison.OrdinalIgnoreCase);
+        	if(areEqual == false){
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        	else{
+        		Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Down (90°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
+            iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Down (90°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+        	}
+        }
     }
 }

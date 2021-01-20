@@ -900,6 +900,11 @@
             Gets or sets the value of variable DateSchedule.
             </summary>
         </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestDaily.googleSearchText">
+            <summary>
+            Gets or sets the value of variable googleSearchText.
+            </summary>
+        </member>
         <member name="P:SSPC_iOS.ScheduleHealthTestDaily.Nickname">
             <summary>
             Gets or sets the value of variable Nickname.
@@ -1013,9 +1018,29 @@
             Gets or sets the value of variable DateSchedule.
             </summary>
         </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.DateNumber">
+            <summary>
+            Gets or sets the value of variable DateNumber.
+            </summary>
+        </member>
         <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.TimeHrs">
             <summary>
             Gets or sets the value of variable TimeHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.TimeMins">
+            <summary>
+            Gets or sets the value of variable TimeMins.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestMonthly.TimeAmPm">
+            <summary>
+            Gets or sets the value of variable TimeAmPm.
             </summary>
         </member>
         <member name="T:SSPC_iOS.ScheduleHealthTestWeekly">
@@ -1077,11 +1102,6 @@
             Gets or sets the value of variable DateSchedule.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateNumber">
-            <summary>
-            Gets or sets the value of variable DateNumber.
-            </summary>
-        </member>
         <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateMonth">
             <summary>
             Gets or sets the value of variable DateMonth.
@@ -1110,6 +1130,11 @@
         <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.TimeAmPm">
             <summary>
             Gets or sets the value of variable TimeAmPm.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.ScheduleHealthTestWeekly.DateNumber">
+            <summary>
+            Gets or sets the value of variable DateNumber.
             </summary>
         </member>
         <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepository">
@@ -1190,6 +1215,11 @@
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.TimerHrs">
             <summary>
             Gets or sets the value of variable TimerHrs.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.DateNumber">
+            <summary>
+            Gets or sets the value of variable DateNumber.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepository.SelfInfo">
@@ -2127,6 +2157,16 @@
             The timerStart item info.
             </summary>
         </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Monthlytimeclick">
+            <summary>
+            The Monthlytimeclick item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlytimeclickInfo">
+            <summary>
+            The Monthlytimeclick item info.
+            </summary>
+        </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.UIWindow">
             <summary>
             The UIWindow folder.
@@ -2616,14 +2656,9 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.TimerMode.TimerModeHours">
+        <member name="P:SSPC_iOS.TimerMode.TimerModewait">
             <summary>
-            Gets or sets the value of variable TimerModeHours.
-            </summary>
-        </member>
-        <member name="P:SSPC_iOS.TimerMode.TimerModeMinutes">
-            <summary>
-            Gets or sets the value of variable TimerModeMinutes.
+            Gets or sets the value of variable TimerModewait.
             </summary>
         </member>
         <member name="P:SSPC_iOS.TimerMode.Nickname">

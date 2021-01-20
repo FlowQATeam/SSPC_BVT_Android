@@ -24,24 +24,19 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
-		id="d1a165cc-2228-44c2-9d43-71ea5888f548"
-		name="TimerModeHours">
-			2
-		</var>
-		<var
-		id="43dd0c8e-111c-44d4-a36d-d67a4ce2b4b9"
-		name="TimerModeMinutes">
-			1
-		</var>
-		<var
 		id="1b102ef9-ff5b-4e44-8612-3f7b5714a428"
 		name="TimerHrs">
-			1
+			0
 		</var>
 		<var
 		id="f7ab5b1f-be92-4631-b607-03b2faff3912"
 		name="TimerMins">
-			56
+			1
+		</var>
+		<var
+		id="e644fac7-fd66-4575-b642-853d97953f8b"
+		name="TimerModewait">
+			300ms
 		</var>
 	</variables>
 	<recorditems>
@@ -342,6 +337,28 @@ mode="Global">
 				</path>
 			</info>
 		</touchrecorditem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Duration"
+				variable="TimerModewait">
+				</binding>
+			</bindings>
+		</explicitdelayitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="042761be-07e8-4710-9090-4657c7a8ba3d"

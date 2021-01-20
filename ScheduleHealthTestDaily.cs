@@ -44,6 +44,7 @@ namespace SSPC_iOS
             TimeValue = "";
             Day = "";
             DateSchedule = "";
+            googleSearchText = "Queen Creek time now";
         }
 
         /// <summary>
@@ -90,6 +91,18 @@ namespace SSPC_iOS
         {
             get { return _DateSchedule; }
             set { _DateSchedule = value; }
+        }
+
+        string _googleSearchText;
+
+        /// <summary>
+        /// Gets or sets the value of variable googleSearchText.
+        /// </summary>
+        [TestVariable("9d3a3f3a-c3aa-442f-8e84-e2718cc00d86")]
+        public string googleSearchText
+        {
+            get { return _googleSearchText; }
+            set { _googleSearchText = value; }
         }
 
         /// <summary>
@@ -220,8 +233,8 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Queen Creek time now' with focus on 'Google.GoogleInput'.", repo.Google.GoogleInputInfo, new RecordItemIndex(15));
-            repo.Google.GoogleInput.PressKeys("Queen Creek time now");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$googleSearchText' with focus on 'Google.GoogleInput'.", repo.Google.GoogleInputInfo, new RecordItemIndex(15));
+            repo.Google.GoogleInput.PressKeys(googleSearchText);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));

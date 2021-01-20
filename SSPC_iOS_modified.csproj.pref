@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="SSPC_iOS_modified.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ScheduleHealthTestWeekly.rxrec" />
-    <Element value="TimerMode.rxrec" />
-    <Element value="SSPC_iOS_modified.rxtst" />
+    <Element value="ScheduleHealthTestDisable.rxrec" />
     <Element value="ScheduleHealthTestMonthly.rxrec" />
+    <Element value="ScheduleHealthTestMonthly.UserCode.cs" />
+    <Element value="SSPC_iOS_modified.rxtst" />
+    <Element value="ScheduleHealthTestWeekly.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
