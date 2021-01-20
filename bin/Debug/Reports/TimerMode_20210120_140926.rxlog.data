@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="39.77s"
+		durationms="39769"
+		type="root"
+		rid="7bba3beefda0c04"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="20-Jan-21 2:09:30 PM"
+		timestampiso="2021-01-20T08:39:30"
+		endtime="20-Jan-21 2:10:10 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="TimerMode">
+		<detail>
+			TimerMode
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.769"
+			timeRelativeToTestModuleStartTime="00:05.769"
+			timeWallClock="14:09:36"
+			time="00:05.769"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>TimerModeHours, TimerModeMinutes, Nickname, TimerHrs, TimerMins
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.790"
+			timeRelativeToTestModuleStartTime="00:05.790"
+			timeWallClock="14:09:36"
+			time="00:05.790"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']"
+				itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="140"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.904"
+			timeRelativeToTestModuleStartTime="00:09.904"
+			timeWallClock="14:09:40"
+			time="00:09.904"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.915"
+			timeRelativeToTestModuleStartTime="00:11.915"
+			timeWallClock="14:09:42"
+			time="00:11.915"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Sump Controller']"
+				itempath="form//container[@accessibilitylabel=$Nickname]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="147"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.281"
+			timeRelativeToTestModuleStartTime="00:15.281"
+			timeWallClock="14:09:45"
+			time="00:15.281"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="151"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.286"
+			timeRelativeToTestModuleStartTime="00:17.286"
+			timeWallClock="14:09:47"
+			time="00:17.286"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Timer_Mode' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]"
+				itempath=".//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.Timer_Mode"
+				id="ad65e02b995445c083a602be02731ded"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="154"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.989"
+			timeRelativeToTestModuleStartTime="00:20.989"
+			timeWallClock="14:09:51"
+			time="00:20.989"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="158"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.000"
+			timeRelativeToTestModuleStartTime="00:23.000"
+			timeWallClock="14:09:53"
+			time="00:23.000"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'ComPentairPentairhome.TimerHours.timerHrs'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']//listitem[@text='0']"
+				itempath=".//listitem[@text=$TimerHrs]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.TimerHours.timerHrs"
+				id="5d7ae53270af4cc99b6f531961ff4f67"
+				timeout="90000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="161"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.764"
+			timeRelativeToTestModuleStartTime="00:23.764"
+			timeWallClock="14:09:54"
+			time="00:23.764"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']"
+				itempath=".//iospicker[@componentrowcounts='[12]']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.Hours.Self"
+				id="660f785ded744ce2a7e6b7c402a17395"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.UserCode.cs"
+				codeline="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.617"
+			timeRelativeToTestModuleStartTime="00:27.617"
+			timeWallClock="14:09:57"
+			time="00:27.617"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="168"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.618"
+			timeRelativeToTestModuleStartTime="00:29.618"
+			timeWallClock="14:09:59"
+			time="00:29.618"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'ComPentairPentairhome.TimeMinutes.TimerMins'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']//listitem[@text='1']"
+				itempath=".//listitem[@text=$TimerMins]"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.TimeMinutes.TimerMins"
+				id="796ec2d7c73b45128250353a4388231f"
+				timeout="90000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="171"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.366"
+			timeRelativeToTestModuleStartTime="00:30.366"
+			timeWallClock="14:10:00"
+			time="00:30.366"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Down (90°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']"
+				itempath=".//iospicker[@componentrowcounts='[60]']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.Minutes.Self"
+				id="1b317da3894c4377ba912b2e63083c24"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.UserCode.cs"
+				codeline="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.217"
+			timeRelativeToTestModuleStartTime="00:34.217"
+			timeWallClock="14:10:04"
+			time="00:34.217"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="178"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.223"
+			timeRelativeToTestModuleStartTime="00:36.223"
+			timeWallClock="14:10:06"
+			time="00:36.223"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.timerStart' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']"
+				itempath=".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']"
+				fullname="SSPC_iOS_modifiedRepository.ComPentairPentairhome.timerStart"
+				id="15298d0ee24a4e7eb4221ce1fde1f4eb"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_modified\TimerMode.cs"
+				codeline="181"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
