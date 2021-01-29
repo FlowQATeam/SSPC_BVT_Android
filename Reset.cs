@@ -124,18 +124,25 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Resetlink' at Center", repo.ComPentairPentairhome.ResetlinkInfo, new RecordItemIndex(10));
-            repo.ComPentairPentairhome.Resetlink.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ConfiguratioonsOK' at Center", repo.ComPentairPentairhome.ConfiguratioonsOKInfo, new RecordItemIndex(10));
+            repo.ComPentairPentairhome.ConfiguratioonsOK.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RESETButton' at Center", repo.ComPentairPentairhome.RESETButtonInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Resetlink' at Center", repo.ComPentairPentairhome.ResetlinkInfo, new RecordItemIndex(12));
+            repo.ComPentairPentairhome.Resetlink.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RESETButton' at Center", repo.ComPentairPentairhome.RESETButtonInfo, new RecordItemIndex(14));
             repo.ComPentairPentairhome.RESETButton.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(15));
             Delay.Duration(60000, false);
             
         }

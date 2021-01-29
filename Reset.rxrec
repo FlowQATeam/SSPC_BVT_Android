@@ -258,6 +258,43 @@ mode="Global">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
+		searchpropertyid="f94d4011-6070-4d73-a136-e01de7dccbff"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="12f9c676-f781-4063-843e-3dc70ddff407"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']
+				</path>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
 		searchpropertyid="887bb71f-6837-4753-b639-c9cc6f788bb6"
 		sx="0"
 		sy="0"
