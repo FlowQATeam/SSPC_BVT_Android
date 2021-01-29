@@ -135,40 +135,49 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.SSPCtileClick' at Center", repo.ComPentairPentairhome.SSPCtileClickInfo, new RecordItemIndex(2));
-            repo.ComPentairPentairhome.SSPCtileClick.Touch();
-            Delay.Milliseconds(300);
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.AppFeedbackClose' at Center", repo.ComPentairPentairhome.AppFeedbackCloseInfo, new RecordItemIndex(2));
+                repo.ComPentairPentairhome.AppFeedbackClose.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Manual' at Center", repo.ComPentairPentairhome.ManualInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.SSPCtileClick' at Center", repo.ComPentairPentairhome.SSPCtileClickInfo, new RecordItemIndex(4));
+            repo.ComPentairPentairhome.SSPCtileClick.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Manual' at Center", repo.ComPentairPentairhome.ManualInfo, new RecordItemIndex(6));
             repo.ComPentairPentairhome.Manual.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ManualScrollUp'.", repo.ComPentairPentairhome.ManualScrollUpInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ManualScrollUp'.", repo.ComPentairPentairhome.ManualScrollUpInfo, new RecordItemIndex(7));
             repo.ComPentairPentairhome.ManualScrollUp.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$ManualFrequency' on item 'ComPentairPentairhome.Manual_frequency'.", repo.ComPentairPentairhome.Manual_frequencyInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$ManualFrequency' on item 'ComPentairPentairhome.Manual_frequency'.", repo.ComPentairPentairhome.Manual_frequencyInfo, new RecordItemIndex(8));
             repo.ComPentairPentairhome.Manual_frequency.Element.SetAttributeValue("Text", ManualFrequency);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$ManualDuration' on item 'ComPentairPentairhome.Manula_Duration'.", repo.ComPentairPentairhome.Manula_DurationInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$ManualDuration' on item 'ComPentairPentairhome.Manula_Duration'.", repo.ComPentairPentairhome.Manula_DurationInfo, new RecordItemIndex(10));
             repo.ComPentairPentairhome.Manula_Duration.Element.SetAttributeValue("Text", ManualDuration);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.StartManual' at Center", repo.ComPentairPentairhome.StartManualInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.StartManual' at Center", repo.ComPentairPentairhome.StartManualInfo, new RecordItemIndex(12));
             repo.ComPentairPentairhome.StartManual.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for time from variable $ManualWaitTime.", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for time from variable $ManualWaitTime.", new RecordItemIndex(13));
             Delay.Duration(Duration.Parse(ManualWaitTime), false);
             
         }

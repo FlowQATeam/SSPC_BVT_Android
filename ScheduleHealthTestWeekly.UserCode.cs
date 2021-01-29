@@ -104,7 +104,7 @@ namespace SSPC_iOS
         {
            String check = "01";
         	bool areEqual = String.Equals(TimeAmPm, check, StringComparison.OrdinalIgnoreCase);
-        	if(areEqual == false){
+        	if(areEqual == true){
             Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.1' with swipe duration'500ms' and step count '0' on item 'iospickerInfo'.", iospickerInfo);
             iospickerInfo.FindAdapter<IosPicker>().Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".1"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
         	}

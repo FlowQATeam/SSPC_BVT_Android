@@ -48,6 +48,15 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testcase
+			datasource="QA_Cred"
+			id="067b9c86-3056-44cb-829f-552a8111e63c"
+			name="CancelEmptyWater">
+			</testcase>
+			<testcase
+			id="0f9ba6cc-d49e-417a-8690-940226f61780"
+			name="Factory_Reset">
+			</testcase>
 			<testmodule
 			id="10339cac-9f7c-4aea-bcd8-591063203d7b"
 			name="analytics"
@@ -75,6 +84,14 @@
 			name="ScheduleHealthTestMonthly"
 			ref="f9153055-21b9-4911-a207-042de76e1046"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Nickname"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
+					variablename="Nickname">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="2b5b1fa8-ad92-493b-951a-3d81e5ce4cf1"
@@ -84,7 +101,7 @@
 				<databinding>
 					<var
 					dataname="New NickName"
-					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
 					variablename="Nickname">
 					</var>
@@ -92,7 +109,7 @@
 				<missingdatabinding>
 					<var
 					dataname="New NickName"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
+					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
 					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
 					variablename="Nickname">
 					</var>
@@ -209,19 +226,25 @@
 				<databinding>
 					<var
 					dataname="New NickName"
-					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
 					variablename="Nickname">
 					</var>
 				</databinding>
-				<missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="6842e1f0-8ab8-4363-b188-3989aef20cd1"
+			name="History"
+			ref="dd5d449a-51c5-43df-aa99-a0b1030f7190"
+			type="Recording">
+				<databinding>
 					<var
-					dataname="New NickName"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
+					dataname="Nickname"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
 					variablename="Nickname">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="68fcabfe-ab59-4204-8bcf-70ec63af0469"
@@ -252,22 +275,54 @@
 			type="Recording">
 				<databinding>
 					<var
+					dataname="New WifiInputContainer"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
+					variablename="WifiPageContainer">
+					</var>
+					<var
+					dataname="DeviceID"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="84902cad-a599-4713-a3d3-2ea660932c8b"
+					variablename="DeviceID">
+					</var>
+					<var
+					dataname="New NickName"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
+					variablename="Nickname">
+					</var>
+					<var
+					dataname="New Password"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="697cce41-86c9-4085-8e60-6eeca638716e"
+					variablename="WifiPassword">
+					</var>
+					<var
+					dataname="New WiFi SSID"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="9bfe522f-73aa-4b08-aa4f-8fe951071a0e"
+					variablename="Wifissid">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
 					dataname="DeviceID"
 					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
 					variableid="84902cad-a599-4713-a3d3-2ea660932c8b"
 					variablename="DeviceID">
 					</var>
 					<var
-					dataname="New Password"
-					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
-					variableid="697cce41-86c9-4085-8e60-6eeca638716e"
-					variablename="WifiPassword">
-					</var>
-					<var
 					dataname="New WiFi SSID"
 					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
 					variableid="9bfe522f-73aa-4b08-aa4f-8fe951071a0e"
 					variablename="Wifissid">
+					</var>
+					<var
+					dataname="New Password"
+					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
+					variableid="697cce41-86c9-4085-8e60-6eeca638716e"
+					variablename="WifiPassword">
 					</var>
 					<var
 					dataname="New NickName"
@@ -280,32 +335,6 @@
 					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
 					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
 					variablename="WifiPageContainer">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="DeviceID"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
-					variableid="84902cad-a599-4713-a3d3-2ea660932c8b"
-					variablename="DeviceID">
-					</var>
-					<var
-					dataname="WiFi SSID"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
-					variableid="9bfe522f-73aa-4b08-aa4f-8fe951071a0e"
-					variablename="Wifissid">
-					</var>
-					<var
-					dataname="WiFi Password"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
-					variableid="697cce41-86c9-4085-8e60-6eeca638716e"
-					variablename="WifiPassword">
-					</var>
-					<var
-					dataname="New NickName"
-					datasourceid="4fdeb746-47ea-4f2f-88dc-0aacf8deb724"
-					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
-					variablename="Nickname">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -354,8 +383,14 @@
 			id="83140f71-7424-461c-9fca-9d822158caf9"
 			name="ScheduleHealthtsestDaily">
 			</testcase>
+			<testmodule
+			id="83e4bb78-db24-4cd9-848c-205ffeab2f4f"
+			name="Reset"
+			ref="aedaf9ec-e149-4987-a009-c7e9947aa840"
+			type="Recording">
+			</testmodule>
 			<testcase
-			datasource="QACredCSV"
+			datasource="QA_Cred"
 			id="8a58bca2-47fa-4db0-a3be-365af3a4924c"
 			name="WiFi_Provisioning">
 			</testcase>
@@ -467,14 +502,6 @@
 					variablename="Nickname">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Nickname"
-					datasourceid="19c6b63b-dfee-43b2-8f2e-e6f0e59e190b"
-					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
-					variablename="Nickname">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="9d68eb56-6475-4f6a-9a47-08b60688af93"
@@ -551,6 +578,14 @@
 			name="ReportToPDFModule"
 			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
 			type="UserCode">
+				<databinding>
+					<var
+					dataname="pdfname"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
+					variablename="PdfName">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="acbb8caa-0762-43de-82be-cf1ff70fd6fc"
@@ -567,6 +602,7 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			datasource="QA_Cred"
 			id="b62ede45-c403-4ae4-a765-fcf6bb28b3b1"
 			name="ScheduleHealthtestMonthly">
 			</testcase>
@@ -649,6 +685,11 @@
 			id="cedceb09-8400-494f-8be7-4f570313f1de"
 			name="ScheduleHealthtestdisable">
 			</testcase>
+			<testcase
+			datasource="QA_Cred"
+			id="df235f6d-87a6-4c35-8a8c-19fc73147c44"
+			name="Contact_Pentair">
+			</testcase>
 			<testmodule
 			id="dfd7411a-e455-4b91-8144-827d3f109164"
 			name="removedevice"
@@ -671,6 +712,11 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testcase
+			datasource="QA_Cred"
+			id="e22d3b56-b443-43c2-ae45-3d0faf8bedac"
+			name="History_of_pump_cycles">
+			</testcase>
 			<testmodule
 			id="e247aafa-c430-4817-90ad-3f67ce273af5"
 			name="ClickSPCtile"
@@ -729,9 +775,9 @@
 				</parameters>
 			</testcase>
 			<testcase
-			datasource="QACredCSV"
+			datasource="QA_Cred"
 			id="f99b5a24-5c5e-4682-8aa4-de3eb08ce703"
-			name="Product_Support_and_Contact_Pentair">
+			name="Product_Support">
 			</testcase>
 			<testmodule
 			id="fdca326e-683f-416a-8dcb-866248d6a081"
@@ -819,6 +865,14 @@
 						</testmodule>
 					</testcase>
 					<testcase
+					id="e22d3b56-b443-43c2-ae45-3d0faf8bedac"
+					name="History_of_pump_cycles">
+						<testmodule
+						id="6842e1f0-8ab8-4363-b188-3989aef20cd1"
+						name="History">
+						</testmodule>
+					</testcase>
+					<testcase
 					id="7a20b1fd-7494-4519-acad-bf0bc87cbe7f"
 					name="Health_Test_TILE">
 						<testmodule
@@ -865,6 +919,10 @@
 						id="913ef35c-6a62-4154-85eb-d059b0866491"
 						name="EmptyWater">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="067b9c86-3056-44cb-829f-552a8111e63c"
+					name="CancelEmptyWater">
 						<testmodule
 						id="9a70103d-d875-44b8-950f-b80bf088fa50"
 						name="CancelEmptyWater">
@@ -887,6 +945,22 @@
 						</testmodule>
 					</testcase>
 					<testcase
+					id="8a58bca2-47fa-4db0-a3be-365af3a4924c"
+					name="WiFi_Provisioning">
+						<testmodule
+						id="73a08020-62d4-4292-afd4-9986644890a8"
+						name="wifi">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="df235f6d-87a6-4c35-8a8c-19fc73147c44"
+					name="Contact_Pentair">
+						<testmodule
+						id="61007c47-69b0-4f69-acc3-f44fe69f11d1"
+						name="contactpentair">
+						</testmodule>
+					</testcase>
+					<testcase
 					id="389d694c-fe67-414b-9425-b94ebe42460a"
 					name="Configurations">
 						<testmodule
@@ -895,11 +969,27 @@
 						</testmodule>
 					</testcase>
 					<testcase
+					id="f99b5a24-5c5e-4682-8aa4-de3eb08ce703"
+					name="Product_Support">
+						<testmodule
+						id="2b5b1fa8-ad92-493b-951a-3d81e5ce4cf1"
+						name="productsupport">
+						</testmodule>
+					</testcase>
+					<testcase
 					id="75d8c31a-285c-4e5d-9439-d19846e0eb53"
 					name="Analytics">
 						<testmodule
 						id="10339cac-9f7c-4aea-bcd8-591063203d7b"
 						name="analytics">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="0f9ba6cc-d49e-417a-8690-940226f61780"
+					name="Factory_Reset">
+						<testmodule
+						id="83e4bb78-db24-4cd9-848c-205ffeab2f4f"
+						name="Reset">
 						</testmodule>
 					</testcase>
 					<testcase
@@ -912,26 +1002,6 @@
 						<testmodule
 						id="9fa32f91-37c4-4544-ab5c-13ecc7a86dfe"
 						name="ReportToPDFModule">
-						</testmodule>
-					</testcase>
-					<testcase
-					id="8a58bca2-47fa-4db0-a3be-365af3a4924c"
-					name="WiFi_Provisioning">
-						<testmodule
-						id="73a08020-62d4-4292-afd4-9986644890a8"
-						name="wifi">
-						</testmodule>
-					</testcase>
-					<testcase
-					id="f99b5a24-5c5e-4682-8aa4-de3eb08ce703"
-					name="Product_Support_and_Contact_Pentair">
-						<testmodule
-						id="2b5b1fa8-ad92-493b-951a-3d81e5ce4cf1"
-						name="productsupport">
-						</testmodule>
-						<testmodule
-						id="61007c47-69b0-4f69-acc3-f44fe69f11d1"
-						name="contactpentair">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -1015,6 +1085,9 @@
 				<column>
 					GoogleSeachText
 				</column>
+				<column>
+					pdfname
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -1097,6 +1170,12 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="067b9c86-3056-44cb-829f-552a8111e63c">
+			</testcontainer>
+			<testcontainer
+			id="0f9ba6cc-d49e-417a-8690-940226f61780">
+			</testcontainer>
+			<testcontainer
 			id="389d694c-fe67-414b-9425-b94ebe42460a">
 			</testcontainer>
 			<testcontainer
@@ -1121,6 +1200,9 @@
 			id="83140f71-7424-461c-9fca-9d822158caf9">
 			</testcontainer>
 			<testcontainer
+			id="8a58bca2-47fa-4db0-a3be-365af3a4924c">
+			</testcontainer>
+			<testcontainer
 			id="9526d1d8-ba99-4169-bfac-4110627699fe">
 			</testcontainer>
 			<testcontainer
@@ -1142,10 +1224,19 @@
 			id="cedceb09-8400-494f-8be7-4f570313f1de">
 			</testcontainer>
 			<testcontainer
+			id="df235f6d-87a6-4c35-8a8c-19fc73147c44">
+			</testcontainer>
+			<testcontainer
+			id="e22d3b56-b443-43c2-ae45-3d0faf8bedac">
+			</testcontainer>
+			<testcontainer
 			id="f113d6d2-aeb8-41e6-84eb-a25c9456c386">
 			</testcontainer>
 			<testcontainer
 			id="f236ba45-53a4-472b-b171-bdac8306596a">
+			</testcontainer>
+			<testcontainer
+			id="f99b5a24-5c5e-4682-8aa4-de3eb08ce703">
 			</testcontainer>
 			<testcontainer
 			id="ffbd82fe-8d4b-48db-ad33-805116d5e80f">

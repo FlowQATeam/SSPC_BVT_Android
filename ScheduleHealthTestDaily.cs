@@ -185,120 +185,100 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
             Delay.Duration(2000, false);
             
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyDaily' at Center", repo.ComPentairPentairhome.FrequencyDailyInfo, new RecordItemIndex(4));
-                repo.ComPentairPentairhome.FrequencyDaily.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.FrequencySelection' at Center", repo.ComPentairPentairhome.FrequencySelectionInfo, new RecordItemIndex(4));
+            repo.ComPentairPentairhome.FrequencySelection.Touch();
+            Delay.Milliseconds(300);
             
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyWeekly' at Center", repo.ComPentairPentairhome.FrequencyWeeklyInfo, new RecordItemIndex(5));
-                repo.ComPentairPentairhome.FrequencyWeekly.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyMonthly' at Center", repo.ComPentairPentairhome.FrequencyMonthlyInfo, new RecordItemIndex(6));
-                repo.ComPentairPentairhome.FrequencyMonthly.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyDisable' at Center", repo.ComPentairPentairhome.FrequencyDisableInfo, new RecordItemIndex(7));
-                repo.ComPentairPentairhome.FrequencyDisable.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center", repo.ComPentairPentairhome.ScheduleHealthTestDropDownInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center", repo.ComPentairPentairhome.ScheduleHealthTestDropDownInfo, new RecordItemIndex(6));
             repo.ComPentairPentairhome.ScheduleHealthTestDropDown.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHTDailySelect' at Center", repo.ComPentairPentairhome.ScheduleHTDailySelectInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHTDailySelect' at Center", repo.ComPentairPentairhome.ScheduleHTDailySelectInfo, new RecordItemIndex(8));
             repo.ComPentairPentairhome.ScheduleHTDailySelect.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.google.com' with browser 'Chrome' in maximized mode.", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.google.com' with browser 'Chrome' in maximized mode.", new RecordItemIndex(10));
             Host.Current.OpenBrowser("http://www.google.com", "Chrome", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$googleSearchText' with focus on 'Google.GoogleInput'.", repo.Google.GoogleInputInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$googleSearchText' with focus on 'Google.GoogleInput'.", repo.Google.GoogleInputInfo, new RecordItemIndex(12));
             repo.Google.GoogleInput.PressKeys(googleSearchText);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'Google.GoogleSearchButton'.", repo.Google.GoogleSearchButtonInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'Google.GoogleSearchButton'.", repo.Google.GoogleSearchButtonInfo, new RecordItemIndex(14));
             repo.Google.GoogleSearchButton.PerformClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.Time' and assigning its value to variable 'TimeValue'.", repo.Google.TimeInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.Time' and assigning its value to variable 'TimeValue'.", repo.Google.TimeInfo, new RecordItemIndex(16));
             TimeValue = repo.Google.Time.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             timeExtracter();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(18));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Google'.", repo.Google.SelfInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'Google'.", repo.Google.SelfInfo, new RecordItemIndex(19));
             Host.Current.CloseApplication(repo.Google.Self, new Duration(0));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(20));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.Hours.SchduleHrs'.", repo.ComPentairPentairhome.Hours.SchduleHrsInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.Hours.SchduleHrs'.", repo.ComPentairPentairhome.Hours.SchduleHrsInfo, new RecordItemIndex(21));
             repo.ComPentairPentairhome.Hours.SchduleHrs.Select();
             Delay.Milliseconds(0);
             
             Swipe_gesture_Hours(repo.ComPentairPentairhome.Hours.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.Minutes.ScheduleMins'.", repo.ComPentairPentairhome.Minutes.ScheduleMinsInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.Minutes.ScheduleMins'.", repo.ComPentairPentairhome.Minutes.ScheduleMinsInfo, new RecordItemIndex(24));
             repo.ComPentairPentairhome.Minutes.ScheduleMins.Select();
             Delay.Milliseconds(0);
             
             Swipe_gesture_Minutes(repo.ComPentairPentairhome.Minutes.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(26));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.AMPM.ScheduleAMPM'.", repo.ComPentairPentairhome.AMPM.ScheduleAMPMInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Select() on item 'ComPentairPentairhome.AMPM.ScheduleAMPM'.", repo.ComPentairPentairhome.AMPM.ScheduleAMPMInfo, new RecordItemIndex(27));
             repo.ComPentairPentairhome.AMPM.ScheduleAMPM.Select();
             Delay.Milliseconds(0);
             
             Swipe_gesture_AMPM(repo.ComPentairPentairhome.AMPM.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(29));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleSave' at Center", repo.ComPentairPentairhome.ScheduleSaveInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleSave' at Center", repo.ComPentairPentairhome.ScheduleSaveInfo, new RecordItemIndex(30));
             repo.ComPentairPentairhome.ScheduleSave.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(31));
             Delay.Duration(60000, false);
             
         }

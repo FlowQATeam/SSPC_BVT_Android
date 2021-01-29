@@ -45,6 +45,15 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
@@ -664,7 +673,7 @@ mode="Global">
 		isremote="False"
 		longtouchduration="1000ms"
 		moveduration="100ms"
-		optional="False"
+		optional="True"
 		screenshotname=""
 		searchpropertyid="d20f5e39-ec38-44a2-a235-d5635f9e5be1"
 		sx="0"
@@ -834,6 +843,65 @@ mode="Global">
 				</path>
 			</info>
 		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message="Home Dashboard"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d476f75e-9326-4297-9e2a-59f849519ad9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				minattr="1"
+				prefcap="form"
+				rect="0,0,414,896"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIWindow
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1158769472
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+			</info>
+		</loggingrecorditem>
 		<explicitdelayitem
 		duration="2000ms"
 		enabled="True"

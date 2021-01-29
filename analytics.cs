@@ -121,18 +121,18 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.Analytics.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(9));
-            Delay.Duration(20000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.WeeklyAnalytics' at Center", repo.ComPentairPentairhome.WeeklyAnalyticsInfo, new RecordItemIndex(10));
-            repo.ComPentairPentairhome.WeeklyAnalytics.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Weekly' at Center", repo.ComPentairPentairhome.WeeklyInfo, new RecordItemIndex(10));
+            repo.ComPentairPentairhome.Weekly.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.MonthlyAnalytics' at Center", repo.ComPentairPentairhome.MonthlyAnalyticsInfo, new RecordItemIndex(12));
-            repo.ComPentairPentairhome.MonthlyAnalytics.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Monthly' at Center", repo.ComPentairPentairhome.MonthlyInfo, new RecordItemIndex(12));
+            repo.ComPentairPentairhome.Monthly.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
@@ -145,8 +145,8 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(15));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DailyAnalytics' at Center", repo.ComPentairPentairhome.DailyAnalyticsInfo, new RecordItemIndex(16));
-            repo.ComPentairPentairhome.DailyAnalytics.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Daily' at Center", repo.ComPentairPentairhome.DailyInfo, new RecordItemIndex(16));
+            repo.ComPentairPentairhome.Daily.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(17));

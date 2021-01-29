@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="31310716-e142-4b65-b108-f54241049f5f"
+id="dd5d449a-51c5-43df-aa99-a0b1030f7190"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="notifications"
+	classname="History"
 	namespace="SSPC_iOS">
 	</codegen>
 	<variables>
@@ -109,7 +109,7 @@ mode="Global">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="abb74cd1-e578-4ee6-9833-9e1c360ade80"
+		searchpropertyid="0da5f26e-9a7d-481e-8d42-7c2ad2de80cb"
 		sx="0"
 		sy="0"
 		touchduration="100ms"
@@ -120,151 +120,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81"
-			sourcename="RepositoryEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']/container[@caption='']
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="08138a30-5dbd-47b0-9c24-dac597deeae0"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Notifications']
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="6b514892-9a3a-4fc8-b57e-a1db334693a0"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="553e9cdf-911e-482b-bc72-880cd2175a08"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="2"
-				prefcap="container"
-				rect="372,361,14,14"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						837989200
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='All Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="1281d785-8e32-499e-815d-19ac3e4fffec"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a6765dee-b10e-417e-a874-cc4b71cf89d0"
+			id="8e9aa462-4f8a-494b-a243-de8701b6cead"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="ioselement, mobileuielement"
@@ -274,7 +130,7 @@ mode="Global">
 				hasfocus="False"
 				index="0"
 				prefcap="container"
-				rect="51,681,312,22"
+				rect="301,511,53,18"
 				role="container"
 				snapElem=""
 				valid="True"
@@ -291,7 +147,7 @@ mode="Global">
 					<attribute
 					name="accessibilitylabel"
 					type="System.String">
-						CANCEL
+						History
 					</attribute>
 					<attribute
 					name="platformclass"
@@ -301,16 +157,16 @@ mode="Global">
 					<attribute
 					name="temporaryelementid"
 					type="System.Int32">
-						1139865552
+						423682448
 					</attribute>
 				</element>
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']
 				</path>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="7000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -328,7 +184,7 @@ mode="Global">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="de19c9bb-c9c3-4d01-962c-eb277db4aab5"
+		searchpropertyid="5b5558ae-f199-42af-a435-0ee017976cc0"
 		sx="0"
 		sy="0"
 		touchduration="100ms"
@@ -339,48 +195,15 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="279a2efd-5a62-4beb-b501-cf5a20f57e8d"
+			id="1cb0ace5-04e3-493b-b405-4b5bd7544d7d"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="2"
-				prefcap="container"
-				rect="372,428,14,14"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						838138176
-					</attribute>
-				</element>
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Push Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']
 				</path>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="4000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -398,7 +221,7 @@ mode="Global">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="49d99153-91a8-4bf5-8bb9-ada551943960"
+		searchpropertyid="3cf16970-4e74-48ac-b355-b71800f91338"
 		sx="0"
 		sy="0"
 		touchduration="100ms"
@@ -409,48 +232,15 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="cc8353e6-4430-4c5a-8233-aea21ce2447a"
+			id="3d1e2259-453f-4d08-a571-1aeb3604dcfc"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="2"
-				prefcap="container"
-				rect="372,496,14,14"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						921985104
-					</attribute>
-				</element>
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Email Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']
 				</path>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="4000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -468,7 +258,7 @@ mode="Global">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="380a677e-2fc7-4a19-8052-6449d690f0cb"
+		searchpropertyid="25c11902-c5e8-4dac-aea1-4363852e412d"
 		sx="0"
 		sy="0"
 		touchduration="100ms"
@@ -479,201 +269,15 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="af6e59ef-0221-4ea9-8129-b3002934c7a5"
+			id="9c430dce-5bca-4490-9337-08d1282252c2"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Text (SMS) Notifications (Pending)']/?/?/?/?/container[3]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']
 				</path>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="1281d785-8e32-499e-815d-19ac3e4fffec"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a6765dee-b10e-417e-a874-cc4b71cf89d0"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="0"
-				prefcap="container"
-				rect="51,681,312,22"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="accessibilitylabel"
-					type="System.String">
-						CANCEL
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTTextView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						1139865552
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="380a677e-2fc7-4a19-8052-6449d690f0cb"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="af6e59ef-0221-4ea9-8129-b3002934c7a5"
-			sourcename="RepositoryEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Text (SMS) Notifications (Pending)']/?/?/?/?/container[3]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="False"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="380a677e-2fc7-4a19-8052-6449d690f0cb"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="af6e59ef-0221-4ea9-8129-b3002934c7a5"
-			sourcename="RepositoryEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Text (SMS) Notifications (Pending)']/?/?/?/?/container[3]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="09879f87-4c87-4310-9397-9c70575a80b9"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="63896f03-abd2-4362-87a6-8dda4506d2bb"
-			sourcename="RepositoryEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']
-				</path>
-			</info>
-		</touchrecorditem>
-		<explicitdelayitem
-		duration="10000ms"
+		duration="4000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -697,7 +301,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		notifications.UserCode.cs
+		History.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

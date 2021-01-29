@@ -103,49 +103,33 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
             Delay.Duration(2000, false);
             
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyDaily' at Center", repo.ComPentairPentairhome.FrequencyDailyInfo, new RecordItemIndex(4));
-                repo.ComPentairPentairhome.FrequencyDaily.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.FrequencySelection' at Center", repo.ComPentairPentairhome.FrequencySelectionInfo, new RecordItemIndex(4));
+            repo.ComPentairPentairhome.FrequencySelection.Touch();
+            Delay.Milliseconds(300);
             
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyWeekly' at Center", repo.ComPentairPentairhome.FrequencyWeeklyInfo, new RecordItemIndex(5));
-                repo.ComPentairPentairhome.FrequencyWeekly.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyMonthly' at Center", repo.ComPentairPentairhome.FrequencyMonthlyInfo, new RecordItemIndex(6));
-                repo.ComPentairPentairhome.FrequencyMonthly.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
-            
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.FrequencyDisable' at Center", repo.ComPentairPentairhome.FrequencyDisableInfo, new RecordItemIndex(7));
-                repo.ComPentairPentairhome.FrequencyDisable.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
             Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center", repo.ComPentairPentairhome.ScheduleHealthTestDropDownInfo, new RecordItemIndex(6));
+            repo.ComPentairPentairhome.ScheduleHealthTestDropDown.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHTDisableSelect' at Center", repo.ComPentairPentairhome.ScheduleHTDisableSelectInfo, new RecordItemIndex(8));
+            repo.ComPentairPentairhome.ScheduleHTDisableSelect.Touch();
+            Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center", repo.ComPentairPentairhome.ScheduleHealthTestDropDownInfo, new RecordItemIndex(10));
-            repo.ComPentairPentairhome.ScheduleHealthTestDropDown.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleSave' at Center", repo.ComPentairPentairhome.ScheduleSaveInfo, new RecordItemIndex(10));
+            repo.ComPentairPentairhome.ScheduleSave.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ScheduleHTDisableSelect' at Center", repo.ComPentairPentairhome.ScheduleHTDisableSelectInfo, new RecordItemIndex(12));
-            repo.ComPentairPentairhome.ScheduleHTDisableSelect.Touch();
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(11));
+            Delay.Duration(20000, false);
             
         }
 

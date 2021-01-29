@@ -114,17 +114,43 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.ProductSupport.Touch();
             Delay.Milliseconds(300);
             
-            try {
-                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ComPentairPentairhome.SSPCSupport'", repo.ComPentairPentairhome.SSPCSupportInfo, new ActionTimeout(120000), new RecordItemIndex(7));
-                //repo.ComPentairPentairhome.SSPCSupportInfo.WaitForExists(120000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(7));
+            Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Sump Controller Support') on item 'ComPentairPentairhome.SumpControllerSupport'.", repo.ComPentairPentairhome.SumpControllerSupportInfo, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.ComPentairPentairhome.SumpControllerSupportInfo, "InnerText", "Sump Controller Support");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(9));
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ComPentairPentairhome.SumpControllerHomeAppSupportPen'", repo.ComPentairPentairhome.SumpControllerHomeAppSupportPenInfo, new ActionTimeout(120000), new RecordItemIndex(10));
+                //repo.ComPentairPentairhome.SumpControllerHomeAppSupportPenInfo.WaitForExists(120000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
+            Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Product_SupportBack' at Center", repo.ComPentairPentairhome.Product_SupportBackInfo, new RecordItemIndex(12));
+            repo.ComPentairPentairhome.Product_SupportBack.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
             Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(14));
+            Host.Current.KillApplication(repo.ComPentairPentairhome.Self);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 35s.", new RecordItemIndex(15));
+            Delay.Duration(35000, false);
+            
+            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.", new RecordItemIndex(16));
+            Host.Local.RunMobileApp("Jyotiâ€™s iPhone", "com.pentair.pentairhome", false);
+            Delay.Milliseconds(3500);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(17));
+            Delay.Duration(10000, false);
             
         }
 

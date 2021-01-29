@@ -135,145 +135,155 @@ namespace SSPC_iOS
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.AddADevice' at Center", repo.ComPentairPentairhome.UIWindow.AddADeviceInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.AddADevice' at Center", repo.ComPentairPentairhome.UIWindow.AddADeviceInfo, new RecordItemIndex(1));
             repo.ComPentairPentairhome.UIWindow.AddADevice.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.SumpController' at Center", repo.ComPentairPentairhome.UIWindow.SumpControllerInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.SumpController' at Center", repo.ComPentairPentairhome.UIWindow.SumpControllerInfo, new RecordItemIndex(3));
             repo.ComPentairPentairhome.UIWindow.SumpController.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ContinueonProvisiom' at Center", repo.ComPentairPentairhome.UIWindow.ContinueonProvisiomInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ContinueonProvisiom' at Center", repo.ComPentairPentairhome.UIWindow.ContinueonProvisiomInfo, new RecordItemIndex(5));
             repo.ComPentairPentairhome.UIWindow.ContinueonProvisiom.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.setupBluetoothScerollUp'.", repo.ComPentairPentairhome.setupBluetoothScerollUpInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.setupBluetoothScerollUp'.", repo.ComPentairPentairhome.setupBluetoothScerollUpInfo, new RecordItemIndex(7));
             repo.ComPentairPentairhome.setupBluetoothScerollUp.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.BluetoothContinue' at Center", repo.ComPentairPentairhome.UIWindow.BluetoothContinueInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.BluetoothContinue' at Center", repo.ComPentairPentairhome.UIWindow.BluetoothContinueInfo, new RecordItemIndex(9));
             repo.ComPentairPentairhome.UIWindow.BluetoothContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ComPentairPentairhome.UIWindow.DeviceSelection'", repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo, new ActionTimeout(30000), new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ComPentairPentairhome.UIWindow.DeviceSelection'", repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo, new ActionTimeout(30000), new RecordItemIndex(11));
             repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.DeviceSelection' at Center", repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.DeviceSelection' at Center", repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo, new RecordItemIndex(13));
             repo.ComPentairPentairhome.UIWindow.DeviceSelection.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ConnectionEstablishedContinue' at Center", repo.ComPentairPentairhome.UIWindow.ConnectionEstablishedContinueInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ConnectionEstablishedContinue' at Center", repo.ComPentairPentairhome.UIWindow.ConnectionEstablishedContinueInfo, new RecordItemIndex(15));
             repo.ComPentairPentairhome.UIWindow.ConnectionEstablishedContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(16));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiSelection' at Center", repo.ComPentairPentairhome.UIWindow.WifiSelectionInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiSelection' at Center", repo.ComPentairPentairhome.UIWindow.WifiSelectionInfo, new RecordItemIndex(17));
             repo.ComPentairPentairhome.UIWindow.WifiSelection.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(18));
             Delay.Duration(4000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$WifiPassword' on item 'ComPentairPentairhome.UIWindow.WifiPasswordinput'.", repo.ComPentairPentairhome.UIWindow.WifiPasswordinputInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$WifiPassword' on item 'ComPentairPentairhome.UIWindow.WifiPasswordinput'.", repo.ComPentairPentairhome.UIWindow.WifiPasswordinputInfo, new RecordItemIndex(19));
             repo.ComPentairPentairhome.UIWindow.WifiPasswordinput.Element.SetAttributeValue("Text", WifiPassword);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(20));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiContinue' at Center", repo.ComPentairPentairhome.UIWindow.WifiContinueInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiContinue' at Center", repo.ComPentairPentairhome.UIWindow.WifiContinueInfo, new RecordItemIndex(21));
             repo.ComPentairPentairhome.UIWindow.WifiContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(22));
             Delay.Duration(30000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.AddressContinue'.", repo.ComPentairPentairhome.UIWindow.AddressContinueInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.AddressContinue'.", repo.ComPentairPentairhome.UIWindow.AddressContinueInfo, new RecordItemIndex(23));
             repo.ComPentairPentairhome.UIWindow.AddressContinue.Element.InvokeActionWithText("Touch");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(24));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(25));
             repo.ComPentairPentairhome.UIWindow.NicknameInput.Element.InvokeActionWithText("Touch");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(26));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '' on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '' on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(27));
             repo.ComPentairPentairhome.UIWindow.NicknameInput.Element.SetAttributeValue("Text", "");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(28));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$Nickname' on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$Nickname' on item 'ComPentairPentairhome.UIWindow.NicknameInput'.", repo.ComPentairPentairhome.UIWindow.NicknameInputInfo, new RecordItemIndex(29));
             repo.ComPentairPentairhome.UIWindow.NicknameInput.Element.SetAttributeValue("Text", Nickname);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(30));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.NicknameSave' at Center", repo.ComPentairPentairhome.UIWindow.NicknameSaveInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.NicknameSave' at Center", repo.ComPentairPentairhome.UIWindow.NicknameSaveInfo, new RecordItemIndex(31));
             repo.ComPentairPentairhome.UIWindow.NicknameSave.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(32));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.InstallationCompleteContinue'.", repo.ComPentairPentairhome.UIWindow.InstallationCompleteContinueInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.InstallationCompleteContinue'.", repo.ComPentairPentairhome.UIWindow.InstallationCompleteContinueInfo, new RecordItemIndex(33));
             repo.ComPentairPentairhome.UIWindow.InstallationCompleteContinue.Element.InvokeActionWithText("Touch");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(33));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.NotificationsContinue' at Center", repo.ComPentairPentairhome.NotificationsContinueInfo, new RecordItemIndex(34));
-            repo.ComPentairPentairhome.NotificationsContinue.Touch();
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(35));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.HomeIcon' at Center", repo.ComPentairPentairhome.HomeIconInfo, new RecordItemIndex(36));
-            repo.ComPentairPentairhome.HomeIcon.Touch();
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(34));
             Delay.Duration(2000, false);
             
             try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.AppFeedbackClose' at Center", repo.ComPentairPentairhome.AppFeedbackCloseInfo, new RecordItemIndex(38));
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.NotificationsContinue' at Center", repo.ComPentairPentairhome.NotificationsContinueInfo, new RecordItemIndex(35));
+                repo.ComPentairPentairhome.NotificationsContinue.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(35)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(36));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.HomeIcon' at Center", repo.ComPentairPentairhome.HomeIconInfo, new RecordItemIndex(37));
+            repo.ComPentairPentairhome.HomeIcon.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(38));
+            Delay.Duration(2000, false);
+            
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.AppFeedbackClose' at Center", repo.ComPentairPentairhome.AppFeedbackCloseInfo, new RecordItemIndex(39));
                 repo.ComPentairPentairhome.AppFeedbackClose.Touch();
                 Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(38)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(39)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(40));
+            Delay.Duration(2000, false);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "Home Dashboard", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(41));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(42));
             Delay.Duration(2000, false);
             
         }

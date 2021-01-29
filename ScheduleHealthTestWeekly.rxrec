@@ -149,139 +149,7 @@ mode="Global">
 		isremote="False"
 		longtouchduration="1000ms"
 		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="cc7370bd-69d5-4f9e-b769-ab4595f6a786"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="597d9c86-cd2c-471c-987b-36aaf361ed97"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="0"
-				prefcap="container"
-				rect="313,242,56,19"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="accessibilitylabel"
-					type="System.String">
-						Daily
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						141842896
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']
-				</path>
-			</info>
-		</touchrecorditem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="9fb4f34a-ba03-4c77-ad51-fdd8c6fb06cb"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="eac003a3-a9cf-45c0-a9c8-403af7796040"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="0"
-				prefcap="container"
-				rect="295,242,74,19"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="accessibilitylabel"
-					type="System.String">
-						Weekly
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						141842896
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']
-				</path>
-			</info>
-		</touchrecorditem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
+		optional="False"
 		screenshotname=""
 		searchpropertyid="695c9263-6151-4907-9e6f-b1ebfd9f6136"
 		sx="0"
@@ -336,72 +204,6 @@ mode="Global">
 				</element>
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']/container[@accessibilitylabel='Monthly']
-				</path>
-			</info>
-		</touchrecorditem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="95c218b4-c009-4ca5-a85e-38a3acc478be"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="5a3c5b3e-a088-4bfc-8e21-713028f4cd96"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="ioselement, mobileuielement"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="0"
-				prefcap="container"
-				rect="294,242,76,19"
-				role="container"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="caption"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="controltag"
-					type="System.Int32">
-						0
-					</attribute>
-					<attribute
-					name="accessibilitylabel"
-					type="System.String">
-						Disable
-					</attribute>
-					<attribute
-					name="platformclass"
-					type="System.String">
-						RCTView
-					</attribute>
-					<attribute
-					name="temporaryelementid"
-					type="System.Int32">
-						141842896
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']
 				</path>
 			</info>
 		</touchrecorditem>
@@ -743,6 +545,24 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="ff433a7b-af00-495e-939b-d1f79018fdf5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="47b23a98-2f5e-40fa-9324-6a4fd4552a0c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='www.google.com']
+				</path>
+			</info>
+		</closeapprecorditem>
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
@@ -796,24 +616,6 @@ mode="Global">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
-		<closeapprecorditem
-		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="ff433a7b-af00-495e-939b-d1f79018fdf5">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="47b23a98-2f5e-40fa-9324-6a4fd4552a0c"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='www.google.com']
-				</path>
-			</info>
-		</closeapprecorditem>
 		<explicitdelayitem
 		duration="2000ms"
 		enabled="True"

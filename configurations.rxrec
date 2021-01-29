@@ -101,7 +101,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -138,7 +138,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -175,7 +175,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -212,7 +212,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -245,7 +245,7 @@ mode="Global">
 			</AttributeValue>
 		</setvaluerecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -282,7 +282,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -319,7 +319,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -352,7 +352,7 @@ mode="Global">
 			</AttributeValue>
 		</setvaluerecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -389,7 +389,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -446,7 +446,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

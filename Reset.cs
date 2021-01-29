@@ -24,29 +24,29 @@ namespace SSPC_iOS
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The contactpentair recording.
+    ///The Reset recording.
     /// </summary>
-    [TestModule("53726207-098c-4403-aeff-f2ba58d3bae6", ModuleType.Recording, 1)]
-    public partial class contactpentair : ITestModule
+    [TestModule("aedaf9ec-e149-4987-a009-c7e9947aa840", ModuleType.Recording, 1)]
+    public partial class Reset : ITestModule
     {
         /// <summary>
         /// Holds an instance of the SSPC_iOS_modifiedRepository repository.
         /// </summary>
         public static SSPC_iOS_modifiedRepository repo = SSPC_iOS_modifiedRepository.Instance;
 
-        static contactpentair instance = new contactpentair();
+        static Reset instance = new Reset();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public contactpentair()
+        public Reset()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static contactpentair Instance
+        public static Reset Instance
         {
             get { return instance; }
         }
@@ -100,55 +100,43 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.SSPCtileClick.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Settingsicon' at Center", repo.ComPentairPentairhome.SettingsiconInfo, new RecordItemIndex(4));
             repo.ComPentairPentairhome.Settingsicon.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentair' at Center", repo.ComPentairPentairhome.ContactPentairInfo, new RecordItemIndex(6));
-            repo.ComPentairPentairhome.ContactPentair.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Configurations' at Center", repo.ComPentairPentairhome.ConfigurationsInfo, new RecordItemIndex(6));
+            repo.ComPentairPentairhome.Configurations.Touch();
             Delay.Milliseconds(300);
             
-            try {
-                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ComPentairPentairhome.PentairSupport'", repo.ComPentairPentairhome.PentairSupportInfo, new ActionTimeout(120000), new RecordItemIndex(7));
-                //repo.ComPentairPentairhome.PentairSupportInfo.WaitForExists(120000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(8));
-            Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='WE'RE WAITING TO HEAR FROM YOU') on item 'ComPentairPentairhome.WEREWAITINGTOHEARFROMYOU'.", repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, new RecordItemIndex(9));
-            Validate.AttributeEqual(repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, "InnerText", "WE'RE WAITING TO HEAR FROM YOU");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(10));
-            Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(11));
-            repo.ComPentairPentairhome.ContactPentairBack.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Factory_Reset_info' at Center", repo.ComPentairPentairhome.Factory_Reset_infoInfo, new RecordItemIndex(8));
+            repo.ComPentairPentairhome.Factory_Reset_info.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(13));
-            Host.Current.KillApplication(repo.ComPentairPentairhome.Self);
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Resetlink' at Center", repo.ComPentairPentairhome.ResetlinkInfo, new RecordItemIndex(10));
+            repo.ComPentairPentairhome.Resetlink.Touch();
+            Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(14));
-            Delay.Duration(30000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.", new RecordItemIndex(15));
-            Host.Local.RunMobileApp("Jyotiâ€™s iPhone", "com.pentair.pentairhome", false);
-            Delay.Milliseconds(3500);
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RESETButton' at Center", repo.ComPentairPentairhome.RESETButtonInfo, new RecordItemIndex(12));
+            repo.ComPentairPentairhome.RESETButton.Touch();
+            Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(16));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(13));
+            Delay.Duration(60000, false);
             
         }
 

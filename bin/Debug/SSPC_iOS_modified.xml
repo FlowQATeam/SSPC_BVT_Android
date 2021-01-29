@@ -361,6 +361,50 @@
             Gets or sets the value of variable Nickname.
             </summary>
         </member>
+        <member name="T:SSPC_iOS.History">
+             <summary>
+            The History recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.History.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.History.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.History.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.History.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.History.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.History.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.History.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.History.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
         <member name="T:SSPC_iOS.ManualModeSwitch">
              <summary>
             The ManualModeSwitch recording.
@@ -759,6 +803,50 @@
             </summary>
         </member>
         <member name="P:SSPC_iOS.removedevice.Nickname">
+            <summary>
+            Gets or sets the value of variable Nickname.
+            </summary>
+        </member>
+        <member name="T:SSPC_iOS.Reset">
+             <summary>
+            The Reset recording.
+             </summary>
+        </member>
+        <member name="F:SSPC_iOS.Reset.repo">
+            <summary>
+            Holds an instance of the SSPC_iOS_modifiedRepository repository.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Reset.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Reset.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SSPC_iOS.Reset.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.Reset.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SSPC_iOS.Reset.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Reset.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.Reset.Nickname">
             <summary>
             Gets or sets the value of variable Nickname.
             </summary>
@@ -1527,14 +1615,14 @@
             The FrequencyWeekly item info.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyMonthly">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencySelection">
             <summary>
-            The FrequencyMonthly item.
+            The FrequencySelection item.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyMonthlyInfo">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencySelectionInfo">
             <summary>
-            The FrequencyMonthly item info.
+            The FrequencySelection item info.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.FrequencyDisable">
@@ -1807,34 +1895,34 @@
             The Analytics item info.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DailyAnalytics">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Daily">
             <summary>
-            The DailyAnalytics item.
+            The Daily item.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DailyAnalyticsInfo">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.DailyInfo">
             <summary>
-            The DailyAnalytics item info.
+            The Daily item info.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyAnalytics">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Weekly">
             <summary>
-            The WeeklyAnalytics item.
+            The Weekly item.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyAnalyticsInfo">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyInfo">
             <summary>
-            The WeeklyAnalytics item info.
+            The Weekly item info.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyAnalytics">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Monthly">
             <summary>
-            The MonthlyAnalytics item.
+            The Monthly item.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyAnalyticsInfo">
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyInfo">
             <summary>
-            The MonthlyAnalytics item info.
+            The Monthly item info.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.QuarterlyAnalytics">
@@ -2137,6 +2225,16 @@
             The ScheduleSave item info.
             </summary>
         </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Histy">
+            <summary>
+            The Histy item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.HistyInfo">
+            <summary>
+            The Histy item info.
+            </summary>
+        </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyDayClick">
             <summary>
             The MonthlyDayClick item.
@@ -2165,6 +2263,76 @@
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.MonthlytimeclickInfo">
             <summary>
             The Monthlytimeclick item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Somethingwentwrongcheckpassword">
+            <summary>
+            The Somethingwentwrongcheckpassword item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SomethingwentwrongcheckpasswordInfo">
+            <summary>
+            The Somethingwentwrongcheckpassword item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Product_SupportBack">
+            <summary>
+            The Product_SupportBack item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Product_SupportBackInfo">
+            <summary>
+            The Product_SupportBack item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ContactPentairBack">
+            <summary>
+            The ContactPentairBack item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ContactPentairBackInfo">
+            <summary>
+            The ContactPentairBack item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SumpControllerHomeAppSupportPen">
+            <summary>
+            The SumpControllerHomeAppSupportPen item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.SumpControllerHomeAppSupportPenInfo">
+            <summary>
+            The SumpControllerHomeAppSupportPen item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Factory_Reset_info">
+            <summary>
+            The Factory_Reset_info item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Factory_Reset_infoInfo">
+            <summary>
+            The Factory_Reset_info item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.Resetlink">
+            <summary>
+            The Resetlink item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.ResetlinkInfo">
+            <summary>
+            The Resetlink item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RESETButton">
+            <summary>
+            The RESETButton item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.RESETButtonInfo">
+            <summary>
+            The RESETButton item info.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder.UIWindow">
@@ -2345,6 +2513,16 @@
         <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.InstallationCompleteContinueInfo">
             <summary>
             The InstallationCompleteContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ScreenShot">
+            <summary>
+            The ScreenShot item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder.ScreenShotInfo">
+            <summary>
+            The ScreenShot item info.
             </summary>
         </member>
         <member name="T:SSPC_iOS.SSPC_iOS_modifiedRepositoryFolders.HoursFolder">

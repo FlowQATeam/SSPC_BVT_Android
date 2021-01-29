@@ -124,9 +124,11 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextSMSCancel' at Center", repo.ComPentairPentairhome.TextSMSCancelInfo, new RecordItemIndex(10));
-            repo.ComPentairPentairhome.TextSMSCancel.Touch();
-            Delay.Milliseconds(300);
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.TextSMSCancel' at Center", repo.ComPentairPentairhome.TextSMSCancelInfo, new RecordItemIndex(10));
+                repo.ComPentairPentairhome.TextSMSCancel.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
             Delay.Duration(2000, false);
@@ -152,9 +154,11 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextSMSCancel' at Center", repo.ComPentairPentairhome.TextSMSCancelInfo, new RecordItemIndex(18));
-            repo.ComPentairPentairhome.TextSMSCancel.Touch();
-            Delay.Milliseconds(300);
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.TextSMSCancel' at Center", repo.ComPentairPentairhome.TextSMSCancelInfo, new RecordItemIndex(18));
+                repo.ComPentairPentairhome.TextSMSCancel.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(18)); }
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
             Delay.Duration(2000, false);
@@ -173,9 +177,11 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextSMSAccept' at Center", repo.ComPentairPentairhome.TextSMSAcceptInfo, new RecordItemIndex(24));
-            repo.ComPentairPentairhome.TextSMSAccept.Touch();
-            Delay.Milliseconds(300);
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.TextSMSAccept' at Center", repo.ComPentairPentairhome.TextSMSAcceptInfo, new RecordItemIndex(24));
+                repo.ComPentairPentairhome.TextSMSAccept.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(24)); }
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(25));
             Delay.Duration(10000, false);

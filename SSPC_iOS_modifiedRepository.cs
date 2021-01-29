@@ -307,7 +307,7 @@ namespace SSPC_iOS
             RepoItemInfo _schedulehtdailyselectInfo;
             RepoItemInfo _frequencydailyInfo;
             RepoItemInfo _frequencyweeklyInfo;
-            RepoItemInfo _frequencymonthlyInfo;
+            RepoItemInfo _frequencyselectionInfo;
             RepoItemInfo _frequencydisableInfo;
             RepoItemInfo _schedulehtweeklyselecInfo;
             RepoItemInfo _schedulehtmonthlyselectInfo;
@@ -335,9 +335,9 @@ namespace SSPC_iOS
             RepoItemInfo _extraruntimehelpInfo;
             RepoItemInfo _configuratioonsokInfo;
             RepoItemInfo _analyticsInfo;
-            RepoItemInfo _dailyanalyticsInfo;
-            RepoItemInfo _weeklyanalyticsInfo;
-            RepoItemInfo _monthlyanalyticsInfo;
+            RepoItemInfo _dailyInfo;
+            RepoItemInfo _weeklyInfo;
+            RepoItemInfo _monthlyInfo;
             RepoItemInfo _quarterlyanalyticsInfo;
             RepoItemInfo _removedeviceInfo;
             RepoItemInfo _removebuttonInfo;
@@ -368,9 +368,17 @@ namespace SSPC_iOS
             RepoItemInfo _werewaitingtohearfromyouInfo;
             RepoItemInfo _sumpcontrollersupportInfo;
             RepoItemInfo _schedulesaveInfo;
+            RepoItemInfo _histyInfo;
             RepoItemInfo _monthlydayclickInfo;
             RepoItemInfo _timerstartInfo;
             RepoItemInfo _monthlytimeclickInfo;
+            RepoItemInfo _somethingwentwrongcheckpasswordInfo;
+            RepoItemInfo _product_supportbackInfo;
+            RepoItemInfo _contactpentairbackInfo;
+            RepoItemInfo _sumpcontrollerhomeappsupportpenInfo;
+            RepoItemInfo _factory_reset_infoInfo;
+            RepoItemInfo _resetlinkInfo;
+            RepoItemInfo _resetbuttonInfo;
 
             /// <summary>
             /// Creates a new ComPentairPentairhome  folder.
@@ -408,10 +416,10 @@ namespace SSPC_iOS
                 _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
                 _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", ".//container[@accessibilitylabel~'^Health']", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
                 _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
-                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", 30000, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
-                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", 30000, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
-                _frequencymonthlyInfo = new RepoItemInfo(this, "FrequencyMonthly", ".//container[@accessibilitylabel='Monthly']/container[@accessibilitylabel='Monthly']", 30000, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
-                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", 30000, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
+                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
+                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
+                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", ".//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
+                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
                 _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
                 _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
                 _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", ".//container[@accessibilitylabel='Disable']", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
@@ -438,9 +446,9 @@ namespace SSPC_iOS
                 _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", ".//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
                 _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", ".//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
                 _analyticsInfo = new RepoItemInfo(this, "Analytics", ".//container[@accessibilitylabel='Analytics']", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
-                _dailyanalyticsInfo = new RepoItemInfo(this, "DailyAnalytics", ".//container[@accessibilitylabel='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
-                _weeklyanalyticsInfo = new RepoItemInfo(this, "WeeklyAnalytics", ".//container[@accessibilitylabel='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
-                _monthlyanalyticsInfo = new RepoItemInfo(this, "MonthlyAnalytics", ".//container[@accessibilitylabel='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
+                _dailyInfo = new RepoItemInfo(this, "Daily", ".//container[@accessibilitylabel='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
+                _weeklyInfo = new RepoItemInfo(this, "Weekly", ".//container[@accessibilitylabel='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
+                _monthlyInfo = new RepoItemInfo(this, "Monthly", ".//container[@accessibilitylabel='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
                 _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", ".//container[@accessibilitylabel='Quarterly']", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
                 _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", ".//container[@accessibilitylabel='Remove Device']", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
                 _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", ".//container[@accessibilitylabel='REMOVE']", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
@@ -458,7 +466,7 @@ namespace SSPC_iOS
                 _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", ".//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
                 _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
                 _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
-                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", ".//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']", 30000, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
+                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", ".//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
                 _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", ".//container[@accessibilitylabel='Enter your email to get started.']", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
                 _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", ".//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
                 _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", ".//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
@@ -471,9 +479,17 @@ namespace SSPC_iOS
                 _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", ".//dom[@caption>'Home App | Contact Us | P']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
                 _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", ".//dom[@caption>'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
                 _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", ".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
+                _histyInfo = new RepoItemInfo(this, "Histy", ".//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
                 _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
                 _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
                 _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
+                _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
+                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", ".//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
+                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", ".//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
+                _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
+                _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", ".//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
+                _resetlinkInfo = new RepoItemInfo(this, "Resetlink", ".//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
+                _resetbuttonInfo = new RepoItemInfo(this, "RESETButton", ".//container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']", 30000, null, "7db32416-300f-4a39-9892-6184b661dc0a");
             }
 
             /// <summary>
@@ -1125,26 +1141,26 @@ namespace SSPC_iOS
             }
 
             /// <summary>
-            /// The FrequencyMonthly item.
+            /// The FrequencySelection item.
             /// </summary>
             [RepositoryItem("f049c4d8-db46-48ef-99b3-3de9ff7b50d3")]
-            public virtual Ranorex.Container FrequencyMonthly
+            public virtual Ranorex.Container FrequencySelection
             {
                 get
                 {
-                    return _frequencymonthlyInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _frequencyselectionInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The FrequencyMonthly item info.
+            /// The FrequencySelection item info.
             /// </summary>
             [RepositoryItemInfo("f049c4d8-db46-48ef-99b3-3de9ff7b50d3")]
-            public virtual RepoItemInfo FrequencyMonthlyInfo
+            public virtual RepoItemInfo FrequencySelectionInfo
             {
                 get
                 {
-                    return _frequencymonthlyInfo;
+                    return _frequencyselectionInfo;
                 }
             }
 
@@ -1797,74 +1813,74 @@ namespace SSPC_iOS
             }
 
             /// <summary>
-            /// The DailyAnalytics item.
+            /// The Daily item.
             /// </summary>
             [RepositoryItem("9c430dce-5bca-4490-9337-08d1282252c2")]
-            public virtual Ranorex.Container DailyAnalytics
+            public virtual Ranorex.Container Daily
             {
                 get
                 {
-                    return _dailyanalyticsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _dailyInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The DailyAnalytics item info.
+            /// The Daily item info.
             /// </summary>
             [RepositoryItemInfo("9c430dce-5bca-4490-9337-08d1282252c2")]
-            public virtual RepoItemInfo DailyAnalyticsInfo
+            public virtual RepoItemInfo DailyInfo
             {
                 get
                 {
-                    return _dailyanalyticsInfo;
+                    return _dailyInfo;
                 }
             }
 
             /// <summary>
-            /// The WeeklyAnalytics item.
+            /// The Weekly item.
             /// </summary>
             [RepositoryItem("1cb0ace5-04e3-493b-b405-4b5bd7544d7d")]
-            public virtual Ranorex.Container WeeklyAnalytics
+            public virtual Ranorex.Container Weekly
             {
                 get
                 {
-                    return _weeklyanalyticsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _weeklyInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The WeeklyAnalytics item info.
+            /// The Weekly item info.
             /// </summary>
             [RepositoryItemInfo("1cb0ace5-04e3-493b-b405-4b5bd7544d7d")]
-            public virtual RepoItemInfo WeeklyAnalyticsInfo
+            public virtual RepoItemInfo WeeklyInfo
             {
                 get
                 {
-                    return _weeklyanalyticsInfo;
+                    return _weeklyInfo;
                 }
             }
 
             /// <summary>
-            /// The MonthlyAnalytics item.
+            /// The Monthly item.
             /// </summary>
             [RepositoryItem("3d1e2259-453f-4d08-a571-1aeb3604dcfc")]
-            public virtual Ranorex.Container MonthlyAnalytics
+            public virtual Ranorex.Container Monthly
             {
                 get
                 {
-                    return _monthlyanalyticsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _monthlyInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The MonthlyAnalytics item info.
+            /// The Monthly item info.
             /// </summary>
             [RepositoryItemInfo("3d1e2259-453f-4d08-a571-1aeb3604dcfc")]
-            public virtual RepoItemInfo MonthlyAnalyticsInfo
+            public virtual RepoItemInfo MonthlyInfo
             {
                 get
                 {
-                    return _monthlyanalyticsInfo;
+                    return _monthlyInfo;
                 }
             }
 
@@ -2589,6 +2605,30 @@ namespace SSPC_iOS
             }
 
             /// <summary>
+            /// The Histy item.
+            /// </summary>
+            [RepositoryItem("8e9aa462-4f8a-494b-a243-de8701b6cead")]
+            public virtual Ranorex.Container Histy
+            {
+                get
+                {
+                    return _histyInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Histy item info.
+            /// </summary>
+            [RepositoryItemInfo("8e9aa462-4f8a-494b-a243-de8701b6cead")]
+            public virtual RepoItemInfo HistyInfo
+            {
+                get
+                {
+                    return _histyInfo;
+                }
+            }
+
+            /// <summary>
             /// The MonthlyDayClick item.
             /// </summary>
             [RepositoryItem("47fcfcfc-9823-48fc-8ea5-d9075e815185")]
@@ -2657,6 +2697,174 @@ namespace SSPC_iOS
                 get
                 {
                     return _monthlytimeclickInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Somethingwentwrongcheckpassword item.
+            /// </summary>
+            [RepositoryItem("0ca30444-9133-45cb-b5d3-1d4ab82a7946")]
+            public virtual Ranorex.Container Somethingwentwrongcheckpassword
+            {
+                get
+                {
+                    return _somethingwentwrongcheckpasswordInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Somethingwentwrongcheckpassword item info.
+            /// </summary>
+            [RepositoryItemInfo("0ca30444-9133-45cb-b5d3-1d4ab82a7946")]
+            public virtual RepoItemInfo SomethingwentwrongcheckpasswordInfo
+            {
+                get
+                {
+                    return _somethingwentwrongcheckpasswordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Product_SupportBack item.
+            /// </summary>
+            [RepositoryItem("ffee1561-5e54-45f2-bbff-df998884bc22")]
+            public virtual Ranorex.Container Product_SupportBack
+            {
+                get
+                {
+                    return _product_supportbackInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Product_SupportBack item info.
+            /// </summary>
+            [RepositoryItemInfo("ffee1561-5e54-45f2-bbff-df998884bc22")]
+            public virtual RepoItemInfo Product_SupportBackInfo
+            {
+                get
+                {
+                    return _product_supportbackInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContactPentairBack item.
+            /// </summary>
+            [RepositoryItem("c798ee49-c3e1-4324-b591-360be8abc2ec")]
+            public virtual Ranorex.Container ContactPentairBack
+            {
+                get
+                {
+                    return _contactpentairbackInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContactPentairBack item info.
+            /// </summary>
+            [RepositoryItemInfo("c798ee49-c3e1-4324-b591-360be8abc2ec")]
+            public virtual RepoItemInfo ContactPentairBackInfo
+            {
+                get
+                {
+                    return _contactpentairbackInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SumpControllerHomeAppSupportPen item.
+            /// </summary>
+            [RepositoryItem("c6d7e5c7-7532-4a70-9ae0-251508285a9c")]
+            public virtual Ranorex.WebDocument SumpControllerHomeAppSupportPen
+            {
+                get
+                {
+                    return _sumpcontrollerhomeappsupportpenInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SumpControllerHomeAppSupportPen item info.
+            /// </summary>
+            [RepositoryItemInfo("c6d7e5c7-7532-4a70-9ae0-251508285a9c")]
+            public virtual RepoItemInfo SumpControllerHomeAppSupportPenInfo
+            {
+                get
+                {
+                    return _sumpcontrollerhomeappsupportpenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Factory_Reset_info item.
+            /// </summary>
+            [RepositoryItem("a755e82d-7dd0-45b2-bc9a-b958582e8676")]
+            public virtual Ranorex.Container Factory_Reset_info
+            {
+                get
+                {
+                    return _factory_reset_infoInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Factory_Reset_info item info.
+            /// </summary>
+            [RepositoryItemInfo("a755e82d-7dd0-45b2-bc9a-b958582e8676")]
+            public virtual RepoItemInfo Factory_Reset_infoInfo
+            {
+                get
+                {
+                    return _factory_reset_infoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Resetlink item.
+            /// </summary>
+            [RepositoryItem("f7d012fd-2bdd-4689-b37d-e26b029ac7a5")]
+            public virtual Ranorex.Container Resetlink
+            {
+                get
+                {
+                    return _resetlinkInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Resetlink item info.
+            /// </summary>
+            [RepositoryItemInfo("f7d012fd-2bdd-4689-b37d-e26b029ac7a5")]
+            public virtual RepoItemInfo ResetlinkInfo
+            {
+                get
+                {
+                    return _resetlinkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RESETButton item.
+            /// </summary>
+            [RepositoryItem("7db32416-300f-4a39-9892-6184b661dc0a")]
+            public virtual Ranorex.Container RESETButton
+            {
+                get
+                {
+                    return _resetbuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RESETButton item info.
+            /// </summary>
+            [RepositoryItemInfo("7db32416-300f-4a39-9892-6184b661dc0a")]
+            public virtual RepoItemInfo RESETButtonInfo
+            {
+                get
+                {
+                    return _resetbuttonInfo;
                 }
             }
 
@@ -2734,6 +2942,7 @@ namespace SSPC_iOS
             RepoItemInfo _addresscontinueInfo;
             RepoItemInfo _nicknamesaveInfo;
             RepoItemInfo _installationcompletecontinueInfo;
+            RepoItemInfo _screenshotInfo;
 
             /// <summary>
             /// Creates a new UIWindow  folder.
@@ -2742,7 +2951,7 @@ namespace SSPC_iOS
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
                 _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel='Sump Controller ']/container[@accessibilitylabel='Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
                 _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
                 _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
                 _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
@@ -2754,6 +2963,7 @@ namespace SSPC_iOS
                 _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", ".//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
                 _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "?/?/?//?/?/container[@accessibilitylabel='SAVE']", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
                 _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
+                _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
             }
 
             /// <summary>
@@ -3089,6 +3299,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _installationcompletecontinueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ScreenShot item.
+            /// </summary>
+            [RepositoryItem("792081cf-928d-47f8-bc6a-dfc286be7470")]
+            public virtual Ranorex.Form ScreenShot
+            {
+                get
+                {
+                    return _screenshotInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ScreenShot item info.
+            /// </summary>
+            [RepositoryItemInfo("792081cf-928d-47f8-bc6a-dfc286be7470")]
+            public virtual RepoItemInfo ScreenShotInfo
+            {
+                get
+                {
+                    return _screenshotInfo;
                 }
             }
         }

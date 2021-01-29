@@ -108,6 +108,81 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="True"
+		screenshotname=""
+		searchpropertyid="cb94ef6d-fca3-46b4-ad21-a269d605182d"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c5211c82-3ee9-46b7-914e-935a920a095b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="False"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="331,315,16,16"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						assets/src/Common_Feature/Images/closeIconBlue@2x.png
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						RCTUIImageViewAnimated
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						211212448
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']
+				</path>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="042761be-07e8-4710-9090-4657c7a8ba3d"

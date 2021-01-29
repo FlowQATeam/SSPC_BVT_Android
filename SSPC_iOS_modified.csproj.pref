@@ -4,18 +4,15 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ScheduleHealthTestDisable.rxrec" />
-    <Element value="ScheduleHealthTestMonthly.rxrec" />
-    <Element value="ScheduleHealthTestMonthly.UserCode.cs" />
     <Element value="SSPC_iOS_modified.rxtst" />
-    <Element value="ScheduleHealthTestWeekly.rxrec" />
+    <Element value="Launch_App.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="SSPC_iOS.ScheduleHealthTestMonthly.dateAndMonthExtracter()" />
+      <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Hours(RepoItemInfo iospickerInfo)" />
       <Element value="SSPC_iOS.ScheduleHealthTestMonthly.dateAndMonthExtracter()" />
       <Element value="SSPC_iOS.ScheduleHealthTestWeekly.Swipe_gesture_Hours(RepoItemInfo iospickerInfo)" />
       <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Hours1(RepoItemInfo iospickerInfo)" />

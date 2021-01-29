@@ -164,24 +164,15 @@ mode="Global">
 				</path>
 			</info>
 		</touchrecorditem>
-		<WaitForRecordItem
-		enabled="False"
-		optional="True"
-		searchpropertyid="2701e687-84f8-4f39-b469-e328e4ff868b"
-		waitaction="Exists"
-		waittimeout="120000ms">
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="21012d44-7afa-41a8-832f-e09421a35dbd"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']///dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div
-				</path>
-			</info>
-		</WaitForRecordItem>
+		</explicitdelayitem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -248,8 +239,194 @@ mode="Global">
 				Sump Controller Support
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="701312e0-5d09-42c3-af9a-49dbb82b4d72">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				minattr="1"
+				prefcap="form"
+				rect="0,0,414,896"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIWindow
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1158769472
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+			</info>
+		</loggingrecorditem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="True"
+		searchpropertyid="2701e687-84f8-4f39-b469-e328e4ff868b"
+		waitaction="Exists"
+		waittimeout="120000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c6d7e5c7-7532-4a70-9ae0-251508285a9c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//dom[@domain='www.pentair.com']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="95736766-6f54-44cb-904d-e3364209160a"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ffee1561-5e54-45f2-bbff-df998884bc22"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="False"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="18,94,20,18"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						RCTUIImageViewAnimated
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						82598128
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']
+				</path>
+			</info>
+		</touchrecorditem>
 		<explicitdelayitem
 		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="10000ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="2402a5e2-7708-42a2-ab3e-6b171f30407c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c7e40612-6fa9-4a97-9e7f-f9c63633507a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<explicitdelayitem
+		duration="35000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<runmobileapprecorditem
+		application="com.pentair.pentairhome"
+		devicename="Jyotiâ€™s iPhone"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<explicitdelayitem
+		duration="10000ms"
 		enabled="True"
 		optional="False">
 			<comment>

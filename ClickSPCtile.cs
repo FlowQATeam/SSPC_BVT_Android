@@ -106,6 +106,15 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
             Delay.Duration(2000, false);
             
+            try {
+                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.AppFeedbackClose' at Center", repo.ComPentairPentairhome.AppFeedbackCloseInfo, new RecordItemIndex(5));
+                repo.ComPentairPentairhome.AppFeedbackClose.Touch();
+                Delay.Milliseconds(300);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
+            Delay.Duration(2000, false);
+            
         }
 
 #region Image Feature Data

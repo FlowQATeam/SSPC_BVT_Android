@@ -222,6 +222,18 @@
       <UserCode>true</UserCode>
       <id>023c6aa1-b438-4652-87e1-ea679dbeb875</id>
     </Compile>
+    <Compile Include="History.cs">
+      <BoundTo>5ecb53a0-2e07-4096-82da-9d23b21adb5a</BoundTo>
+      <DependentUpon>History.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b05bc81c-397b-46a7-8706-77bfa9b9750f</id>
+    </Compile>
+    <Compile Include="History.UserCode.cs">
+      <BoundTo>5ecb53a0-2e07-4096-82da-9d23b21adb5a</BoundTo>
+      <DependentUpon>History.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e77cfaf-b325-402b-8115-834061e4f296</id>
+    </Compile>
     <Compile Include="ManualModeSwitch.cs">
       <BoundTo>8cb3ee7e-4648-4bab-bb04-32659851ce34</BoundTo>
       <DependentUpon>ManualModeSwitch.rxrec</DependentUpon>
@@ -320,6 +332,18 @@
       <DependentUpon>removedevice.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3e24b794-5f8f-4028-b149-f48d0498ab59</id>
+    </Compile>
+    <Compile Include="Reset.cs">
+      <BoundTo>1df43910-60f2-4fa6-8258-e5ba0c008b5e</BoundTo>
+      <DependentUpon>Reset.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>50e4b59f-56a8-47d7-b75b-a000aea89a84</id>
+    </Compile>
+    <Compile Include="Reset.UserCode.cs">
+      <BoundTo>1df43910-60f2-4fa6-8258-e5ba0c008b5e</BoundTo>
+      <DependentUpon>Reset.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73c1baa4-ba16-4c44-9903-d8b4cff508ac</id>
     </Compile>
     <Compile Include="RunHealthTest.cs">
       <BoundTo>d7c5449c-8066-41db-865f-647afb958666</BoundTo>
@@ -468,6 +492,11 @@
       <id>ca7bc8e3-d1bd-4f89-958c-db4c9ba8b622</id>
       <recordtableid>054358d2-3118-4289-8170-6c58e8b605c7</recordtableid>
     </None>
+    <None Include="History.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>5ecb53a0-2e07-4096-82da-9d23b21adb5a</id>
+      <recordtableid>dd5d449a-51c5-43df-aa99-a0b1030f7190</recordtableid>
+    </None>
     <None Include="Launch_App.rxrec">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
       <id>3f971247-3a4e-4b61-8035-a776a9993b58</id>
@@ -514,6 +543,11 @@
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
       <id>f72c003e-1142-49f1-a6a2-4cfbf3841458</id>
       <recordtableid>8591d5f4-0269-4349-b554-025b30a84e22</recordtableid>
+    </None>
+    <None Include="Reset.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>1df43910-60f2-4fa6-8258-e5ba0c008b5e</id>
+      <recordtableid>aedaf9ec-e149-4987-a009-c7e9947aa840</recordtableid>
     </None>
     <None Include="RunHealthTest.rxrec">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>

@@ -126,64 +126,64 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.SSPCtileClick.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Settingsicon' at Center", repo.ComPentairPentairhome.SettingsiconInfo, new RecordItemIndex(4));
             repo.ComPentairPentairhome.Settingsicon.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(5));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Configurations' at Center", repo.ComPentairPentairhome.ConfigurationsInfo, new RecordItemIndex(6));
             repo.ComPentairPentairhome.Configurations.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(7));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DryRunToggle' at Center", repo.ComPentairPentairhome.DryRunToggleInfo, new RecordItemIndex(8));
             repo.ComPentairPentairhome.DryRunToggle.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(9));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$DryRunInput' on item 'ComPentairPentairhome.DryRunInput'.", repo.ComPentairPentairhome.DryRunInputInfo, new RecordItemIndex(10));
             repo.ComPentairPentairhome.DryRunInput.Element.SetAttributeValue("Text", DryRunInput);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DryRunHelp' at Center", repo.ComPentairPentairhome.DryRunHelpInfo, new RecordItemIndex(12));
             repo.ComPentairPentairhome.DryRunHelp.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ConfiguratioonsOK' at Center", repo.ComPentairPentairhome.ConfiguratioonsOKInfo, new RecordItemIndex(14));
             repo.ComPentairPentairhome.ConfiguratioonsOK.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(15));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(15));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$ExtraRunTimeInput' on item 'ComPentairPentairhome.ExtraRunTimeInput'.", repo.ComPentairPentairhome.ExtraRunTimeInputInfo, new RecordItemIndex(16));
             repo.ComPentairPentairhome.ExtraRunTimeInput.Element.SetAttributeValue("Text", ExtraRunTimeInput);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(17));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(17));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ExtraRuntimeHelp' at Center", repo.ComPentairPentairhome.ExtraRuntimeHelpInfo, new RecordItemIndex(18));
             repo.ComPentairPentairhome.ExtraRuntimeHelp.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(19));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(19));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.ConfiguratioonsOK'.", repo.ComPentairPentairhome.ConfiguratioonsOKInfo, new RecordItemIndex(20));
             repo.ComPentairPentairhome.ConfiguratioonsOK.Element.InvokeActionWithText("Touch");
@@ -195,8 +195,8 @@ namespace SSPC_iOS
                 Delay.Milliseconds(300);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(21)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(22));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(22));
+            Delay.Duration(5000, false);
             
         }
 

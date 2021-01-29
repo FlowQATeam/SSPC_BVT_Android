@@ -193,13 +193,13 @@ namespace SSPC_iOS
             Delay.Milliseconds(300);
             
             try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.UIWindow.WifiSelection' at Center", repo.ComPentairPentairhome.UIWindow.WifiSelectionInfo, new RecordItemIndex(17));
-                repo.ComPentairPentairhome.UIWindow.WifiSelection.Touch();
-                Delay.Milliseconds(300);
+                //Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.UIWindow.WifiSelection' at Center", repo.ComPentairPentairhome.UIWindow.WifiSelectionInfo, new RecordItemIndex(17));
+                //repo.ComPentairPentairhome.UIWindow.WifiSelection.Touch();
+                //Delay.Milliseconds(300);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(17)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(18));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(18));
+            Delay.Duration(20000, false);
             
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$WifiPassword' on item 'ComPentairPentairhome.UIWindow.WifiPasswordinput'.", repo.ComPentairPentairhome.UIWindow.WifiPasswordinputInfo, new RecordItemIndex(19));
             repo.ComPentairPentairhome.UIWindow.WifiPasswordinput.Element.SetAttributeValue("Text", WifiPassword);
