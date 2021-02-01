@@ -836,10 +836,10 @@ mode="Global">
 	</recorditems>
 	<repository
 	id="042761be-07e8-4710-9090-4657c7a8ba3d"
-	name="SSPC_iOS_BVTRepository"
-	relativepath="SSPC_iOS_BVTRepository.rxrep">
+	name="SSPC_Android_BVTRepository"
+	relativepath="SSPC_Android_BVTRepository.rxrep">
 		<codegen
-		classname="SSPC_iOS_BVTRepository"
+		classname="SSPC_Android_BVTRepository"
 		namespace="SSPC_iOS">
 		</codegen>
 		<rootfolder

@@ -30,9 +30,9 @@ namespace SSPC_iOS
     public partial class ScheduleHealthTestDaily : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SSPC_iOS_BVTRepository repository.
+        /// Holds an instance of the SSPC_Android_BVTRepository repository.
         /// </summary>
-        public static SSPC_iOS_BVTRepository repo = SSPC_iOS_BVTRepository.Instance;
+        public static SSPC_Android_BVTRepository repo = SSPC_Android_BVTRepository.Instance;
 
         static ScheduleHealthTestDaily instance = new ScheduleHealthTestDaily();
 
