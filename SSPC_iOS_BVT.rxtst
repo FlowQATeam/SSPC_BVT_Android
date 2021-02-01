@@ -618,7 +618,7 @@
 			</testcase>
 			<testcase
 			id="cd0d2fcc-9b0a-44de-b15e-4b0c36a3fcc1"
-			name="SSPC_iOS_modified"
+			name="SSPC_iOS_BVT"
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
@@ -755,7 +755,7 @@
 			enabletracingscreenshots="True"
 			id="f13a3a35-7cb5-4572-ac36-58d156b77753"
 			junitreport="False"
-			name="SSPC_iOS_modified"
+			name="SSPC_iOS_BVT"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -808,10 +808,10 @@
 		<childhierarchy>
 			<testsuite
 			id="f13a3a35-7cb5-4572-ac36-58d156b77753"
-			name="SSPC_iOS_modified">
+			name="SSPC_iOS_BVT">
 				<testcase
 				id="cd0d2fcc-9b0a-44de-b15e-4b0c36a3fcc1"
-				name="SSPC_iOS_modified">
+				name="SSPC_iOS_BVT">
 					<testcase
 					id="f236ba45-53a4-472b-b171-bdac8306596a"
 					name="Launch_and_Login">

@@ -30,9 +30,9 @@ namespace SSPC_iOS
     public partial class productsupport : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SSPC_iOS_modifiedRepository repository.
+        /// Holds an instance of the SSPC_iOS_BVTRepository repository.
         /// </summary>
-        public static SSPC_iOS_modifiedRepository repo = SSPC_iOS_modifiedRepository.Instance;
+        public static SSPC_iOS_BVTRepository repo = SSPC_iOS_BVTRepository.Instance;
 
         static productsupport instance = new productsupport();
 

@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.3.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPC_iOS_modified", "SSPC_iOS_modified.csproj", "{CD393739-EE34-416A-86AD-E8F279672D0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPC_iOS_BVT", "SSPC_iOS_BVT.csproj", "{CD393739-EE34-416A-86AD-E8F279672D0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{C2686CB0-391C-4839-80D2-2B84DB87CA8D}"
 EndProject

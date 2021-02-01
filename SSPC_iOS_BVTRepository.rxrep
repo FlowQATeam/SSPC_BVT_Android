@@ -1,8 +1,8 @@
 ﻿<repository
 id="042761be-07e8-4710-9090-4657c7a8ba3d"
-name="SSPC_iOS_modifiedRepository">
+name="SSPC_iOS_BVTRepository">
 	<codegen
-	classname="SSPC_iOS_modifiedRepository"
+	classname="SSPC_iOS_BVTRepository"
 	namespace="SSPC_iOS">
 	</codegen>
 	<rootfolder

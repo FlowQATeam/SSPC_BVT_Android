@@ -7,7 +7,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Exe</OutputType>
     <RootNamespace>SSPC_iOS</RootNamespace>
-    <AssemblyName>SSPC_iOS_modified</AssemblyName>
+    <AssemblyName>SSPC_iOS_BVT</AssemblyName>
     <NoWarn>1591</NoWarn>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
@@ -417,9 +417,9 @@
       <UserCode>true</UserCode>
       <id>4b9400a1-4325-41ff-a3e2-a2444fe2b1fa</id>
     </Compile>
-    <Compile Include="SSPC_iOS_modifiedRepository.cs">
+    <Compile Include="SSPC_iOS_BVTRepository.cs">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
-      <DependentUpon>SSPC_iOS_modifiedRepository.rxrep</DependentUpon>
+      <DependentUpon>SSPC_iOS_BVTRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>0981acd9-1972-4212-b903-60c50f81572c</id>
     </Compile>
@@ -535,7 +535,7 @@
     <Content Include="QACredCSV.csv">
       <Link>QACredCSV.csv</Link>
       <BoundTo>f2f873db-e329-417c-b0e2-8edf9022e1fd</BoundTo>
-      <DependentUpon>SSPC_iOS_modified.rxtst</DependentUpon>
+      <DependentUpon>SSPC_iOS_BVT.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>709ce0ac-0a3f-4086-99a5-0851bcb23369</id>
     </Content>
@@ -579,13 +579,13 @@
       <id>82b81088-a19a-4f83-81cf-ffc78363a005</id>
       <recordtableid>d8d8f3e6-092b-46e0-8f41-630fb24571c6</recordtableid>
     </None>
-    <None Include="SSPC_iOS_modifiedRepository.rximg">
+    <None Include="SSPC_iOS_BVTRepository.rximg">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
-      <DependentUpon>SSPC_iOS_modifiedRepository.rxrep</DependentUpon>
+      <DependentUpon>SSPC_iOS_BVTRepository.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>a17b8cf7-0bae-4351-bac9-0f6be9cc076d</id>
     </None>
-    <None Include="SSPC_iOS_modifiedRepository.rxrep">
+    <None Include="SSPC_iOS_BVTRepository.rxrep">
       <id>1257abc7-ec7a-489a-80bb-d04e1f4294b1</id>
       <repoid>042761be-07e8-4710-9090-4657c7a8ba3d</repoid>
       <reporootid>f06284d3-1084-4358-8b35-59ebc0068d7e</reporootid>
@@ -602,11 +602,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SSPC_iOS_modified.rxtmg">
+    <Content Include="SSPC_iOS_BVT.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>a968b898-8eaf-4a9b-99a7-996a62ff330b</id>
     </Content>
-    <Content Include="SSPC_iOS_modified.rxtst">
+    <Content Include="SSPC_iOS_BVT.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>f2f873db-e329-417c-b0e2-8edf9022e1fd</id>
     </Content>

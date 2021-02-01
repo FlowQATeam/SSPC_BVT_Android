@@ -20,22 +20,22 @@ namespace SSPC_iOS
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    /// The class representing the SSPC_iOS_modifiedRepository element repository.
+    /// The class representing the SSPC_iOS_BVTRepository element repository.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     [RepositoryFolder("f06284d3-1084-4358-8b35-59ebc0068d7e")]
-    public partial class SSPC_iOS_modifiedRepository : RepoGenBaseFolder
+    public partial class SSPC_iOS_BVTRepository : RepoGenBaseFolder
     {
-        static SSPC_iOS_modifiedRepository instance = new SSPC_iOS_modifiedRepository();
-        SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder _compentairpentairhome;
-        SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder _nodereddashboard;
-        SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder _google;
+        static SSPC_iOS_BVTRepository instance = new SSPC_iOS_BVTRepository();
+        SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder _compentairpentairhome;
+        SSPC_iOS_BVTRepositoryFolders.NodeREDDashboardAppFolder _nodereddashboard;
+        SSPC_iOS_BVTRepositoryFolders.GoogleAppFolder _google;
 
         /// <summary>
-        /// Gets the singleton class instance representing the SSPC_iOS_modifiedRepository element repository.
+        /// Gets the singleton class instance representing the SSPC_iOS_BVTRepository element repository.
         /// </summary>
         [RepositoryFolder("f06284d3-1084-4358-8b35-59ebc0068d7e")]
-        public static SSPC_iOS_modifiedRepository Instance
+        public static SSPC_iOS_BVTRepository Instance
         {
             get { return instance; }
         }
@@ -43,12 +43,12 @@ namespace SSPC_iOS
         /// <summary>
         /// Repository class constructor.
         /// </summary>
-        public SSPC_iOS_modifiedRepository() 
-            : base("SSPC_iOS_modifiedRepository", "/", null, 0, false, "f06284d3-1084-4358-8b35-59ebc0068d7e", ".\\RepositoryImages\\SSPC_iOS_modifiedRepositoryf06284d3.rximgres")
+        public SSPC_iOS_BVTRepository() 
+            : base("SSPC_iOS_BVTRepository", "/", null, 0, false, "f06284d3-1084-4358-8b35-59ebc0068d7e", ".\\RepositoryImages\\SSPC_iOS_BVTRepositoryf06284d3.rximgres")
         {
-            _compentairpentairhome = new SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder(this);
-            _nodereddashboard = new SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder(this);
-            _google = new SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder(this);
+            _compentairpentairhome = new SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder(this);
+            _nodereddashboard = new SSPC_iOS_BVTRepositoryFolders.NodeREDDashboardAppFolder(this);
+            _google = new SSPC_iOS_BVTRepositoryFolders.GoogleAppFolder(this);
         }
 
 #region Variables
@@ -239,7 +239,7 @@ namespace SSPC_iOS
         /// The ComPentairPentairhome folder.
         /// </summary>
         [RepositoryFolder("c7e40612-6fa9-4a97-9e7f-f9c63633507a")]
-        public virtual SSPC_iOS_modifiedRepositoryFolders.ComPentairPentairhomeAppFolder ComPentairPentairhome
+        public virtual SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder ComPentairPentairhome
         {
             get { return _compentairpentairhome; }
         }
@@ -248,7 +248,7 @@ namespace SSPC_iOS
         /// The NodeREDDashboard folder.
         /// </summary>
         [RepositoryFolder("4b98e7c3-e30c-40ce-bec1-d116df6ef7bf")]
-        public virtual SSPC_iOS_modifiedRepositoryFolders.NodeREDDashboardAppFolder NodeREDDashboard
+        public virtual SSPC_iOS_BVTRepositoryFolders.NodeREDDashboardAppFolder NodeREDDashboard
         {
             get { return _nodereddashboard; }
         }
@@ -257,7 +257,7 @@ namespace SSPC_iOS
         /// The Google folder.
         /// </summary>
         [RepositoryFolder("47b23a98-2f5e-40fa-9324-6a4fd4552a0c")]
-        public virtual SSPC_iOS_modifiedRepositoryFolders.GoogleAppFolder Google
+        public virtual SSPC_iOS_BVTRepositoryFolders.GoogleAppFolder Google
         {
             get { return _google; }
         }
@@ -267,7 +267,7 @@ namespace SSPC_iOS
     /// Inner folder classes.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    public partial class SSPC_iOS_modifiedRepositoryFolders
+    public partial class SSPC_iOS_BVTRepositoryFolders
     {
         /// <summary>
         /// The ComPentairPentairhomeAppFolder folder.
@@ -275,12 +275,12 @@ namespace SSPC_iOS
         [RepositoryFolder("c7e40612-6fa9-4a97-9e7f-f9c63633507a")]
         public partial class ComPentairPentairhomeAppFolder : RepoGenBaseFolder
         {
-            SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder _uiwindow;
-            SSPC_iOS_modifiedRepositoryFolders.HoursFolder _hours;
-            SSPC_iOS_modifiedRepositoryFolders.MinutesFolder _minutes;
-            SSPC_iOS_modifiedRepositoryFolders.AMPMFolder _ampm;
-            SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder _timeminutes;
-            SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder _timerhours;
+            SSPC_iOS_BVTRepositoryFolders.UIWindowFolder _uiwindow;
+            SSPC_iOS_BVTRepositoryFolders.HoursFolder _hours;
+            SSPC_iOS_BVTRepositoryFolders.MinutesFolder _minutes;
+            SSPC_iOS_BVTRepositoryFolders.AMPMFolder _ampm;
+            SSPC_iOS_BVTRepositoryFolders.TimeMinutesFolder _timeminutes;
+            SSPC_iOS_BVTRepositoryFolders.TimerHoursFolder _timerhours;
             RepoItemInfo _skipInfo;
             RepoItemInfo _firstscreensipeInfo;
             RepoItemInfo _secondscreensipeInfo;
@@ -386,12 +386,12 @@ namespace SSPC_iOS
             public ComPentairPentairhomeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("ComPentairPentairhome", "/mobileapp[@title='com.pentair.pentairhome']", parentFolder, 30000, null, false, "c7e40612-6fa9-4a97-9e7f-f9c63633507a", "")
             {
-                _uiwindow = new SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder(this);
-                _hours = new SSPC_iOS_modifiedRepositoryFolders.HoursFolder(this);
-                _minutes = new SSPC_iOS_modifiedRepositoryFolders.MinutesFolder(this);
-                _ampm = new SSPC_iOS_modifiedRepositoryFolders.AMPMFolder(this);
-                _timeminutes = new SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder(this);
-                _timerhours = new SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder(this);
+                _uiwindow = new SSPC_iOS_BVTRepositoryFolders.UIWindowFolder(this);
+                _hours = new SSPC_iOS_BVTRepositoryFolders.HoursFolder(this);
+                _minutes = new SSPC_iOS_BVTRepositoryFolders.MinutesFolder(this);
+                _ampm = new SSPC_iOS_BVTRepositoryFolders.AMPMFolder(this);
+                _timeminutes = new SSPC_iOS_BVTRepositoryFolders.TimeMinutesFolder(this);
+                _timerhours = new SSPC_iOS_BVTRepositoryFolders.TimerHoursFolder(this);
                 _skipInfo = new RepoItemInfo(this, "Skip", "form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
                 _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
                 _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
@@ -2872,7 +2872,7 @@ namespace SSPC_iOS
             /// The UIWindow folder.
             /// </summary>
             [RepositoryFolder("fc27c716-d874-44cf-9784-24124e1b375f")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.UIWindowFolder UIWindow
+            public virtual SSPC_iOS_BVTRepositoryFolders.UIWindowFolder UIWindow
             {
                 get { return _uiwindow; }
             }
@@ -2881,7 +2881,7 @@ namespace SSPC_iOS
             /// The Hours folder.
             /// </summary>
             [RepositoryFolder("660f785d-ed74-4ce2-a7e6-b7c402a17395")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.HoursFolder Hours
+            public virtual SSPC_iOS_BVTRepositoryFolders.HoursFolder Hours
             {
                 get { return _hours; }
             }
@@ -2890,7 +2890,7 @@ namespace SSPC_iOS
             /// The Minutes folder.
             /// </summary>
             [RepositoryFolder("1b317da3-894c-4377-ba91-2b2e63083c24")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.MinutesFolder Minutes
+            public virtual SSPC_iOS_BVTRepositoryFolders.MinutesFolder Minutes
             {
                 get { return _minutes; }
             }
@@ -2899,7 +2899,7 @@ namespace SSPC_iOS
             /// The AMPM folder.
             /// </summary>
             [RepositoryFolder("a0f67023-31a6-45c1-a5de-49f2a47fd025")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.AMPMFolder AMPM
+            public virtual SSPC_iOS_BVTRepositoryFolders.AMPMFolder AMPM
             {
                 get { return _ampm; }
             }
@@ -2908,7 +2908,7 @@ namespace SSPC_iOS
             /// The TimeMinutes folder.
             /// </summary>
             [RepositoryFolder("e87b84af-407e-41b6-80fa-df5f0efeeec2")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.TimeMinutesFolder TimeMinutes
+            public virtual SSPC_iOS_BVTRepositoryFolders.TimeMinutesFolder TimeMinutes
             {
                 get { return _timeminutes; }
             }
@@ -2917,7 +2917,7 @@ namespace SSPC_iOS
             /// The TimerHours folder.
             /// </summary>
             [RepositoryFolder("cef7e1c2-a5df-4d2c-ac74-38e12ca0faa9")]
-            public virtual SSPC_iOS_modifiedRepositoryFolders.TimerHoursFolder TimerHours
+            public virtual SSPC_iOS_BVTRepositoryFolders.TimerHoursFolder TimerHours
             {
                 get { return _timerhours; }
             }
