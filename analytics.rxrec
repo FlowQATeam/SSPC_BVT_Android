@@ -265,10 +265,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="1cb0ace5-04e3-493b-b405-4b5bd7544d7d"
+			id="643e52be-fc1b-4022-a75a-1cbdff3a9003"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Weekly']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']
 				</path>
 			</info>
 		</touchrecorditem>
@@ -302,10 +302,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="3d1e2259-453f-4d08-a571-1aeb3604dcfc"
+			id="0af8abf0-33a8-4634-aaab-0d92c6682583"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Monthly']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']
 				</path>
 			</info>
 		</touchrecorditem>
@@ -376,10 +376,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="9c430dce-5bca-4490-9337-08d1282252c2"
+			id="32b9103b-6261-46a7-bea6-1d783131ebc9"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Daily']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']
 				</path>
 			</info>
 		</touchrecorditem>

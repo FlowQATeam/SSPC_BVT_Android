@@ -189,13 +189,7 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.ConfiguratioonsOK.Element.InvokeActionWithText("Touch");
             Delay.Milliseconds(0);
             
-            try {
-                Report.Log(ReportLevel.Info, "Touch", "(Optional Action)\r\nTouch item 'ComPentairPentairhome.ConfiguratioonsOK' at Center", repo.ComPentairPentairhome.ConfiguratioonsOKInfo, new RecordItemIndex(21));
-                repo.ComPentairPentairhome.ConfiguratioonsOK.Touch();
-                Delay.Milliseconds(300);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(21)); }
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(21));
             Delay.Duration(5000, false);
             
         }

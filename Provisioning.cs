@@ -90,16 +90,6 @@ namespace SSPC_iOS
         }
 
         /// <summary>
-        /// Gets or sets the value of variable WifiPageContainer.
-        /// </summary>
-        [TestVariable("adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd")]
-        public string WifiPageContainer
-        {
-            get { return repo.WifiPageContainer; }
-            set { repo.WifiPageContainer = value; }
-        }
-
-        /// <summary>
         /// Gets or sets the value of variable Nickname.
         /// </summary>
         [TestVariable("aa74b70b-cbcd-4604-8ca2-b53b49661b48")]
@@ -159,19 +149,19 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.setupBluetoothScerollUp'.", repo.ComPentairPentairhome.setupBluetoothScerollUpInfo, new RecordItemIndex(7));
-            repo.ComPentairPentairhome.setupBluetoothScerollUp.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '3.0' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.setupBluetoothScerollUp'.", repo.ComPentairPentairhome.setupBluetoothScerollUpInfo, new RecordItemIndex(7));
+            repo.ComPentairPentairhome.setupBluetoothScerollUp.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", "3.0"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(8));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.BluetoothContinue' at Center", repo.ComPentairPentairhome.UIWindow.BluetoothContinueInfo, new RecordItemIndex(9));
             repo.ComPentairPentairhome.UIWindow.BluetoothContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(10));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ComPentairPentairhome.UIWindow.DeviceSelection'", repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo, new ActionTimeout(30000), new RecordItemIndex(11));
             repo.ComPentairPentairhome.UIWindow.DeviceSelectionInfo.WaitForExists(30000);
@@ -183,15 +173,15 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.UIWindow.DeviceSelection.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(14));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ConnectionEstablishedContinue' at Center", repo.ComPentairPentairhome.UIWindow.ConnectionEstablishedContinueInfo, new RecordItemIndex(15));
             repo.ComPentairPentairhome.UIWindow.ConnectionEstablishedContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(16));
-            Delay.Duration(3000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(16));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiSelection' at Center", repo.ComPentairPentairhome.UIWindow.WifiSelectionInfo, new RecordItemIndex(17));
             repo.ComPentairPentairhome.UIWindow.WifiSelection.Touch();
@@ -211,8 +201,8 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.UIWindow.WifiContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(22));
-            Delay.Duration(30000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(22));
+            Delay.Duration(60000, false);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking Touch() on item 'ComPentairPentairhome.UIWindow.AddressContinue'.", repo.ComPentairPentairhome.UIWindow.AddressContinueInfo, new RecordItemIndex(23));
             repo.ComPentairPentairhome.UIWindow.AddressContinue.Element.InvokeActionWithText("Touch");

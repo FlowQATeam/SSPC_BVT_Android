@@ -101,7 +101,7 @@ mode="Global">
 		</explicitdelayitem>
 		<swiperecorditem
 		direction="270"
-		distance="200"
+		distance=".5"
 		duration="500ms"
 		enabled="True"
 		optional="False"

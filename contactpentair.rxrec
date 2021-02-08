@@ -183,7 +183,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="15000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -294,54 +294,6 @@ mode="Global">
 				</path>
 			</info>
 		</touchrecorditem>
-		<explicitdelayitem
-		duration="10000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<closeapprecorditem
-		enabled="True"
-		graceperiod="10000ms"
-		method="KillProcess"
-		optional="False"
-		searchpropertyid="93a45449-4113-442d-b2d7-9194467ffc78">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="c7e40612-6fa9-4a97-9e7f-f9c63633507a"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']
-				</path>
-			</info>
-		</closeapprecorditem>
-		<explicitdelayitem
-		duration="30000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<runmobileapprecorditem
-		application="com.pentair.pentairhome"
-		devicename="Jyotiâ€™s iPhone"
-		duration="3500ms"
-		enabled="True"
-		optional="False"
-		resetInitialState="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</runmobileapprecorditem>
 		<explicitdelayitem
 		duration="10000ms"
 		enabled="True"

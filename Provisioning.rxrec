@@ -167,7 +167,7 @@ mode="Global">
 		</explicitdelayitem>
 		<swiperecorditem
 		direction="270"
-		distance=".5"
+		distance="3.0"
 		duration="500ms"
 		enabled="True"
 		optional="False"
@@ -190,7 +190,7 @@ mode="Global">
 			</info>
 		</swiperecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -227,7 +227,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -291,7 +291,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="2000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -328,7 +328,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="3000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -434,7 +434,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="30000ms"
+		duration="60000ms"
 		enabled="True"
 		optional="False">
 			<comment>

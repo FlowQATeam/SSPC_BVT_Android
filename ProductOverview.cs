@@ -160,8 +160,8 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.UIWindow.NicknameSave.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 7s.", new RecordItemIndex(13));
+            Delay.Duration(7000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DeviceUpdatedOK' at Center", repo.ComPentairPentairhome.DeviceUpdatedOKInfo, new RecordItemIndex(14));
             repo.ComPentairPentairhome.DeviceUpdatedOK.Touch();
@@ -174,64 +174,64 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.ChangeAddress.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(17));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ChangeAddressDropDown' at Center", repo.ComPentairPentairhome.ChangeAddressDropDownInfo, new RecordItemIndex(18));
             repo.ComPentairPentairhome.ChangeAddressDropDown.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(19));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.EMainStOrange' at Center", repo.ComPentairPentairhome.EMainStOrangeInfo, new RecordItemIndex(20));
             repo.ComPentairPentairhome.EMainStOrange.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(21));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ChangeAddressContinue' at Center", repo.ComPentairPentairhome.ChangeAddressContinueInfo, new RecordItemIndex(22));
             repo.ComPentairPentairhome.ChangeAddressContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(23));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.AddressUpdatedOK' at Center", repo.ComPentairPentairhome.AddressUpdatedOKInfo, new RecordItemIndex(24));
             repo.ComPentairPentairhome.AddressUpdatedOK.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(25));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(25));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ChangeAddress' at Center", repo.ComPentairPentairhome.ChangeAddressInfo, new RecordItemIndex(26));
             repo.ComPentairPentairhome.ChangeAddress.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(27));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(27));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ChangeAddressDropDown' at Center", repo.ComPentairPentairhome.ChangeAddressDropDownInfo, new RecordItemIndex(28));
             repo.ComPentairPentairhome.ChangeAddressDropDown.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(29));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(29));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Container22475EMunozStQueenCreek' at Center", repo.ComPentairPentairhome.Container22475EMunozStQueenCreekInfo, new RecordItemIndex(30));
             repo.ComPentairPentairhome.Container22475EMunozStQueenCreek.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(31));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(31));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ChangeAddressContinue' at Center", repo.ComPentairPentairhome.ChangeAddressContinueInfo, new RecordItemIndex(32));
             repo.ComPentairPentairhome.ChangeAddressContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(33));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(33));
+            Delay.Duration(4000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.AddressUpdatedOK' at Center", repo.ComPentairPentairhome.AddressUpdatedOKInfo, new RecordItemIndex(34));
             repo.ComPentairPentairhome.AddressUpdatedOK.Touch();

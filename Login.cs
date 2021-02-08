@@ -109,36 +109,36 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.Email_input.Element.SetAttributeValue("Text", Email);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.EnterEmailTextLogin' at Center", repo.ComPentairPentairhome.EnterEmailTextLoginInfo, new RecordItemIndex(2));
             repo.ComPentairPentairhome.EnterEmailTextLogin.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
+            Delay.Duration(3000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.GetStartedLogin' at Center", repo.ComPentairPentairhome.GetStartedLoginInfo, new RecordItemIndex(4));
             repo.ComPentairPentairhome.GetStartedLogin.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$Passord' on item 'ComPentairPentairhome.PassordInput'.", repo.ComPentairPentairhome.PassordInputInfo, new RecordItemIndex(6));
             repo.ComPentairPentairhome.PassordInput.Element.SetAttributeValue("Text", Passord);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(7));
+            Delay.Duration(3000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.LoginUpperRight' at UpperRight", repo.ComPentairPentairhome.LoginUpperRightInfo, new RecordItemIndex(8));
             repo.ComPentairPentairhome.LoginUpperRight.Touch(Location.UpperRight);
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
+            Delay.Duration(3000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.LOGIN' at Center", repo.ComPentairPentairhome.LOGINInfo, new RecordItemIndex(10));
             repo.ComPentairPentairhome.LOGIN.Touch();

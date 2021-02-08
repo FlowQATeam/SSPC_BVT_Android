@@ -417,34 +417,6 @@ mode="Global">
 			id="8d00a758-90b1-4ab9-b28f-8a826ac9bd6c">
 			</arguments>
 		</invokeactionrecorditem>
-		<touchrecorditem
-		duration="300ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="True"
-		screenshotname=""
-		searchpropertyid="f077d0dd-2701-4c11-8dd9-6ff7d2a3bcf0"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="12f9c676-f781-4063-843e-3dc70ddff407"
-			sourcename="RepositoryEditor">
-				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']
-				</path>
-			</info>
-		</touchrecorditem>
 		<explicitdelayitem
 		duration="5000ms"
 		enabled="True"

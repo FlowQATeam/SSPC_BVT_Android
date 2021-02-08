@@ -41,7 +41,8 @@ namespace SSPC_iOS
         /// </summary>
         public wifi()
         {
-            WifiPassword = "satkabirdaya";
+            WifiPassword = "osys9456";
+            Wifissid = "Galaxy S20+f314";
         }
 
         /// <summary>
@@ -94,16 +95,6 @@ namespace SSPC_iOS
         {
             get { return repo.Wifissid; }
             set { repo.Wifissid = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable WifiPageContainer.
-        /// </summary>
-        [TestVariable("adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd")]
-        public string WifiPageContainer
-        {
-            get { return repo.WifiPageContainer; }
-            set { repo.WifiPageContainer = value; }
         }
 
 #endregion
@@ -212,15 +203,17 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.UIWindow.WifiContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(22));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(22));
+            Delay.Duration(30000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.WiFiUpdateOK' at Center", repo.ComPentairPentairhome.WiFiUpdateOKInfo, new RecordItemIndex(23));
             repo.ComPentairPentairhome.WiFiUpdateOK.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(24));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(24));
+            Delay.Duration(30000, false);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(25));
             
         }
 

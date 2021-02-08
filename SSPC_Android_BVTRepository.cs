@@ -65,7 +65,7 @@ namespace SSPC_iOS
             set { _DeviceID = value; }
         }
 
-        string _Wifissid = "satsaheb";
+        string _Wifissid = "Galaxy S20+f314";
 
         /// <summary>
         /// Gets or sets the value of variable Wifissid.
@@ -339,6 +339,9 @@ namespace SSPC_iOS
             RepoItemInfo _weeklyInfo;
             RepoItemInfo _monthlyInfo;
             RepoItemInfo _quarterlyanalyticsInfo;
+            RepoItemInfo _weeklyanalyticsInfo;
+            RepoItemInfo _monthlyanalyticsInfo;
+            RepoItemInfo _daillyanalyticsInfo;
             RepoItemInfo _removedeviceInfo;
             RepoItemInfo _removebuttonInfo;
             RepoItemInfo _removecancelbuttonInfo;
@@ -392,100 +395,103 @@ namespace SSPC_iOS
                 _ampm = new SSPC_Android_BVTRepositoryFolders.AMPMFolder(this);
                 _timeminutes = new SSPC_Android_BVTRepositoryFolders.TimeMinutesFolder(this);
                 _timerhours = new SSPC_Android_BVTRepositoryFolders.TimerHoursFolder(this);
-                _skipInfo = new RepoItemInfo(this, "Skip", "form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
-                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
-                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
-                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
-                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
-                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
-                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
-                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form//text[@accessibilityid='LoginEmailTextField']", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
-                _passordinputInfo = new RepoItemInfo(this, "PassordInput", ".//text[@accessibilityid='SignInPasswordField']", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
-                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", ".//container[@accessibilityid='LoginEmailNextButton']", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
+                _skipInfo = new RepoItemInfo(this, "Skip", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
+                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
+                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/?/?/?/?/picture[1]", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
+                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form[@title='MainActivity']/androidelement[@rid='content']", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
+                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
+                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
+                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/text[@text='Change WiFi Network']", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
+                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form[@title='MainActivity']//text[@contentdescription='LoginEmailTextField']", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
+                _passordinputInfo = new RepoItemInfo(this, "PassordInput", "form[@title='MainActivity']//text[@contentdescription='SignInPasswordField']", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
+                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", "form[@title='MainActivity']//androidelement[@contentdescription='LoginEmailNextButton']", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
                 _viewpassordInfo = new RepoItemInfo(this, "ViewPassord", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']", 30000, null, "6470d2c6-179a-4f24-ae1e-790f2ae12d7c");
-                _loginInfo = new RepoItemInfo(this, "LOGIN", ".//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
-                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form//container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
-                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form//container[@accessibilitylabel='CANCEL']", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
-                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form//container[@accessibilitylabel=$Nickname]", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
-                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", ".//container[@accessibilitylabel='OK']", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
-                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", ".//form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='EMPTY WATER']", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
-                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", ".//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[1]", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
-                _manualInfo = new RepoItemInfo(this, "Manual", ".//container[@accessibilitylabel='Manual']", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
-                _automodeInfo = new RepoItemInfo(this, "AutoMode", ".//container[@accessibilitylabel='Auto']", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
-                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
-                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
-                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", ".//container[@accessibilitylabel~'^Health']", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
+                _loginInfo = new RepoItemInfo(this, "LOGIN", "form[@title='MainActivity']//androidelement[@contentdescription='SignInSignInButton']", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
+                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
+                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
+                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
+                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", "form[@title='Status']//button[@resourceid='R.string.yes' and @text='OK']", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
+                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
+                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement/androidelement/text[3]", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
+                _manualInfo = new RepoItemInfo(this, "Manual", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
+                _automodeInfo = new RepoItemInfo(this, "AutoMode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Auto']", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
+                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", "form[@title='(none)']/?/?/container/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
+                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/picture[1]", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
+                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
                 _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
                 _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
                 _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
-                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", ".//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
+                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[2]/text[@text~'^(Monthly|Weekly|Daily|Disable)']", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
                 _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
                 _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
                 _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
-                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", ".//container[@accessibilitylabel='Disable']", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
-                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", ".//container[@accessibilitylabel='Frequency (min) Will run this often']/container[2]/container[@caption='']/text", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
-                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", ".//container[@accessibilitylabel='Duration (sec) For this amount of time']/container[2]/container[@caption='']/text", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
-                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", ".//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
+                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[4]/androidelement[1]/text[@text='Disable']", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
+                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
+                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
+                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Timer']", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
                 _timermodehrsInfo = new RepoItemInfo(this, "TimerModeHrs", ".//text[@accessibilitylabel=$TimerModeHrs]", 30000, null, "9bd35de3-cf06-4710-ab76-01747ae7533c");
                 _timermodeminsInfo = new RepoItemInfo(this, "TimerModeMins", ".//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]", 30000, null, "32246d19-00e7-415d-8b6c-9a8b9dec292e");
-                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", ".//container[@accessibilitylabel='Product Overview']", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
-                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", ".//container[@accessibilityid='headerRightImage']/container[@caption='']", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
-                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
-                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", ".//container[@accessibilitylabel='Product Support']", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
-                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
-                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", ".//container[@accessibilitylabel='All Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
-                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", ".//container[@accessibilitylabel='Push Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
-                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", ".//container[@accessibilitylabel='Email Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
-                _textnotificationsInfo = new RepoItemInfo(this, "TextNotifications", ".//container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/?/container[@accessibilitylabel~'^Text']/container[2]/container[@accessibilityid='toggle']", 30000, null, "af6e59ef-0221-4ea9-8129-b3002934c7a5");
-                _wifiInfo = new RepoItemInfo(this, "WiFi", ".//container[@accessibilitylabel='WiFi']", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
-                _configurationsInfo = new RepoItemInfo(this, "Configurations", ".//container[@accessibilitylabel='Configurations']", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
-                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", ".//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
-                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", ".//container[@accessibilitylabel='Dry Time Delay']/container[1]/container[@caption='']/text", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
-                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", ".//container[@accessibilitylabel='Extra Runtime 0 sec 15 sec']/container[@accessibilitylabel='Extra Runtime']/container[1]/container[@caption='']/text", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
-                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", ".//container[@accessibilitylabel='Dry Run Limit']/container[@accessibilitylabel='Dry Run Limit']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
-                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", ".//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
-                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", ".//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
-                _analyticsInfo = new RepoItemInfo(this, "Analytics", ".//container[@accessibilitylabel='Analytics']", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
-                _dailyInfo = new RepoItemInfo(this, "Daily", ".//container[@accessibilitylabel='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
-                _weeklyInfo = new RepoItemInfo(this, "Weekly", ".//container[@accessibilitylabel='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
-                _monthlyInfo = new RepoItemInfo(this, "Monthly", ".//container[@accessibilitylabel='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
-                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", ".//container[@accessibilitylabel='Quarterly']", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
+                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Product Overview']", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
+                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", "form[@title='MainActivity']//picture[@contentdescription='headerRightImage']", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
+                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
+                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
+                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[4]/text[@text='Contact Pentair']", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
+                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
+                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
+                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
+                _textnotificationsInfo = new RepoItemInfo(this, "TextNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "af6e59ef-0221-4ea9-8129-b3002934c7a5");
+                _wifiInfo = new RepoItemInfo(this, "WiFi", "form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[5]/text[@text='WiFi']", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
+                _configurationsInfo = new RepoItemInfo(this, "Configurations", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Configurations']", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
+                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/androidelement[2]", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
+                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[5]/text", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
+                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[4]/text", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
+                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/androidelement[2]/picture", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
+                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/androidelement[2]/picture", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
+                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[1]", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
+                _analyticsInfo = new RepoItemInfo(this, "Analytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[7]/text[@text='Analytics']", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
+                _dailyInfo = new RepoItemInfo(this, "Daily", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
+                _weeklyInfo = new RepoItemInfo(this, "Weekly", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/text[@text='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
+                _monthlyInfo = new RepoItemInfo(this, "Monthly", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/?/?/?/?/androidelement[1]/androidelement[3]/text[@text='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
+                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
+                _weeklyanalyticsInfo = new RepoItemInfo(this, "WeeklyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']", 30000, null, "643e52be-fc1b-4022-a75a-1cbdff3a9003");
+                _monthlyanalyticsInfo = new RepoItemInfo(this, "MonthlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']", 30000, null, "0af8abf0-33a8-4634-aaab-0d92c6682583");
+                _daillyanalyticsInfo = new RepoItemInfo(this, "DaillyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']", 30000, null, "32b9103b-6261-46a7-bea6-1d783131ebc9");
                 _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", ".//container[@accessibilitylabel='Remove Device']", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
                 _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", ".//container[@accessibilitylabel='REMOVE']", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
                 _removecancelbuttonInfo = new RepoItemInfo(this, "RemoveCancelButton", ".//container[@accessibilitylabel='CANCEL']", 30000, null, "25696fa1-c51b-4557-b218-9ad53c829bc4");
                 _removecrossbuttonInfo = new RepoItemInfo(this, "RemoveCrossButton", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/close2@2x.png']", 30000, null, "6469f44f-2daf-4ced-ba45-7c2258b9f165");
                 _settingsscrollupInfo = new RepoItemInfo(this, "SettingsScrollUp", ".//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']", 30000, null, "a6ea21be-ce99-4ffd-a8c9-87cb3b98082f");
-                _nicknameInfo = new RepoItemInfo(this, "nickname", ".//container[@accessibilitylabel=$NickNameClick]/?/?/container[@accessibilitylabel=$NickNameClick]/container[@accessibilitylabel=$Nickname]", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
-                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", ".//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
+                _nicknameInfo = new RepoItemInfo(this, "nickname", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[5]/text[@text='Nickname']", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
+                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", "form[@title='(none)']/?/?/container/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
                 _current_addressInfo = new RepoItemInfo(this, "current_address", ".//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']", 30000, null, "0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221");
-                _startmanualInfo = new RepoItemInfo(this, "StartManual", ".//container[@accessibilitylabel='Start']", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
-                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
+                _startmanualInfo = new RepoItemInfo(this, "StartManual", "form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
+                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[5]/text[1]", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
                 _scheduledayInfo = new RepoItemInfo(this, "ScheduleDay", ".//container[@accessibilitylabel=$DayInitial]", 30000, null, "3fa958b8-bdad-4a90-be3c-5e205013d65d");
                 _sspcsupportInfo = new RepoItemInfo(this, "SSPCSupport", ".//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div", 30000, null, "21012d44-7afa-41a8-832f-e09421a35dbd");
                 _pentairsupportInfo = new RepoItemInfo(this, "PentairSupport", ".//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]", 30000, null, "dde58a2c-bb7b-4e2a-88e5-b68052936121");
-                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", ".//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
-                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
-                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
-                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", ".//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
-                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", ".//container[@accessibilitylabel='Enter your email to get started.']", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
-                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", ".//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
-                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", ".//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
-                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
+                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[6]/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
+                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
+                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
+                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
+                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/text[2]", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
+                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement/androidelement[4]/androidelement", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
+                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
+                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/picture", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
                 _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
-                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", ".//container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
-                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", ".//container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
-                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
-                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", ".//container[@accessibilitylabel='OK']", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
-                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", ".//dom[@caption>'Home App | Contact Us | P']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
-                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", ".//dom[@caption>'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
-                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", ".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
-                _histyInfo = new RepoItemInfo(this, "Histy", ".//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
+                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", "form[@title='(none)']/?/?/container/?/?/?/?/?/?/androidelement[3]/androidelement[1]/text[@text='E Main St, Orange']", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
+                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", "form[@title='(none)']/?/?/container/androidelement/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='22475 E Munoz St, Queen Creek']", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
+                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
+                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", "form[@title='Status']//button[@resourceid='R.string.yes']", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
+                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
+                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
+                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", "form[@title='MainActivity']//androidelement[@contentdescription='save']/text[@text='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
+                _histyInfo = new RepoItemInfo(this, "Histy", "form[@title='MainActivity']//androidelement[@contentdescription='chartImage']/text[@text='History']", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
                 _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
                 _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
                 _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
                 _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
-                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", ".//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
-                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", ".//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
+                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
+                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
                 _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
                 _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", ".//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
                 _resetlinkInfo = new RepoItemInfo(this, "Resetlink", ".//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
@@ -520,11 +526,11 @@ namespace SSPC_iOS
             /// The Skip item.
             /// </summary>
             [RepositoryItem("8d63248f-3f50-418d-96dd-1c443ea3d79c")]
-            public virtual Ranorex.Container Skip
+            public virtual Ranorex.AndroidElement Skip
             {
                 get
                 {
-                    return _skipInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _skipInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -544,11 +550,11 @@ namespace SSPC_iOS
             /// The firstscreensipe item.
             /// </summary>
             [RepositoryItem("4b107309-1dd6-40f3-8506-42a7d972701c")]
-            public virtual Ranorex.Container firstscreensipe
+            public virtual Ranorex.Picture firstscreensipe
             {
                 get
                 {
-                    return _firstscreensipeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _firstscreensipeInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -568,11 +574,11 @@ namespace SSPC_iOS
             /// The SecondScreenSipe item.
             /// </summary>
             [RepositoryItem("ca1a9a33-105f-43e3-aa2e-46b26e689aeb")]
-            public virtual Ranorex.Container SecondScreenSipe
+            public virtual Ranorex.Picture SecondScreenSipe
             {
                 get
                 {
-                    return _secondscreensipeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _secondscreensipeInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -592,11 +598,11 @@ namespace SSPC_iOS
             /// The ThirdScreenSwipe item.
             /// </summary>
             [RepositoryItem("53846f8e-2948-45ba-9142-84cb0fc04610")]
-            public virtual Ranorex.Container ThirdScreenSwipe
+            public virtual Ranorex.AndroidElement ThirdScreenSwipe
             {
                 get
                 {
-                    return _thirdscreenswipeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _thirdscreenswipeInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -616,11 +622,11 @@ namespace SSPC_iOS
             /// The LastScreen_Next_button item.
             /// </summary>
             [RepositoryItem("a160189d-551d-4c0f-a37b-858ef718fc53")]
-            public virtual Ranorex.Container LastScreen_Next_button
+            public virtual Ranorex.AndroidElement LastScreen_Next_button
             {
                 get
                 {
-                    return _lastscreen_next_buttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _lastscreen_next_buttonInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -640,11 +646,11 @@ namespace SSPC_iOS
             /// The HomeIcon item.
             /// </summary>
             [RepositoryItem("0e2f5221-0653-4cb4-a215-2241276c2b54")]
-            public virtual Ranorex.Container HomeIcon
+            public virtual Ranorex.Picture HomeIcon
             {
                 get
                 {
-                    return _homeiconInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _homeiconInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -664,11 +670,11 @@ namespace SSPC_iOS
             /// The ChangeWiFiNetwork item.
             /// </summary>
             [RepositoryItem("a90ab021-1630-42b5-9ec5-ae0e6e5e37b3")]
-            public virtual Ranorex.Container ChangeWiFiNetwork
+            public virtual Ranorex.Text ChangeWiFiNetwork
             {
                 get
                 {
-                    return _changewifinetworkInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _changewifinetworkInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -736,11 +742,11 @@ namespace SSPC_iOS
             /// The GetStartedLogin item.
             /// </summary>
             [RepositoryItem("8e44d3c0-98e2-4c97-b05a-163b289503d2")]
-            public virtual Ranorex.Container GetStartedLogin
+            public virtual Ranorex.AndroidElement GetStartedLogin
             {
                 get
                 {
-                    return _getstartedloginInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _getstartedloginInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -784,11 +790,11 @@ namespace SSPC_iOS
             /// The LOGIN item.
             /// </summary>
             [RepositoryItem("32226905-c9fe-46e8-bce2-869e48fd700d")]
-            public virtual Ranorex.Container LOGIN
+            public virtual Ranorex.AndroidElement LOGIN
             {
                 get
                 {
-                    return _loginInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _loginInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -808,11 +814,11 @@ namespace SSPC_iOS
             /// The RunTestButton item.
             /// </summary>
             [RepositoryItem("7033cf0f-f499-4413-a4e8-08725378b2fa")]
-            public virtual Ranorex.Container RunTestButton
+            public virtual Ranorex.Text RunTestButton
             {
                 get
                 {
-                    return _runtestbuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _runtestbuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -832,11 +838,11 @@ namespace SSPC_iOS
             /// The CancelEmptyWater item.
             /// </summary>
             [RepositoryItem("ab14a731-663a-40a3-875f-db549bce0fc6")]
-            public virtual Ranorex.Container CancelEmptyWater
+            public virtual Ranorex.Text CancelEmptyWater
             {
                 get
                 {
-                    return _cancelemptywaterInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _cancelemptywaterInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -856,11 +862,11 @@ namespace SSPC_iOS
             /// The SSPCtileClick item.
             /// </summary>
             [RepositoryItem("758fc078-344c-4b30-ad4a-fe168ab18e8d")]
-            public virtual Ranorex.Container SSPCtileClick
+            public virtual Ranorex.Text SSPCtileClick
             {
                 get
                 {
-                    return _sspctileclickInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _sspctileclickInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -880,11 +886,11 @@ namespace SSPC_iOS
             /// The WiFiUpdateOK item.
             /// </summary>
             [RepositoryItem("ac681454-2db1-4a9c-a23b-d5d9288f1d0c")]
-            public virtual Ranorex.Container WiFiUpdateOK
+            public virtual Ranorex.Button WiFiUpdateOK
             {
                 get
                 {
-                    return _wifiupdateokInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _wifiupdateokInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
@@ -904,11 +910,11 @@ namespace SSPC_iOS
             /// The EMPTYWATER item.
             /// </summary>
             [RepositoryItem("59aae09b-80da-4122-96c9-89c2aeba4127")]
-            public virtual Ranorex.Container EMPTYWATER
+            public virtual Ranorex.Text EMPTYWATER
             {
                 get
                 {
-                    return _emptywaterInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _emptywaterInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -928,11 +934,11 @@ namespace SSPC_iOS
             /// The setupBluetoothScerollUp item.
             /// </summary>
             [RepositoryItem("6c5bbb07-a55d-4a05-b8e2-d6174001970e")]
-            public virtual Ranorex.Container setupBluetoothScerollUp
+            public virtual Ranorex.Text setupBluetoothScerollUp
             {
                 get
                 {
-                    return _setupbluetoothscerollupInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _setupbluetoothscerollupInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -952,11 +958,11 @@ namespace SSPC_iOS
             /// The Manual item.
             /// </summary>
             [RepositoryItem("e15dfd23-4784-414f-b8b3-f67fe2604fdc")]
-            public virtual Ranorex.Container Manual
+            public virtual Ranorex.Text Manual
             {
                 get
                 {
-                    return _manualInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _manualInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -976,11 +982,11 @@ namespace SSPC_iOS
             /// The AutoMode item.
             /// </summary>
             [RepositoryItem("03645d76-99e7-4cbf-a722-8ab2331c1ee5")]
-            public virtual Ranorex.Container AutoMode
+            public virtual Ranorex.Text AutoMode
             {
                 get
                 {
-                    return _automodeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _automodeInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1000,11 +1006,11 @@ namespace SSPC_iOS
             /// The ScheduleHealthTestClick item.
             /// </summary>
             [RepositoryItem("e3a9451c-c388-491f-b063-273b19cd079f")]
-            public virtual Ranorex.Container ScheduleHealthTestClick
+            public virtual Ranorex.Text ScheduleHealthTestClick
             {
                 get
                 {
-                    return _schedulehealthtestclickInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _schedulehealthtestclickInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1024,11 +1030,11 @@ namespace SSPC_iOS
             /// The ScheduleHealthTestDropDown item.
             /// </summary>
             [RepositoryItem("189bacf9-0d5e-40fa-9d44-81a406083e69")]
-            public virtual Ranorex.Container ScheduleHealthTestDropDown
+            public virtual Ranorex.Picture ScheduleHealthTestDropDown
             {
                 get
                 {
-                    return _schedulehealthtestdropdownInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _schedulehealthtestdropdownInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -1048,11 +1054,11 @@ namespace SSPC_iOS
             /// The ManualScrollUp item.
             /// </summary>
             [RepositoryItem("a7109814-1d91-406f-8343-71f017d6fbd0")]
-            public virtual Ranorex.Container ManualScrollUp
+            public virtual Ranorex.AndroidElement ManualScrollUp
             {
                 get
                 {
-                    return _manualscrollupInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _manualscrollupInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -1144,11 +1150,11 @@ namespace SSPC_iOS
             /// The FrequencySelection item.
             /// </summary>
             [RepositoryItem("f049c4d8-db46-48ef-99b3-3de9ff7b50d3")]
-            public virtual Ranorex.Container FrequencySelection
+            public virtual Ranorex.Text FrequencySelection
             {
                 get
                 {
-                    return _frequencyselectionInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _frequencyselectionInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1240,11 +1246,11 @@ namespace SSPC_iOS
             /// The ScheduleHTDisableSelect item.
             /// </summary>
             [RepositoryItem("45416e30-d38e-429c-8306-e18beca1470f")]
-            public virtual Ranorex.Container ScheduleHTDisableSelect
+            public virtual Ranorex.Text ScheduleHTDisableSelect
             {
                 get
                 {
-                    return _schedulehtdisableselectInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _schedulehtdisableselectInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1312,11 +1318,11 @@ namespace SSPC_iOS
             /// The Timer_Mode item.
             /// </summary>
             [RepositoryItem("ad65e02b-9954-45c0-83a6-02be02731ded")]
-            public virtual Ranorex.Container Timer_Mode
+            public virtual Ranorex.Text Timer_Mode
             {
                 get
                 {
-                    return _timer_modeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _timer_modeInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1384,11 +1390,11 @@ namespace SSPC_iOS
             /// The ProductOverview item.
             /// </summary>
             [RepositoryItem("cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3")]
-            public virtual Ranorex.Container ProductOverview
+            public virtual Ranorex.Text ProductOverview
             {
                 get
                 {
-                    return _productoverviewInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _productoverviewInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1408,11 +1414,11 @@ namespace SSPC_iOS
             /// The Settingsicon item.
             /// </summary>
             [RepositoryItem("ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81")]
-            public virtual Ranorex.Container Settingsicon
+            public virtual Ranorex.Picture Settingsicon
             {
                 get
                 {
-                    return _settingsiconInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _settingsiconInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -1432,11 +1438,11 @@ namespace SSPC_iOS
             /// The Notifications item.
             /// </summary>
             [RepositoryItem("ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26")]
-            public virtual Ranorex.Container Notifications
+            public virtual Ranorex.Text Notifications
             {
                 get
                 {
-                    return _notificationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _notificationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1456,11 +1462,11 @@ namespace SSPC_iOS
             /// The ProductSupport item.
             /// </summary>
             [RepositoryItem("b0217722-6d80-4f77-8206-6c154f210880")]
-            public virtual Ranorex.Container ProductSupport
+            public virtual Ranorex.Text ProductSupport
             {
                 get
                 {
-                    return _productsupportInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _productsupportInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1480,11 +1486,11 @@ namespace SSPC_iOS
             /// The ContactPentair item.
             /// </summary>
             [RepositoryItem("7fcbd103-cb91-4865-982d-679d1dd258c6")]
-            public virtual Ranorex.Container ContactPentair
+            public virtual Ranorex.Text ContactPentair
             {
                 get
                 {
-                    return _contactpentairInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _contactpentairInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1504,11 +1510,11 @@ namespace SSPC_iOS
             /// The AllNotifications item.
             /// </summary>
             [RepositoryItem("553e9cdf-911e-482b-bc72-880cd2175a08")]
-            public virtual Ranorex.Container AllNotifications
+            public virtual Ranorex.Text AllNotifications
             {
                 get
                 {
-                    return _allnotificationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _allnotificationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1528,11 +1534,11 @@ namespace SSPC_iOS
             /// The PushNotifications item.
             /// </summary>
             [RepositoryItem("279a2efd-5a62-4beb-b501-cf5a20f57e8d")]
-            public virtual Ranorex.Container PushNotifications
+            public virtual Ranorex.Text PushNotifications
             {
                 get
                 {
-                    return _pushnotificationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _pushnotificationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1552,11 +1558,11 @@ namespace SSPC_iOS
             /// The EmailNotifications item.
             /// </summary>
             [RepositoryItem("cc8353e6-4430-4c5a-8233-aea21ce2447a")]
-            public virtual Ranorex.Container EmailNotifications
+            public virtual Ranorex.Text EmailNotifications
             {
                 get
                 {
-                    return _emailnotificationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _emailnotificationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1576,11 +1582,11 @@ namespace SSPC_iOS
             /// The TextNotifications item.
             /// </summary>
             [RepositoryItem("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
-            public virtual Ranorex.Container TextNotifications
+            public virtual Ranorex.Text TextNotifications
             {
                 get
                 {
-                    return _textnotificationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _textnotificationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1600,11 +1606,11 @@ namespace SSPC_iOS
             /// The WiFi item.
             /// </summary>
             [RepositoryItem("71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6")]
-            public virtual Ranorex.Container WiFi
+            public virtual Ranorex.Text WiFi
             {
                 get
                 {
-                    return _wifiInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _wifiInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1624,11 +1630,11 @@ namespace SSPC_iOS
             /// The Configurations item.
             /// </summary>
             [RepositoryItem("7028503f-19a0-46b8-a8ae-a7832d172a26")]
-            public virtual Ranorex.Container Configurations
+            public virtual Ranorex.Text Configurations
             {
                 get
                 {
-                    return _configurationsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _configurationsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1648,11 +1654,11 @@ namespace SSPC_iOS
             /// The DryRunToggle item.
             /// </summary>
             [RepositoryItem("c5891aba-693c-4ac2-8323-060e2b33a439")]
-            public virtual Ranorex.Container DryRunToggle
+            public virtual Ranorex.AndroidElement DryRunToggle
             {
                 get
                 {
-                    return _dryruntoggleInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _dryruntoggleInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -1720,11 +1726,11 @@ namespace SSPC_iOS
             /// The DryRunHelp item.
             /// </summary>
             [RepositoryItem("1fa89dd5-bb26-40eb-876c-cf09d1a887b5")]
-            public virtual Ranorex.Container DryRunHelp
+            public virtual Ranorex.Picture DryRunHelp
             {
                 get
                 {
-                    return _dryrunhelpInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _dryrunhelpInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -1744,11 +1750,11 @@ namespace SSPC_iOS
             /// The ExtraRuntimeHelp item.
             /// </summary>
             [RepositoryItem("dde37c4e-ec47-465a-b0e8-777428facd68")]
-            public virtual Ranorex.Container ExtraRuntimeHelp
+            public virtual Ranorex.Picture ExtraRuntimeHelp
             {
                 get
                 {
-                    return _extraruntimehelpInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _extraruntimehelpInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -1768,11 +1774,11 @@ namespace SSPC_iOS
             /// The ConfiguratioonsOK item.
             /// </summary>
             [RepositoryItem("12f9c676-f781-4063-843e-3dc70ddff407")]
-            public virtual Ranorex.Container ConfiguratioonsOK
+            public virtual Ranorex.Text ConfiguratioonsOK
             {
                 get
                 {
-                    return _configuratioonsokInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _configuratioonsokInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1792,11 +1798,11 @@ namespace SSPC_iOS
             /// The Analytics item.
             /// </summary>
             [RepositoryItem("8630d7d1-0e05-467c-9948-274da923385a")]
-            public virtual Ranorex.Container Analytics
+            public virtual Ranorex.Text Analytics
             {
                 get
                 {
-                    return _analyticsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _analyticsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1816,11 +1822,11 @@ namespace SSPC_iOS
             /// The Daily item.
             /// </summary>
             [RepositoryItem("9c430dce-5bca-4490-9337-08d1282252c2")]
-            public virtual Ranorex.Container Daily
+            public virtual Ranorex.Text Daily
             {
                 get
                 {
-                    return _dailyInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _dailyInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1840,11 +1846,11 @@ namespace SSPC_iOS
             /// The Weekly item.
             /// </summary>
             [RepositoryItem("1cb0ace5-04e3-493b-b405-4b5bd7544d7d")]
-            public virtual Ranorex.Container Weekly
+            public virtual Ranorex.Text Weekly
             {
                 get
                 {
-                    return _weeklyInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _weeklyInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1864,11 +1870,11 @@ namespace SSPC_iOS
             /// The Monthly item.
             /// </summary>
             [RepositoryItem("3d1e2259-453f-4d08-a571-1aeb3604dcfc")]
-            public virtual Ranorex.Container Monthly
+            public virtual Ranorex.Text Monthly
             {
                 get
                 {
-                    return _monthlyInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _monthlyInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1888,11 +1894,11 @@ namespace SSPC_iOS
             /// The QuarterlyAnalytics item.
             /// </summary>
             [RepositoryItem("07df800c-4430-4a53-b18c-1949a219900a")]
-            public virtual Ranorex.Container QuarterlyAnalytics
+            public virtual Ranorex.Text QuarterlyAnalytics
             {
                 get
                 {
-                    return _quarterlyanalyticsInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _quarterlyanalyticsInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -1905,6 +1911,78 @@ namespace SSPC_iOS
                 get
                 {
                     return _quarterlyanalyticsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WeeklyAnalytics item.
+            /// </summary>
+            [RepositoryItem("643e52be-fc1b-4022-a75a-1cbdff3a9003")]
+            public virtual Ranorex.Text WeeklyAnalytics
+            {
+                get
+                {
+                    return _weeklyanalyticsInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WeeklyAnalytics item info.
+            /// </summary>
+            [RepositoryItemInfo("643e52be-fc1b-4022-a75a-1cbdff3a9003")]
+            public virtual RepoItemInfo WeeklyAnalyticsInfo
+            {
+                get
+                {
+                    return _weeklyanalyticsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MonthlyAnalytics item.
+            /// </summary>
+            [RepositoryItem("0af8abf0-33a8-4634-aaab-0d92c6682583")]
+            public virtual Ranorex.Text MonthlyAnalytics
+            {
+                get
+                {
+                    return _monthlyanalyticsInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MonthlyAnalytics item info.
+            /// </summary>
+            [RepositoryItemInfo("0af8abf0-33a8-4634-aaab-0d92c6682583")]
+            public virtual RepoItemInfo MonthlyAnalyticsInfo
+            {
+                get
+                {
+                    return _monthlyanalyticsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DaillyAnalytics item.
+            /// </summary>
+            [RepositoryItem("32b9103b-6261-46a7-bea6-1d783131ebc9")]
+            public virtual Ranorex.Text DaillyAnalytics
+            {
+                get
+                {
+                    return _daillyanalyticsInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DaillyAnalytics item info.
+            /// </summary>
+            [RepositoryItemInfo("32b9103b-6261-46a7-bea6-1d783131ebc9")]
+            public virtual RepoItemInfo DaillyAnalyticsInfo
+            {
+                get
+                {
+                    return _daillyanalyticsInfo;
                 }
             }
 
@@ -2032,11 +2110,11 @@ namespace SSPC_iOS
             /// The nickname item.
             /// </summary>
             [RepositoryItem("736399e1-07e2-4fe7-bf61-4611e4272249")]
-            public virtual Ranorex.Container nickname
+            public virtual Ranorex.Text nickname
             {
                 get
                 {
-                    return _nicknameInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _nicknameInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2104,11 +2182,11 @@ namespace SSPC_iOS
             /// The StartManual item.
             /// </summary>
             [RepositoryItem("33b564d6-8e10-4a32-8cdf-1f748c008f47")]
-            public virtual Ranorex.Container StartManual
+            public virtual Ranorex.Text StartManual
             {
                 get
                 {
-                    return _startmanualInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _startmanualInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2128,11 +2206,11 @@ namespace SSPC_iOS
             /// The DeviceUpdatedOK item.
             /// </summary>
             [RepositoryItem("1c9e833b-9678-4f98-bbc3-66d3652506ee")]
-            public virtual Ranorex.Container DeviceUpdatedOK
+            public virtual Ranorex.Text DeviceUpdatedOK
             {
                 get
                 {
-                    return _deviceupdatedokInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _deviceupdatedokInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2224,11 +2302,11 @@ namespace SSPC_iOS
             /// The NotificationsContinue item.
             /// </summary>
             [RepositoryItem("a462a1d5-353d-43e9-b205-d51d907eb722")]
-            public virtual Ranorex.Container NotificationsContinue
+            public virtual Ranorex.Text NotificationsContinue
             {
                 get
                 {
-                    return _notificationscontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _notificationscontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2248,11 +2326,11 @@ namespace SSPC_iOS
             /// The AppFeedbackClose item.
             /// </summary>
             [RepositoryItem("c5211c82-3ee9-46b7-914e-935a920a095b")]
-            public virtual Ranorex.Container AppFeedbackClose
+            public virtual Ranorex.Picture AppFeedbackClose
             {
                 get
                 {
-                    return _appfeedbackcloseInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _appfeedbackcloseInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2272,11 +2350,11 @@ namespace SSPC_iOS
             /// The TextSMSAccept item.
             /// </summary>
             [RepositoryItem("63896f03-abd2-4362-87a6-8dda4506d2bb")]
-            public virtual Ranorex.Container TextSMSAccept
+            public virtual Ranorex.Text TextSMSAccept
             {
                 get
                 {
-                    return _textsmsacceptInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _textsmsacceptInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2296,11 +2374,11 @@ namespace SSPC_iOS
             /// The TextSMSCancel item.
             /// </summary>
             [RepositoryItem("a6765dee-b10e-417e-a874-cc4b71cf89d0")]
-            public virtual Ranorex.Container TextSMSCancel
+            public virtual Ranorex.Text TextSMSCancel
             {
                 get
                 {
-                    return _textsmscancelInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _textsmscancelInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2320,11 +2398,11 @@ namespace SSPC_iOS
             /// The EnterEmailTextLogin item.
             /// </summary>
             [RepositoryItem("ecb2253c-99ba-4c5a-b205-efcef67356c8")]
-            public virtual Ranorex.Container EnterEmailTextLogin
+            public virtual Ranorex.Text EnterEmailTextLogin
             {
                 get
                 {
-                    return _enteremailtextloginInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _enteremailtextloginInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2344,11 +2422,11 @@ namespace SSPC_iOS
             /// The LoginUpperRight item.
             /// </summary>
             [RepositoryItem("41ea38b8-cc26-410a-855b-65ccdb806f8d")]
-            public virtual Ranorex.Container LoginUpperRight
+            public virtual Ranorex.AndroidElement LoginUpperRight
             {
                 get
                 {
-                    return _loginupperrightInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _loginupperrightInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -2368,11 +2446,11 @@ namespace SSPC_iOS
             /// The ChangeAddress item.
             /// </summary>
             [RepositoryItem("c2c4e8bd-79ee-4323-9f5d-aa026d00435a")]
-            public virtual Ranorex.Container ChangeAddress
+            public virtual Ranorex.Text ChangeAddress
             {
                 get
                 {
-                    return _changeaddressInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _changeaddressInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2392,11 +2470,11 @@ namespace SSPC_iOS
             /// The ChangeAddressDropDown item.
             /// </summary>
             [RepositoryItem("34208c47-c228-4907-99b0-bf3d02458e24")]
-            public virtual Ranorex.Container ChangeAddressDropDown
+            public virtual Ranorex.Picture ChangeAddressDropDown
             {
                 get
                 {
-                    return _changeaddressdropdownInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _changeaddressdropdownInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2440,11 +2518,11 @@ namespace SSPC_iOS
             /// The EMainStOrange item.
             /// </summary>
             [RepositoryItem("6ed7450f-337a-40ad-8443-24192efcf984")]
-            public virtual Ranorex.Container EMainStOrange
+            public virtual Ranorex.Text EMainStOrange
             {
                 get
                 {
-                    return _emainstorangeInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _emainstorangeInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2464,11 +2542,11 @@ namespace SSPC_iOS
             /// The Container22475EMunozStQueenCreek item.
             /// </summary>
             [RepositoryItem("2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a")]
-            public virtual Ranorex.Container Container22475EMunozStQueenCreek
+            public virtual Ranorex.Text Container22475EMunozStQueenCreek
             {
                 get
                 {
-                    return _container22475emunozstqueencreekInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _container22475emunozstqueencreekInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2488,11 +2566,11 @@ namespace SSPC_iOS
             /// The ChangeAddressContinue item.
             /// </summary>
             [RepositoryItem("3a6b8fb3-ab97-43f8-85b0-52866db54662")]
-            public virtual Ranorex.Container ChangeAddressContinue
+            public virtual Ranorex.Text ChangeAddressContinue
             {
                 get
                 {
-                    return _changeaddresscontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _changeaddresscontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2512,11 +2590,11 @@ namespace SSPC_iOS
             /// The AddressUpdatedOK item.
             /// </summary>
             [RepositoryItem("9d4c4267-2e6f-4e91-b25c-c7d3d677f745")]
-            public virtual Ranorex.Container AddressUpdatedOK
+            public virtual Ranorex.Button AddressUpdatedOK
             {
                 get
                 {
-                    return _addressupdatedokInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _addressupdatedokInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
@@ -2584,11 +2662,11 @@ namespace SSPC_iOS
             /// The ScheduleSave item.
             /// </summary>
             [RepositoryItem("64dcdca3-14ed-4187-9b88-5248a9ceb08d")]
-            public virtual Ranorex.Container ScheduleSave
+            public virtual Ranorex.Text ScheduleSave
             {
                 get
                 {
-                    return _schedulesaveInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _schedulesaveInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2608,11 +2686,11 @@ namespace SSPC_iOS
             /// The Histy item.
             /// </summary>
             [RepositoryItem("8e9aa462-4f8a-494b-a243-de8701b6cead")]
-            public virtual Ranorex.Container Histy
+            public virtual Ranorex.Text Histy
             {
                 get
                 {
-                    return _histyInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _histyInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2728,11 +2806,11 @@ namespace SSPC_iOS
             /// The Product_SupportBack item.
             /// </summary>
             [RepositoryItem("ffee1561-5e54-45f2-bbff-df998884bc22")]
-            public virtual Ranorex.Container Product_SupportBack
+            public virtual Ranorex.Picture Product_SupportBack
             {
                 get
                 {
-                    return _product_supportbackInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _product_supportbackInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2752,11 +2830,11 @@ namespace SSPC_iOS
             /// The ContactPentairBack item.
             /// </summary>
             [RepositoryItem("c798ee49-c3e1-4324-b591-360be8abc2ec")]
-            public virtual Ranorex.Container ContactPentairBack
+            public virtual Ranorex.Picture ContactPentairBack
             {
                 get
                 {
-                    return _contactpentairbackInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _contactpentairbackInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2950,19 +3028,19 @@ namespace SSPC_iOS
             public UIWindowFolder(RepoGenBaseFolder parentFolder) :
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
-                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
-                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
-                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
-                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
-                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "container[@caption='']//container[@accessibilitylabel='Bluetooth® WirelessConnection Established Sump Controller  is now paired to Bluetooth wireless. Stay connected while you''re away by connecting your Sump Controller to your home WiFi network. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
-                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "container[@caption='']//?/?/?/?/container[@accessibilitylabel=$Wifissid]/container[@accessibilitylabel=$Wifissid]", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
-                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "container[@caption='']//text", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
-                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "container[@caption='']//container[@accessibilitylabel=$WifiPageContainer]/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
-                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", ".//container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
-                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", ".//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
-                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "?/?/?//?/?/container[@accessibilitylabel='SAVE']", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
-                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
+                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "androidelement[@rid='content']//androidelement[@contentdescription='shadowButton']/text", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
+                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
+                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
+                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
+                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/text[@text=$Wifissid]", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
+                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
+                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
+                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
+                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
+                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/?/?/androidelement[1]/text[1]", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
+                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", "container[@rid='content']/container[@containertype='Frame']/?/?/?/androidelement[1]/androidelement[4]/text[@text='CONTINUE']", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
                 _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
             }
 
@@ -2994,11 +3072,11 @@ namespace SSPC_iOS
             /// The ContinueonProvisiom item.
             /// </summary>
             [RepositoryItem("3e305d14-7a70-4aed-a1f2-10c869b981c2")]
-            public virtual Ranorex.Container ContinueonProvisiom
+            public virtual Ranorex.Text ContinueonProvisiom
             {
                 get
                 {
-                    return _continueonprovisiomInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _continueonprovisiomInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3018,11 +3096,11 @@ namespace SSPC_iOS
             /// The SumpController item.
             /// </summary>
             [RepositoryItem("78a19a1e-1106-48cf-9d05-5e0d10279e91")]
-            public virtual Ranorex.Container SumpController
+            public virtual Ranorex.Text SumpController
             {
                 get
                 {
-                    return _sumpcontrollerInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _sumpcontrollerInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3042,11 +3120,11 @@ namespace SSPC_iOS
             /// The AddADevice item.
             /// </summary>
             [RepositoryItem("71073362-717a-4b38-b405-910e4011de39")]
-            public virtual Ranorex.Container AddADevice
+            public virtual Ranorex.AndroidElement AddADevice
             {
                 get
                 {
-                    return _addadeviceInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _addadeviceInfo.CreateAdapter<Ranorex.AndroidElement>(true);
                 }
             }
 
@@ -3066,11 +3144,11 @@ namespace SSPC_iOS
             /// The BluetoothContinue item.
             /// </summary>
             [RepositoryItem("fa638f85-db6e-409a-9a5f-622470302660")]
-            public virtual Ranorex.Container BluetoothContinue
+            public virtual Ranorex.Text BluetoothContinue
             {
                 get
                 {
-                    return _bluetoothcontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _bluetoothcontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3090,11 +3168,11 @@ namespace SSPC_iOS
             /// The DeviceSelection item.
             /// </summary>
             [RepositoryItem("0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56")]
-            public virtual Ranorex.Container DeviceSelection
+            public virtual Ranorex.Text DeviceSelection
             {
                 get
                 {
-                    return _deviceselectionInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _deviceselectionInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3114,11 +3192,11 @@ namespace SSPC_iOS
             /// The ConnectionEstablishedContinue item.
             /// </summary>
             [RepositoryItem("2045f3f7-b3dd-40f5-91e1-5989b02d3ec2")]
-            public virtual Ranorex.Container ConnectionEstablishedContinue
+            public virtual Ranorex.Text ConnectionEstablishedContinue
             {
                 get
                 {
-                    return _connectionestablishedcontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _connectionestablishedcontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3138,11 +3216,11 @@ namespace SSPC_iOS
             /// The WifiSelection item.
             /// </summary>
             [RepositoryItem("6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff")]
-            public virtual Ranorex.Container WifiSelection
+            public virtual Ranorex.Text WifiSelection
             {
                 get
                 {
-                    return _wifiselectionInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _wifiselectionInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3186,11 +3264,11 @@ namespace SSPC_iOS
             /// The WifiContinue item.
             /// </summary>
             [RepositoryItem("9d4c0f9e-5c63-422a-965a-16e1b6eed521")]
-            public virtual Ranorex.Container WifiContinue
+            public virtual Ranorex.Text WifiContinue
             {
                 get
                 {
-                    return _wificontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _wificontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3234,11 +3312,11 @@ namespace SSPC_iOS
             /// The AddressContinue item.
             /// </summary>
             [RepositoryItem("4fd1ade9-3909-429a-b779-36154d94d0e5")]
-            public virtual Ranorex.Container AddressContinue
+            public virtual Ranorex.Text AddressContinue
             {
                 get
                 {
-                    return _addresscontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _addresscontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3258,11 +3336,11 @@ namespace SSPC_iOS
             /// The NicknameSave item.
             /// </summary>
             [RepositoryItem("685ee44f-20f8-4db5-9f3e-7779e213245d")]
-            public virtual Ranorex.Container NicknameSave
+            public virtual Ranorex.Text NicknameSave
             {
                 get
                 {
-                    return _nicknamesaveInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _nicknamesaveInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -3282,11 +3360,11 @@ namespace SSPC_iOS
             /// The InstallationCompleteContinue item.
             /// </summary>
             [RepositoryItem("5cd27f50-eed2-4a9e-98c5-8620aa443184")]
-            public virtual Ranorex.Container InstallationCompleteContinue
+            public virtual Ranorex.Text InstallationCompleteContinue
             {
                 get
                 {
-                    return _installationcompletecontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _installationcompletecontinueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 

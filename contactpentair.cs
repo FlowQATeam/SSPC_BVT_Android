@@ -119,8 +119,8 @@ namespace SSPC_iOS
                 //repo.ComPentairPentairhome.PentairSupportInfo.WaitForExists(120000);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(8));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(8));
+            Delay.Duration(15000, false);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='WE'RE WAITING TO HEAR FROM YOU') on item 'ComPentairPentairhome.WEREWAITINGTOHEARFROMYOU'.", repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, new RecordItemIndex(9));
             Validate.AttributeEqual(repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, "InnerText", "WE'RE WAITING TO HEAR FROM YOU");
@@ -134,20 +134,6 @@ namespace SSPC_iOS
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
-            Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(13));
-            Host.Current.KillApplication(repo.ComPentairPentairhome.Self);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(14));
-            Delay.Duration(30000, false);
-            
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.", new RecordItemIndex(15));
-            Host.Local.RunMobileApp("Jyotiâ€™s iPhone", "com.pentair.pentairhome", false);
-            Delay.Milliseconds(3500);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(16));
             Delay.Duration(10000, false);
             
         }

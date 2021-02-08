@@ -26,7 +26,12 @@ mode="Global">
 		<var
 		id="697cce41-86c9-4085-8e60-6eeca638716e"
 		name="WifiPassword">
-			satkabirdaya
+			osys9456
+		</var>
+		<var
+		id="9bfe522f-73aa-4b08-aa4f-8fe951071a0e"
+		name="Wifissid">
+			Galaxy S20+f314
 		</var>
 	</variables>
 	<recorditems>
@@ -461,7 +466,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="30000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -498,7 +503,7 @@ mode="Global">
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="30000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -506,6 +511,26 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="008cd6bd-7936-4c4f-846e-cec42aafb720">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+			</info>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="042761be-07e8-4710-9090-4657c7a8ba3d"

@@ -532,13 +532,6 @@
       <id>ea30512d-b0fc-473f-a343-2ef0c597df97</id>
       <recordtableid>c623303e-27fe-4914-b669-cbcffdf3b2bb</recordtableid>
     </None>
-    <Content Include="QACredCSV.csv">
-      <Link>QACredCSV.csv</Link>
-      <BoundTo>f2f873db-e329-417c-b0e2-8edf9022e1fd</BoundTo>
-      <DependentUpon>SSPC_Android_BVT.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>709ce0ac-0a3f-4086-99a5-0851bcb23369</id>
-    </Content>
     <None Include="removedevice.rxrec">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
       <id>f72c003e-1142-49f1-a6a2-4cfbf3841458</id>

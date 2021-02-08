@@ -1161,7 +1161,7 @@
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				QACredCSV.csv
+				..\..\QACredCSV.csv
 			</file>
 		</DataSource>
 	</datasources>

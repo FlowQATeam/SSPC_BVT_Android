@@ -32,7 +32,7 @@ mode="Global">
 	<recorditems>
 		<runmobileapprecorditem
 		application="com.pentair.pentairhome"
-		devicename="Jyotiâ€™s iPhone"
+		devicename="USB-3432585431453498"
 		duration="3500ms"
 		enabled="True"
 		optional="False"
@@ -42,9 +42,18 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</runmobileapprecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<swiperecorditem
 		direction="180"
-		distance=".5"
+		distance="1.0"
 		duration="500ms"
 		enabled="True"
 		optional="False"
@@ -68,7 +77,7 @@ mode="Global">
 		</swiperecorditem>
 		<swiperecorditem
 		direction="180"
-		distance=".5"
+		distance="1.0"
 		duration="500ms"
 		enabled="True"
 		optional="False"
@@ -86,13 +95,13 @@ mode="Global">
 			id="ca1a9a33-105f-43e3-aa2e-46b26e689aeb"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]
 				</path>
 			</info>
 		</swiperecorditem>
 		<swiperecorditem
 		direction="180"
-		distance=".5"
+		distance="1.0"
 		duration="500ms"
 		enabled="True"
 		optional="False"
@@ -110,7 +119,7 @@ mode="Global">
 			id="53846f8e-2948-45ba-9142-84cb0fc04610"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/androidelement/androidelement
 				</path>
 			</info>
 		</swiperecorditem>

@@ -23,66 +23,66 @@ name="SSPC_Android_BVTRepository">
 		usecache="False">
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="8d63248f-3f50-418d-96dd-1c443ea3d79c"
 			name="Skip"
 			refimgid="98b531ea-7e70-4615-ad36-d95064a86bba"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="4b107309-1dd6-40f3-8506-42a7d972701c"
 			name="firstscreensipe"
 			refimgid="8309cd6d-7f7a-41ec-a72f-5457162eeb39"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="ca1a9a33-105f-43e3-aa2e-46b26e689aeb"
 			name="SecondScreenSipe"
 			refimgid="e484a18f-479d-461f-a0e7-51340a0fbf1d"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/?/?/?/?/picture[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="53846f8e-2948-45ba-9142-84cb0fc04610"
 			name="ThirdScreenSwipe"
 			refimgid="ee472771-8dfb-4dae-9ea0-15c7015fa9d7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement[@rid='content']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="a160189d-551d-4c0f-a37b-858ef718fc53"
 			name="LastScreen_Next_button"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="0e2f5221-0653-4cb4-a215-2241276c2b54"
 			name="HomeIcon"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="a90ab021-1630-42b5-9ec5-ae0e6e5e37b3"
 			name="ChangeWiFiNetwork"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/text[@text='Change WiFi Network']
 			</item>
 			<item
 			addcaps="text,ioselement,mobileuielement"
@@ -91,7 +91,7 @@ name="SSPC_Android_BVTRepository">
 			name="Email_input"
 			refimgid="98952963-2ad8-4a0c-8f2f-3cea81338ca1"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//text[@accessibilityid='LoginEmailTextField']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='LoginEmailTextField']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -100,16 +100,16 @@ name="SSPC_Android_BVTRepository">
 			name="PassordInput"
 			refimgid="335d30ee-98ea-4a23-b152-067e874b7c3d"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='SignInPasswordField']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='SignInPasswordField']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="8e44d3c0-98e2-4c97-b05a-163b289503d2"
 			name="GetStartedLogin"
 			refimgid="37ecd87d-ed16-4e90-8102-20a080bb6c81"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='LoginEmailNextButton']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='LoginEmailNextButton']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -122,57 +122,57 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="32226905-c9fe-46e8-bce2-869e48fd700d"
 			name="LOGIN"
 			refimgid="dc592974-ef79-4224-8565-58efca56781c"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='SignInSignInButton']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="7033cf0f-f499-4413-a4e8-08725378b2fa"
 			name="RunTestButton"
 			refimgid="37ecd87d-ed16-4e90-8102-20a080bb6c81"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="ab14a731-663a-40a3-875f-db549bce0fc6"
 			name="CancelEmptyWater"
 			refimgid="10587bf5-0695-483b-80cf-b3996ac404e6"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='CANCEL']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="758fc078-344c-4b30-ad4a-fe168ab18e8d"
 			name="SSPCtileClick"
 			refimgid="e60b9523-a499-4a99-a75b-cbdfa60f1b7e"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel=$Nickname]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="button"
 			id="ac681454-2db1-4a9c-a23b-d5d9288f1d0c"
 			name="WiFiUpdateOK"
 			refimgid="e60b9523-a499-4a99-a75b-cbdfa60f1b7e"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='Status']//button[@resourceid='R.string.yes' and @text='OK']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="59aae09b-80da-4122-96c9-89c2aeba4127"
 			name="EMPTYWATER"
 			refimgid="e21c646d-2b69-4f35-b274-b9b8a87e4565"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='EMPTY WATER']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']
 			</item>
 			<folder
 			addcaps="form,ioselement,mobileuielement"
@@ -185,66 +185,66 @@ name="SSPC_Android_BVTRepository">
 			usecache="False">
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="3e305d14-7a70-4aed-a1f2-10c869b981c2"
 				name="ContinueonProvisiom"
 				refimgid="31b6cf20-988b-47a9-95ef-247b6f330650"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilityid='shadowButton']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']//androidelement[@contentdescription='shadowButton']/text
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="78a19a1e-1106-48cf-9d05-5e0d10279e91"
 				name="SumpController"
 				refimgid="624999ac-7152-42ef-a017-b925284bb9a5"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=' Sump Controller ']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="androidelement"
 				id="71073362-717a-4b38-b405-910e4011de39"
 				name="AddADevice"
 				refimgid="dfa85399-7990-44e5-beea-c6c1e503ed38"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="fa638f85-db6e-409a-9a5f-622470302660"
 				name="BluetoothContinue"
 				refimgid="1de1fabd-de2b-40b6-9d64-a4005bbd8de9"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56"
 				name="DeviceSelection"
 				refimgid="9a0aa283-0795-48f1-9db2-3b52771770ca"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=$DeviceID]
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="2045f3f7-b3dd-40f5-91e1-5989b02d3ec2"
 				name="ConnectionEstablishedContinue"
 				refimgid="2b3f8d7b-db08-4594-9418-a025536c672e"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Bluetooth® WirelessConnection Established Sump Controller  is now paired to Bluetooth wireless. Stay connected while you''re away by connecting your Sump Controller to your home WiFi network. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff"
 				name="WifiSelection"
 				refimgid="1c6356e0-d7d7-4a81-b384-1694107c2009"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/?/container[@accessibilitylabel=$Wifissid]/container[@accessibilitylabel=$Wifissid]
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/text[@text=$Wifissid]
 				</item>
 				<item
 				addcaps="text,ioselement,mobileuielement"
@@ -253,16 +253,16 @@ name="SSPC_Android_BVTRepository">
 				name="WifiPasswordinput"
 				refimgid="453adfba-73e1-48c4-bdab-1d3dadeace43"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//text
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="9d4c0f9e-5c63-422a-965a-16e1b6eed521"
 				name="WifiContinue"
 				refimgid="31f83a88-ea22-466b-bec8-6cfd940a096d"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=$WifiPageContainer]/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 				</item>
 				<item
 				addcaps="text,ioselement,mobileuielement"
@@ -271,34 +271,34 @@ name="SSPC_Android_BVTRepository">
 				name="NicknameInput"
 				refimgid="82f3ff70-6c73-4cca-a1de-35d00571df30"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Nickname']/container[2]/container[1]/text
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="4fd1ade9-3909-429a-b779-36154d94d0e5"
 				name="AddressContinue"
 				refimgid="209eb678-b7ea-489e-bcda-91b4067e6732"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="685ee44f-20f8-4db5-9f3e-7779e213245d"
 				name="NicknameSave"
 				refimgid="c3a2122d-1eb5-4d17-8c99-d85a46b64820"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/?/?/?//?/?/container[@accessibilitylabel='SAVE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/?/?/androidelement[1]/text[1]
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
-				capname="container"
+				capname="text"
 				id="5cd27f50-eed2-4a9e-98c5-8620aa443184"
 				name="InstallationCompleteContinue"
 				refimgid="e1d4c976-b1fa-4df1-b136-fabc5aa5f833"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@rid='content']/container[@containertype='Frame']/?/?/?/androidelement[1]/androidelement[4]/text[@text='CONTINUE']
 				</item>
 				<item
 				addcaps="form,ioselement,mobileuielement"
@@ -316,30 +316,30 @@ name="SSPC_Android_BVTRepository">
 			</folder>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="6c5bbb07-a55d-4a05-b8e2-d6174001970e"
 			name="setupBluetoothScerollUp"
 			refimgid="72feaf21-e364-4a06-8d06-f2bc9d38f0e9"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[1]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement/androidelement/text[3]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="e15dfd23-4784-414f-b8b3-f67fe2604fdc"
 			name="Manual"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Manual']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="03645d76-99e7-4cbf-a722-8ab2331c1ee5"
 			name="AutoMode"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Auto']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Auto']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -352,21 +352,21 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="189bacf9-0d5e-40fa-9d44-81a406083e69"
 			name="ScheduleHealthTestDropDown"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/picture[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="a7109814-1d91-406f-8343-71f017d6fbd0"
 			name="ManualScrollUp"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Health']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -397,12 +397,12 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="f049c4d8-db46-48ef-99b3-3de9ff7b50d3"
 			name="FrequencySelection"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
 			searchtimeout="0ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[2]/text[@text~'^(Monthly|Weekly|Daily|Disable)']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -433,12 +433,12 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="45416e30-d38e-429c-8306-e18beca1470f"
 			name="ScheduleHTDisableSelect"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Disable']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[4]/androidelement[1]/text[@text='Disable']
 			</item>
 			<item
 			addcaps="text,ioselement,mobileuielement"
@@ -447,7 +447,7 @@ name="SSPC_Android_BVTRepository">
 			name="Manual_frequency"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Frequency (min) Will run this often']/container[2]/container[@caption='']/text
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text
 			</item>
 			<item
 			addcaps="text,ioselement,mobileuielement"
@@ -456,16 +456,16 @@ name="SSPC_Android_BVTRepository">
 			name="Manula_Duration"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Duration (sec) For this amount of time']/container[2]/container[@caption='']/text
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="ad65e02b-9954-45c0-83a6-02be02731ded"
 			name="Timer_Mode"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Timer']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -487,111 +487,111 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3"
 			name="ProductOverview"
 			refimgid="e9e5d277-e864-4c5f-a4f8-18d7c69620ec"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Product Overview']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81"
 			name="Settingsicon"
 			refimgid="e9e5d277-e864-4c5f-a4f8-18d7c69620ec"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']/container[@caption='']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//picture[@contentdescription='headerRightImage']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26"
 			name="Notifications"
 			refimgid="03b2711c-e877-4f55-9b37-236a3476db69"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="b0217722-6d80-4f77-8206-6c154f210880"
 			name="ProductSupport"
 			refimgid="949a62d8-2511-4b89-9c04-1d94dabe4f16"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Support']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="7fcbd103-cb91-4865-982d-679d1dd258c6"
 			name="ContactPentair"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[4]/text[@text='Contact Pentair']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="553e9cdf-911e-482b-bc72-880cd2175a08"
 			name="AllNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='All Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="279a2efd-5a62-4beb-b501-cf5a20f57e8d"
 			name="PushNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Push Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="cc8353e6-4430-4c5a-8233-aea21ce2447a"
 			name="EmailNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Email Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="af6e59ef-0221-4ea9-8129-b3002934c7a5"
 			name="TextNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/?/container[@accessibilitylabel~'^Text']/container[2]/container[@accessibilityid='toggle']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6"
 			name="WiFi"
 			refimgid="c71c1e42-0297-40d5-ae4d-8d75fd29f9bd"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='WiFi']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[5]/text[@text='WiFi']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="7028503f-19a0-46b8-a8ae-a7832d172a26"
 			name="Configurations"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Configurations']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Configurations']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="c5891aba-693c-4ac2-8323-060e2b33a439"
 			name="DryRunToggle"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/androidelement[2]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -600,7 +600,7 @@ name="SSPC_Android_BVTRepository">
 			name="DryRunInput"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Dry Time Delay']/container[1]/container[@caption='']/text
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[5]/text
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -609,79 +609,106 @@ name="SSPC_Android_BVTRepository">
 			name="ExtraRunTimeInput"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Extra Runtime 0 sec 15 sec']/container[@accessibilitylabel='Extra Runtime']/container[1]/container[@caption='']/text
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[4]/text
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="1fa89dd5-bb26-40eb-876c-cf09d1a887b5"
 			name="DryRunHelp"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Dry Run Limit']/container[@accessibilitylabel='Dry Run Limit']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/androidelement[2]/picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="dde37c4e-ec47-465a-b0e8-777428facd68"
 			name="ExtraRuntimeHelp"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/androidelement[2]/picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="12f9c676-f781-4063-843e-3dc70ddff407"
 			name="ConfiguratioonsOK"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="0ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="8630d7d1-0e05-467c-9948-274da923385a"
 			name="Analytics"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Analytics']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[7]/text[@text='Analytics']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="9c430dce-5bca-4490-9337-08d1282252c2"
 			name="Daily"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="1cb0ace5-04e3-493b-b405-4b5bd7544d7d"
 			name="Weekly"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/text[@text='Weekly']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="3d1e2259-453f-4d08-a571-1aeb3604dcfc"
 			name="Monthly"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/?/?/?/?/androidelement[1]/androidelement[3]/text[@text='Monthly']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="07df800c-4430-4a53-b18c-1949a219900a"
 			name="QuarterlyAnalytics"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Quarterly']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
+			capname="text"
+			id="643e52be-fc1b-4022-a75a-1cbdff3a9003"
+			name="WeeklyAnalytics"
+			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
+			capname="text"
+			id="0af8abf0-33a8-4634-aaab-0d92c6682583"
+			name="MonthlyAnalytics"
+			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
+			capname="text"
+			id="32b9103b-6261-46a7-bea6-1d783131ebc9"
+			name="DaillyAnalytics"
+			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -730,12 +757,12 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="736399e1-07e2-4fe7-bf61-4611e4272249"
 			name="nickname"
 			refimgid="cc28d508-6590-43bc-90c3-2301a49ff7de"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel=$NickNameClick]/?/?/container[@accessibilitylabel=$NickNameClick]/container[@accessibilitylabel=$Nickname]
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[5]/text[@text='Nickname']
 			</item>
 			<item
 			addcaps="text,ioselement,mobileuielement"
@@ -744,7 +771,7 @@ name="SSPC_Android_BVTRepository">
 			name="nicknameedit"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[2]/container[1]/text
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -757,22 +784,21 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="33b564d6-8e10-4a32-8cdf-1f748c008f47"
 			name="StartManual"
 			refimgid="33da4e13-f74c-43cd-a320-5ebce800b90e"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Start']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="1c9e833b-9678-4f98-bbc3-66d3652506ee"
 			name="DeviceUpdatedOK"
 			refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='OK']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[5]/text[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -803,78 +829,75 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="a462a1d5-353d-43e9-b205-d51d907eb722"
 			name="NotificationsContinue"
 			refimgid="9ee03ce5-804a-40da-ab82-569c14dafd2b"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[6]/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="c5211c82-3ee9-46b7-914e-935a920a095b"
 			name="AppFeedbackClose"
 			refimgid="68e876b8-c1a1-4903-8afd-df06ef2e8fb4"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='What do you think of the app?']/container[@accessibilitylabel='What do you think of the app?']/container[@accessibilitylabel='What do you think of the app?']/container[1]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="63896f03-abd2-4362-87a6-8dda4506d2bb"
 			name="TextSMSAccept"
 			refimgid="eba0e3fb-6e63-4780-8dd5-2ecc9a405e80"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="a6765dee-b10e-417e-a874-cc4b71cf89d0"
 			name="TextSMSCancel"
 			refimgid="eba0e3fb-6e63-4780-8dd5-2ecc9a405e80"
 			searchtimeout="0ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="ecb2253c-99ba-4c5a-b205-efcef67356c8"
 			name="EnterEmailTextLogin"
 			refimgid="12d3569c-d575-4254-af50-36d08e8727c7"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Enter your email to get started. Email Address Get Started']/container[@accessibilitylabel='Enter your email to get started.']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter your email to get started.']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/text[2]
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="androidelement"
 			id="41ea38b8-cc26-410a-855b-65ccdb806f8d"
 			name="LoginUpperRight"
 			refimgid="59b5002a-a2b7-477a-9d3f-bcf20d62fdd4"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement/androidelement[4]/androidelement
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="c2c4e8bd-79ee-4323-9f5d-aa026d00435a"
 			name="ChangeAddress"
 			refimgid="9f0eeaaf-eaf8-4279-90af-2a30ddac14c5"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Address']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="34208c47-c228-4907-99b0-bf3d02458e24"
 			name="ChangeAddressDropDown"
 			refimgid="9f0eeaaf-eaf8-4279-90af-2a30ddac14c5"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -888,41 +911,39 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="6ed7450f-337a-40ad-8443-24192efcf984"
 			name="EMainStOrange"
 			refimgid="4e090963-b7f2-4fab-8496-a57ee2e3e9e8"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@caption='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS']/container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/?/?/androidelement[3]/androidelement[1]/text[@text='E Main St, Orange']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a"
 			name="Container22475EMunozStQueenCreek"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@caption='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='22475 E Munoz St, Queen Creek']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="3a6b8fb3-ab97-43f8-85b0-52866db54662"
 			name="ChangeAddressContinue"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="button"
 			id="9d4c4267-2e6f-4e91-b25c-c7d3d677f745"
 			name="AddressUpdatedOK"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='Status']//button[@resourceid='R.string.yes']
 			</item>
 			<item
 			addcaps="unknown,h2tag,webelement,mobileuielement"
@@ -930,9 +951,8 @@ name="SSPC_Android_BVTRepository">
 			id="977b4069-8637-4225-afac-3b0e40e320a1"
 			name="WEREWAITINGTOHEARFROMYOU"
 			refimgid="c3d7e946-25d6-49c5-8376-aec8e512ab21"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/dom[@caption='Home App | Contact Us | Pentair']/body/div[1]/main/div[2]/div[1]/section/article/div/div/div/div/div/h2[@innertext='WE''RE WAITING TO HEAR FROM YOU']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//dom[@caption&gt;'Home App | Contact Us | P']//h2[@innertext&gt;'WE''RE WAITING TO HEAR FROM']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext&gt;'WE''RE WAITING TO HEAR FROM']
 			</item>
 			<item
 			addcaps="unknown,h2tag,webelement,mobileuielement"
@@ -940,27 +960,26 @@ name="SSPC_Android_BVTRepository">
 			id="b781ecea-ffc9-4a67-9724-78c63c53a6b5"
 			name="SumpControllerSupport"
 			refimgid="d5f4b955-a48c-429a-9a74-ce37b1fe858c"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/dom[@caption='Sump Controller | Home App Support | Pentair']/body/div[1]/main/div[2]/div[1]/section/article/div/div/div/div/h2[@innertext='Sump Controller Support']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//dom[@caption&gt;'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext='Sump Controller Support']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="64dcdca3-14ed-4187-9b88-5248a9ceb08d"
 			name="ScheduleSave"
 			refimgid="3c61e795-4c2d-4b66-a7dc-64b95aa3c79c"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='save']/text[@text='Save']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="text"
 			id="8e9aa462-4f8a-494b-a243-de8701b6cead"
 			name="Histy"
 			refimgid="3c61e795-4c2d-4b66-a7dc-64b95aa3c79c"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='chartImage']/text[@text='History']
 			</item>
 			<folder
 			capname="iospicker"
@@ -1102,23 +1121,21 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="ffee1561-5e54-45f2-bbff-df998884bc22"
 			name="Product_SupportBack"
 			refimgid="e138b37b-c641-4ef7-b562-3c814a6b750b"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="container"
+			capname="picture"
 			id="c798ee49-c3e1-4324-b591-360be8abc2ec"
 			name="ContactPentairBack"
 			refimgid="0025a4bc-a43b-4ba2-9ad5-c32cab0c8666"
-			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture
 			</item>
 			<item
 			addcaps="container,container,webdocument,ioselement,mobileuielement"
@@ -1316,7 +1333,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="9bfe522f-73aa-4b08-aa4f-8fe951071a0e"
 		name="Wifissid">
-			satsaheb
+			Galaxy S20+f314
 		</var>
 		<var
 		id="15db34cc-b901-4dc4-b385-f561e02f4c65"
