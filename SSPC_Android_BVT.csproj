@@ -423,6 +423,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>0981acd9-1972-4212-b903-60c50f81572c</id>
     </Compile>
+    <Compile Include="test.cs">
+      <BoundTo>c881b8b6-c138-4baf-b06b-d7306443ce00</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a883f4ed-3555-4548-be61-dd96e561138b</id>
+    </Compile>
+    <Compile Include="test.UserCode.cs">
+      <BoundTo>c881b8b6-c138-4baf-b06b-d7306443ce00</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60797dc2-c28e-44a8-bac9-536a09a1fc00</id>
+    </Compile>
     <Compile Include="TimerMode.cs">
       <BoundTo>9884a718-2224-433b-940d-c479353c7390</BoundTo>
       <DependentUpon>TimerMode.rxrec</DependentUpon>
@@ -582,6 +594,11 @@
       <id>1257abc7-ec7a-489a-80bb-d04e1f4294b1</id>
       <repoid>042761be-07e8-4710-9090-4657c7a8ba3d</repoid>
       <reporootid>f06284d3-1084-4358-8b35-59ebc0068d7e</reporootid>
+    </None>
+    <None Include="test.rxrec">
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
+      <id>c881b8b6-c138-4baf-b06b-d7306443ce00</id>
+      <recordtableid>8f3f9ad7-64fb-4b4d-8c3a-b82746f5428a</recordtableid>
     </None>
     <None Include="TimerMode.rxrec">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>

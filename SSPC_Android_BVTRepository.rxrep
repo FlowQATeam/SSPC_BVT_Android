@@ -883,6 +883,15 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
+			capname="androidelement"
+			id="1314e82a-72fc-407f-8276-a2677752d1ae"
+			name="TimerHrsAndroid"
+			refimgid="59b5002a-a2b7-477a-9d3f-bcf20d62fdd4"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']//androidelement[@contentdescription='hourPicker']
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
 			capname="text"
 			id="c2c4e8bd-79ee-4323-9f5d-aa026d00435a"
 			name="ChangeAddress"

@@ -361,6 +361,7 @@ namespace SSPC_iOS
             RepoItemInfo _textsmscancelInfo;
             RepoItemInfo _enteremailtextloginInfo;
             RepoItemInfo _loginupperrightInfo;
+            RepoItemInfo _timerhrsandroidInfo;
             RepoItemInfo _changeaddressInfo;
             RepoItemInfo _changeaddressdropdownInfo;
             RepoItemInfo _addnewaddressInfo;
@@ -415,7 +416,7 @@ namespace SSPC_iOS
                 _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement/androidelement/text[3]", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
                 _manualInfo = new RepoItemInfo(this, "Manual", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
                 _automodeInfo = new RepoItemInfo(this, "AutoMode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Auto']", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
-                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", "form[@title='(none)']/?/?/container/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
+                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
                 _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/picture[1]", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
                 _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
                 _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
@@ -475,6 +476,7 @@ namespace SSPC_iOS
                 _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
                 _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/text[2]", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
                 _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement/androidelement[4]/androidelement", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
+                _timerhrsandroidInfo = new RepoItemInfo(this, "TimerHrsAndroid", ".//androidelement[@contentdescription='hourPicker']", 30000, null, "1314e82a-72fc-407f-8276-a2677752d1ae");
                 _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
                 _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/picture", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
                 _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
@@ -1006,11 +1008,11 @@ namespace SSPC_iOS
             /// The ScheduleHealthTestClick item.
             /// </summary>
             [RepositoryItem("e3a9451c-c388-491f-b063-273b19cd079f")]
-            public virtual Ranorex.Text ScheduleHealthTestClick
+            public virtual Ranorex.Container ScheduleHealthTestClick
             {
                 get
                 {
-                    return _schedulehealthtestclickInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _schedulehealthtestclickInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
@@ -2439,6 +2441,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _loginupperrightInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TimerHrsAndroid item.
+            /// </summary>
+            [RepositoryItem("1314e82a-72fc-407f-8276-a2677752d1ae")]
+            public virtual Ranorex.AndroidElement TimerHrsAndroid
+            {
+                get
+                {
+                    return _timerhrsandroidInfo.CreateAdapter<Ranorex.AndroidElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TimerHrsAndroid item info.
+            /// </summary>
+            [RepositoryItemInfo("1314e82a-72fc-407f-8276-a2677752d1ae")]
+            public virtual RepoItemInfo TimerHrsAndroidInfo
+            {
+                get
+                {
+                    return _timerhrsandroidInfo;
                 }
             }
 
