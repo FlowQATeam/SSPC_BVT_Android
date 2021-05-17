@@ -51,6 +51,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 	</recorditems>

@@ -126,12 +126,12 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(10));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Product_SupportBack' at Center", repo.ComPentairPentairhome.Product_SupportBackInfo, new RecordItemIndex(11));
-            repo.ComPentairPentairhome.Product_SupportBack.Touch();
-            Delay.Milliseconds(300);
+            //Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Product_SupportBack' at Center", repo.ComPentairPentairhome.Product_SupportBackInfo, new RecordItemIndex(11));
+            //repo.ComPentairPentairhome.Product_SupportBack.Touch();
+            //Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
+            //Delay.Duration(5000, false);
             
         }
 

@@ -66,6 +66,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -103,6 +105,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/?/?/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today Add a Device']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today']/container[@accessibilitylabel='SPC QA 8091']/container[@accessibilityid='deviceImage']/container[@caption='']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -140,6 +144,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -166,6 +172,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']//listitem[@text=$TimerHrs]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<arguments
 			id="c0481249-c755-4b16-b1db-d0f2db1e12e9">
@@ -198,6 +206,8 @@ mode="Global">
 						<path>
 							/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 			</arguments>
@@ -226,6 +236,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']//listitem[@text=$TimerMins]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<arguments
 			id="c0481249-c755-4b16-b1db-d0f2db1e12e9">
@@ -258,6 +270,8 @@ mode="Global">
 						<path>
 							/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']
 						</path>
+						<robustPath>
+						</robustPath>
 					</info>
 				</argument>
 			</arguments>
@@ -335,6 +349,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem

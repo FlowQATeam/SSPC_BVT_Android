@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.7m"
+		durationms="162729"
+		type="root"
+		rid="bda208fdb47d822"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="03-Feb-21 8:20:04 PM"
+		timestampiso="2021-02-03T14:50:04"
+		endtime="03-Feb-21 8:22:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ManualModeSwitch">
+		<detail>
+			ManualModeSwitch
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.592"
+			timeRelativeToTestModuleStartTime="00:05.592"
+			timeWallClock="20:20:10"
+			time="00:05.592"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ManualFrequency, ManualDuration, ManualWaitTime, Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.611"
+			timeRelativeToTestModuleStartTime="00:05.611"
+			timeWallClock="20:20:10"
+			time="00:05.611"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="131"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.423"
+			timeRelativeToTestModuleStartTime="00:08.423"
+			timeWallClock="20:20:13"
+			time="00:08.423"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="135"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.427"
+			timeRelativeToTestModuleStartTime="00:10.427"
+			timeWallClock="20:20:15"
+			time="00:10.427"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'ComPentairPentairhome.AppFeedbackClose' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				itempath="form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose"
+				id="c5211c823ee946b7914e935a920a095b"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="139"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.462"
+			timeRelativeToTestModuleStartTime="01:10.462"
+			timeWallClock="20:21:15"
+			time="01:10.462"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="142"
+				loglvl="Warn"
+				id="c5211c823ee946b7914e935a920a095b"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.462"
+			timeRelativeToTestModuleStartTime="01:10.462"
+			timeWallClock="20:21:15"
+			time="01:10.462"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.473"
+			timeRelativeToTestModuleStartTime="01:12.473"
+			timeWallClock="20:21:17"
+			time="01:12.473"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="147"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.275"
+			timeRelativeToTestModuleStartTime="01:14.275"
+			timeWallClock="20:21:18"
+			time="01:14.275"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="151"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.282"
+			timeRelativeToTestModuleStartTime="01:16.282"
+			timeWallClock="20:21:20"
+			time="01:16.282"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Manual' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Manual"
+				id="e15dfd234784414fb8b3f67fe2604fdc"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="154"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.885"
+			timeRelativeToTestModuleStartTime="01:17.885"
+			timeWallClock="20:21:22"
+			time="01:17.885"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ManualScrollUp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]"
+				itempath="form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.ManualScrollUp"
+				id="a71098141d91406f834371f017d6fbd0"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="158"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.555"
+			timeRelativeToTestModuleStartTime="01:19.555"
+			timeWallClock="20:21:24"
+			time="01:19.555"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$ManualFrequency' on item 'ComPentairPentairhome.Manual_frequency'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Manual_frequency"
+				id="91d48bfc55be4003a9f9be9f6424a240"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="162"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.248"
+			timeRelativeToTestModuleStartTime="01:20.248"
+			timeWallClock="20:21:24"
+			time="01:20.248"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="166"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:22.254"
+			timeRelativeToTestModuleStartTime="01:22.254"
+			timeWallClock="20:21:26"
+			time="01:22.254"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$ManualDuration' on item 'ComPentairPentairhome.Manula_Duration'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Manula_Duration"
+				id="c83b08290a1341e1af17576343abcebc"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="169"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:22.974"
+			timeRelativeToTestModuleStartTime="01:22.974"
+			timeWallClock="20:21:27"
+			time="01:22.974"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="173"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.983"
+			timeRelativeToTestModuleStartTime="01:25.983"
+			timeWallClock="20:21:30"
+			time="01:25.983"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.StartManual' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']"
+				itempath="form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.StartManual"
+				id="33b564d68e104a328cdf1f748c008f47"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="176"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:27.716"
+			timeRelativeToTestModuleStartTime="01:27.716"
+			timeWallClock="20:21:32"
+			time="01:27.716"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for time from variable $ManualWaitTime.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ManualModeSwitch.cs"
+				codeline="180"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

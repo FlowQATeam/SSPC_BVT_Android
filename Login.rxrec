@@ -54,6 +54,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='LoginTextInputEmail']/container[@accessibilitylabel='LoginTextInputEmail']/container[@accessibilitylabel='LoginTextInputEmail']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<AttributeValue>
 			</AttributeValue>
@@ -131,6 +133,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter your email to get started.']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -168,6 +172,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='LoginEmailNextButton']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -198,6 +204,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='LoginTextInputPassword']/container[@accessibilitylabel='LoginTextInputPassword']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<AttributeValue>
 			</AttributeValue>
@@ -270,6 +278,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Forgot Password Sign In Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -307,6 +317,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='LOG IN']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="50.79s"
+		durationms="50790"
+		type="root"
+		rid="820d9f352138df7"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="03-Mar-21 1:59:57 PM"
+		timestampiso="2021-03-03T08:29:57"
+		endtime="03-Mar-21 2:00:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="analytics">
+		<detail>
+			analytics
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.714"
+			timeRelativeToTestModuleStartTime="00:05.714"
+			timeWallClock="14:00:02"
+			time="00:05.714"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.733"
+			timeRelativeToTestModuleStartTime="00:05.733"
+			timeWallClock="14:00:02"
+			time="00:05.733"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.QuarterlyAnalytics' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/text[@text='Quarterly']"
+				itempath="form[@title='MainActivity']/androidelement/text[@text='Quarterly']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.QuarterlyAnalytics"
+				id="07df800c44304a53b18c1949a219900a"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="92"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.793"
+			timeRelativeToTestModuleStartTime="00:50.793"
+			timeWallClock="14:00:47"
+			time="00:50.793"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

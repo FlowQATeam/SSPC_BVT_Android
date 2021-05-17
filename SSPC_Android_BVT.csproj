@@ -510,9 +510,9 @@
       <recordtableid>dd5d449a-51c5-43df-aa99-a0b1030f7190</recordtableid>
     </None>
     <None Include="Launch_App.rxrec">
-      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
       <id>3f971247-3a4e-4b61-8035-a776a9993b58</id>
       <recordtableid>136b4c93-a94b-4c80-b8ab-e8b9d3bc7e7d</recordtableid>
+      <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>
     </None>
     <None Include="Login.rxrec">
       <BoundTo>1257abc7-ec7a-489a-80bb-d04e1f4294b1</BoundTo>

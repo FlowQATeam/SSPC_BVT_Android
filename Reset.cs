@@ -145,6 +145,25 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(15));
             Delay.Duration(60000, false);
             
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.HomeIcon' at Center", repo.ComPentairPentairhome.HomeIconInfo, new RecordItemIndex(16));
+            repo.ComPentairPentairhome.HomeIcon.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(17));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.SSPCtileClick' at Center", repo.ComPentairPentairhome.SSPCtileClickInfo, new RecordItemIndex(18));
+            repo.ComPentairPentairhome.SSPCtileClick.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(19));
+            Delay.Duration(5000, false);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(20));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(21));
+            Delay.Duration(5000, false);
+            
         }
 
 #region Image Feature Data

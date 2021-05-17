@@ -79,8 +79,8 @@ namespace SSPC_iOS
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '1000' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.TimerHrsAndroid'.", repo.ComPentairPentairhome.TimerHrsAndroidInfo, new RecordItemIndex(0));
-            repo.ComPentairPentairhome.TimerHrsAndroid.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", "1000"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '50' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.TimerHrsAndroid'.", repo.ComPentairPentairhome.TimerHrsAndroidInfo, new RecordItemIndex(0));
+            repo.ComPentairPentairhome.TimerHrsAndroid.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", "50"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
         }

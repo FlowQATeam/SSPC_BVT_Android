@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="30.49s"
+		durationms="30486"
+		type="root"
+		rid="b849d8c76736850"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="04-Mar-21 12:07:21 PM"
+		timestampiso="2021-03-04T06:37:21"
+		endtime="04-Mar-21 12:07:52 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RunHealthTest">
+		<detail>
+			RunHealthTest
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.260"
+			timeRelativeToTestModuleStartTime="00:08.260"
+			timeWallClock="12:07:30"
+			time="00:08.260"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.277"
+			timeRelativeToTestModuleStartTime="00:08.277"
+			timeWallClock="12:07:30"
+			time="00:08.277"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.577"
+			timeRelativeToTestModuleStartTime="00:11.577"
+			timeWallClock="12:07:33"
+			time="00:11.577"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.592"
+			timeRelativeToTestModuleStartTime="00:13.592"
+			timeWallClock="12:07:35"
+			time="00:13.592"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.600"
+			timeRelativeToTestModuleStartTime="00:14.600"
+			timeWallClock="12:07:36"
+			time="00:14.600"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.601"
+			timeRelativeToTestModuleStartTime="00:16.601"
+			timeWallClock="12:07:38"
+			time="00:16.601"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RunTestButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RunTestButton"
+				id="7033cf0ff4994413a4e808725378b2fa"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="106"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.479"
+			timeRelativeToTestModuleStartTime="00:19.479"
+			timeWallClock="12:07:41"
+			time="00:19.479"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 11s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\RunHealthTest.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

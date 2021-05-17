@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.2s"
+		durationms="24200"
+		type="root"
+		rid="1e6231bb27d69c16"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="01-Feb-21 4:11:18 PM"
+		timestampiso="2021-02-01T10:41:18"
+		endtime="01-Feb-21 4:11:42 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Launch_App">
+		<detail>
+			Launch_App
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.564"
+			timeRelativeToTestModuleStartTime="00:05.564"
+			timeWallClock="16:11:23"
+			time="00:05.564"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Endpoint
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.583"
+			timeRelativeToTestModuleStartTime="00:05.583"
+			timeWallClock="16:11:23"
+			time="00:05.583"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.pentair.pentairhome' on device 'USB-3432585431453498'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.183"
+			timeRelativeToTestModuleStartTime="00:11.183"
+			timeWallClock="16:11:29"
+			time="00:11.183"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.198"
+			timeRelativeToTestModuleStartTime="00:13.198"
+			timeWallClock="16:11:31"
+			time="00:13.198"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.firstscreensipe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.firstscreensipe"
+				id="4b1073091dd640f3850642a7d972701c"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="102"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.273"
+			timeRelativeToTestModuleStartTime="00:16.273"
+			timeWallClock="16:11:34"
+			time="00:16.273"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.SecondScreenSipe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SecondScreenSipe"
+				id="ca1a9a33105f43e3aa2e46b26e689aeb"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="106"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.009"
+			timeRelativeToTestModuleStartTime="00:19.009"
+			timeWallClock="16:11:37"
+			time="00:19.009"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ThirdScreenSwipe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/androidelement/androidelement"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/androidelement/androidelement"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.ThirdScreenSwipe"
+				id="53846f8e294845ba914284cb0fc04610"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="110"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.720"
+			timeRelativeToTestModuleStartTime="00:21.720"
+			timeWallClock="16:11:39"
+			time="00:21.720"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.LastScreen_Next_button' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']"
+				itempath="form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.LastScreen_Next_button"
+				id="a160189d551d4c0fa37b858ef718fc53"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\Launch_App.cs"
+				codeline="114"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

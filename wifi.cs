@@ -189,11 +189,11 @@ namespace SSPC_iOS
                 //Delay.Milliseconds(300);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(17)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(18));
-            Delay.Duration(20000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 7s.", new RecordItemIndex(18));
+            Delay.Duration(7000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$WifiPassword' on item 'ComPentairPentairhome.UIWindow.WifiPasswordinput'.", repo.ComPentairPentairhome.UIWindow.WifiPasswordinputInfo, new RecordItemIndex(19));
-            repo.ComPentairPentairhome.UIWindow.WifiPasswordinput.Element.SetAttributeValue("Text", WifiPassword);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$WifiPassword' on item 'ComPentairPentairhome.WifiPasswordChaange'.", repo.ComPentairPentairhome.WifiPasswordChaangeInfo, new RecordItemIndex(19));
+            repo.ComPentairPentairhome.WifiPasswordChaange.Element.SetAttributeValue("Text", WifiPassword);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(20));
@@ -203,8 +203,8 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.UIWindow.WifiContinue.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(22));
-            Delay.Duration(30000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 40s.", new RecordItemIndex(22));
+            Delay.Duration(40000, false);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.WiFiUpdateOK' at Center", repo.ComPentairPentairhome.WiFiUpdateOKInfo, new RecordItemIndex(23));
             repo.ComPentairPentairhome.WiFiUpdateOK.Touch();

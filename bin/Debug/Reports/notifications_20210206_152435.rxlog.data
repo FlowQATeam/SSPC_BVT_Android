@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="59.74s"
+		durationms="59740"
+		type="root"
+		rid="117d5d8c904378b9"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="06-Feb-21 3:24:38 PM"
+		timestampiso="2021-02-06T09:54:38"
+		endtime="06-Feb-21 3:25:38 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="notifications">
+		<detail>
+			notifications
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.650"
+			timeRelativeToTestModuleStartTime="00:05.650"
+			timeWallClock="15:24:43"
+			time="00:05.650"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.669"
+			timeRelativeToTestModuleStartTime="00:05.669"
+			timeWallClock="15:24:44"
+			time="00:05.669"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.388"
+			timeRelativeToTestModuleStartTime="00:09.388"
+			timeWallClock="15:24:47"
+			time="00:09.388"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.402"
+			timeRelativeToTestModuleStartTime="00:11.402"
+			timeWallClock="15:24:49"
+			time="00:11.402"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.919"
+			timeRelativeToTestModuleStartTime="00:12.919"
+			timeWallClock="15:24:51"
+			time="00:12.919"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.920"
+			timeRelativeToTestModuleStartTime="00:14.920"
+			timeWallClock="15:24:53"
+			time="00:14.920"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Settingsicon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//picture[@contentdescription='headerRightImage']"
+				itempath="form[@title='MainActivity']//picture[@contentdescription='headerRightImage']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Settingsicon"
+				id="ce0ba17ffe3a4dffa5d3dd53f669ad81"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="106"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.511"
+			timeRelativeToTestModuleStartTime="00:16.511"
+			timeWallClock="15:24:54"
+			time="00:16.511"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.521"
+			timeRelativeToTestModuleStartTime="00:18.521"
+			timeWallClock="15:24:56"
+			time="00:18.521"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Notifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Notifications"
+				id="ac8f8d6d17f84f978fe685b8c43cea26"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="113"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.979"
+			timeRelativeToTestModuleStartTime="00:19.979"
+			timeWallClock="15:24:58"
+			time="00:19.979"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.982"
+			timeRelativeToTestModuleStartTime="00:21.982"
+			timeWallClock="15:25:00"
+			time="00:21.982"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.AllNotifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.AllNotifications"
+				id="553e9cdf911e482bbc72880cd2175a08"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="120"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.667"
+			timeRelativeToTestModuleStartTime="00:23.667"
+			timeWallClock="15:25:02"
+			time="00:23.667"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.673"
+			timeRelativeToTestModuleStartTime="00:25.673"
+			timeWallClock="15:25:04"
+			time="00:25.673"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'ComPentairPentairhome.TextSMSCancel' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']"
+				itempath="form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TextSMSCancel"
+				id="a6765deeb10e417ea874cc4b71cf89d0"
+				timeout="30000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="128"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.846"
+			timeRelativeToTestModuleStartTime="00:26.846"
+			timeWallClock="15:25:05"
+			time="00:26.846"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="133"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.853"
+			timeRelativeToTestModuleStartTime="00:28.853"
+			timeWallClock="15:25:07"
+			time="00:28.853"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.PushNotifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.PushNotifications"
+				id="279a2efd5a624bebb501cf5a20f57e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="136"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.566"
+			timeRelativeToTestModuleStartTime="00:30.566"
+			timeWallClock="15:25:08"
+			time="00:30.566"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="140"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.567"
+			timeRelativeToTestModuleStartTime="00:32.567"
+			timeWallClock="15:25:10"
+			time="00:32.567"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.EmailNotifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.EmailNotifications"
+				id="cc8353e644304c5a8233aea21ce2447a"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="143"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.264"
+			timeRelativeToTestModuleStartTime="00:34.264"
+			timeWallClock="15:25:12"
+			time="00:34.264"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="147"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.274"
+			timeRelativeToTestModuleStartTime="00:36.274"
+			timeWallClock="15:25:14"
+			time="00:36.274"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.TextNotifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TextNotifications"
+				id="af6e59ef02214ea98129b3002934c7a5"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="150"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.029"
+			timeRelativeToTestModuleStartTime="00:38.029"
+			timeWallClock="15:25:16"
+			time="00:38.029"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="154"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.030"
+			timeRelativeToTestModuleStartTime="00:40.030"
+			timeWallClock="15:25:18"
+			time="00:40.030"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'ComPentairPentairhome.TextSMSCancel' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']"
+				itempath="form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TextSMSCancel"
+				id="a6765deeb10e417ea874cc4b71cf89d0"
+				timeout="30000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="158"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.044"
+			timeRelativeToTestModuleStartTime="00:41.044"
+			timeWallClock="15:25:19"
+			time="00:41.044"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="163"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.052"
+			timeRelativeToTestModuleStartTime="00:43.052"
+			timeWallClock="15:25:21"
+			time="00:43.052"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.TextNotifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TextNotifications"
+				id="af6e59ef02214ea98129b3002934c7a5"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="166"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.809"
+			timeRelativeToTestModuleStartTime="00:44.809"
+			timeWallClock="15:25:23"
+			time="00:44.809"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="21"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="170"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.813"
+			timeRelativeToTestModuleStartTime="00:46.813"
+			timeWallClock="15:25:25"
+			time="00:46.813"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="23"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="177"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.817"
+			timeRelativeToTestModuleStartTime="00:48.817"
+			timeWallClock="15:25:27"
+			time="00:48.817"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'ComPentairPentairhome.TextSMSAccept' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']"
+				itempath="form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TextSMSAccept"
+				id="63896f03abd2436287a68dda4506d2bb"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="181"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.732"
+			timeRelativeToTestModuleStartTime="00:49.732"
+			timeWallClock="15:25:28"
+			time="00:49.732"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="25"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\notifications.cs"
+				codeline="186"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

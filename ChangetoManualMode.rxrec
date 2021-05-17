@@ -115,6 +115,8 @@ mode="Global">
 				<path>
 					/dom[@domain='3.127.177.145:8082']//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="7f173609-d368-4e2c-8d0e-f050a16d67a7">
@@ -251,6 +253,8 @@ UyT/2Q==
 				<path>
 					/dom[@domain='3.127.177.145:8082']//tag[@tagname='md-list']/tag[6]/div/button
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a10c083c-f5fa-49c6-9817-6ac8f82f7720">
@@ -602,6 +606,8 @@ igAooooAKKKKACiiigAooooAKKKKACiiigBG+7TKKKAGT/6iT/dP8qx6KKAP/9k=
 				<path>
 					/dom[@domain='3.127.177.145:8082']//input[@type='text']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="61ce670d-f8f4-4370-83f1-19ba7331fa89">

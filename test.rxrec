@@ -27,7 +27,7 @@ mode="Global">
 	<recorditems>
 		<swiperecorditem
 		direction="270"
-		distance="1000"
+		distance="50"
 		duration="500ms"
 		enabled="True"
 		optional="False"
@@ -76,6 +76,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//androidelement[@contentdescription='hourPicker']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</swiperecorditem>
 	</recorditems>

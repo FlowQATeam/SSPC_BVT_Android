@@ -1,0 +1,14 @@
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.rxtmg
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.rxtst
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.exe.config
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.xml
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\SSPC_Android_BVT.pdb
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\obj\x86\Debug\SSPC_Android_BVT.csprojResolveAssemblyReference.cache
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\obj\x86\Debug\SSPC_Android_BVT.exe
+C:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\obj\x86\Debug\SSPC_Android_BVT.pdb

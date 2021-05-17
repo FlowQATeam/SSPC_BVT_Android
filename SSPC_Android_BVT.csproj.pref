@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="TimerMode.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="SSPC_Android_BVT.rxtst" />
+    <Element value="TimerMode.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Hours(RepoItemInfo iospickerInfo)" />
+      <Element value="SSPC_iOS.ScheduleHealthTestMonthly.dateAndMonthExtracter()" />
+      <Element value="SSPC_iOS.ScheduleHealthTestWeekly.Swipe_gesture_Hours(RepoItemInfo iospickerInfo)" />
+      <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Hours1(RepoItemInfo iospickerInfo)" />
+      <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Hours(RepoItemInfo iospickerInfo)" />
+      <Element value="SSPC_iOS.ScheduleHealthTestDaily.Swipe_gesture_Minutes(RepoItemInfo iospickerInfo)" />
+    </Array>
+  </Properties>
+</Properties>

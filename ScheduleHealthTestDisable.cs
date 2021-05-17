@@ -128,8 +128,13 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.ScheduleSave.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(11));
-            Delay.Duration(20000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
+            Delay.Duration(10000, false);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(12));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
+            Delay.Duration(2000, false);
             
         }
 

@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="45.41s"
+		durationms="45408"
+		type="root"
+		rid="25ec977c0e0ca2bf"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="23-Feb-21 12:19:08 PM"
+		timestampiso="2021-02-23T06:49:08"
+		endtime="23-Feb-21 12:19:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="removedevice">
+		<detail>
+			removedevice
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.570"
+			timeRelativeToTestModuleStartTime="00:06.570"
+			timeWallClock="12:19:14"
+			time="00:06.570"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.593"
+			timeRelativeToTestModuleStartTime="00:06.593"
+			timeWallClock="12:19:14"
+			time="00:06.593"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.621"
+			timeRelativeToTestModuleStartTime="00:09.621"
+			timeWallClock="12:19:17"
+			time="00:09.621"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.624"
+			timeRelativeToTestModuleStartTime="00:14.624"
+			timeWallClock="12:19:22"
+			time="00:14.624"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.196"
+			timeRelativeToTestModuleStartTime="00:16.196"
+			timeWallClock="12:19:24"
+			time="00:16.196"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.197"
+			timeRelativeToTestModuleStartTime="00:18.197"
+			timeWallClock="12:19:26"
+			time="00:18.197"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Settingsicon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//picture[@contentdescription='headerRightImage']"
+				itempath="form[@title='MainActivity']//picture[@contentdescription='headerRightImage']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.Settingsicon"
+				id="ce0ba17ffe3a4dffa5d3dd53f669ad81"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="106"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.740"
+			timeRelativeToTestModuleStartTime="00:19.740"
+			timeWallClock="12:19:27"
+			time="00:19.740"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.745"
+			timeRelativeToTestModuleStartTime="00:21.745"
+			timeWallClock="12:19:29"
+			time="00:21.745"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ProductSupport'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.ProductSupport"
+				id="b02177226d804f7782066c154f210880"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="113"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.561"
+			timeRelativeToTestModuleStartTime="00:23.561"
+			timeWallClock="12:19:31"
+			time="00:23.561"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.569"
+			timeRelativeToTestModuleStartTime="00:25.569"
+			timeWallClock="12:19:33"
+			time="00:25.569"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveDevice' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveDevice"
+				id="c56dc28a6af045bc879e14d5651e8f83"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="120"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.135"
+			timeRelativeToTestModuleStartTime="00:27.135"
+			timeWallClock="12:19:35"
+			time="00:27.135"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.138"
+			timeRelativeToTestModuleStartTime="00:29.138"
+			timeWallClock="12:19:37"
+			time="00:29.138"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveCrossButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[1]/picture[1]"
+				itempath="form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[1]/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveCrossButton"
+				id="6469f44f2daf4cedba457c2258b9f165"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="127"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.105"
+			timeRelativeToTestModuleStartTime="00:30.105"
+			timeWallClock="12:19:38"
+			time="00:30.105"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="131"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.111"
+			timeRelativeToTestModuleStartTime="00:32.111"
+			timeWallClock="12:19:40"
+			time="00:32.111"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveDevice' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveDevice"
+				id="c56dc28a6af045bc879e14d5651e8f83"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="134"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.684"
+			timeRelativeToTestModuleStartTime="00:33.684"
+			timeWallClock="12:19:41"
+			time="00:33.684"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="138"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.688"
+			timeRelativeToTestModuleStartTime="00:35.688"
+			timeWallClock="12:19:43"
+			time="00:35.688"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveCancelButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[5]/text[@text='CANCEL']"
+				itempath="form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[5]/text[@text='CANCEL']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveCancelButton"
+				id="25696fa1c51b4557b2189ad53c829bc4"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="141"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.654"
+			timeRelativeToTestModuleStartTime="00:36.654"
+			timeWallClock="12:19:44"
+			time="00:36.654"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="145"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.655"
+			timeRelativeToTestModuleStartTime="00:38.655"
+			timeWallClock="12:19:46"
+			time="00:38.655"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveDevice' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveDevice"
+				id="c56dc28a6af045bc879e14d5651e8f83"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="148"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.344"
+			timeRelativeToTestModuleStartTime="00:40.344"
+			timeWallClock="12:19:48"
+			time="00:40.344"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="152"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.347"
+			timeRelativeToTestModuleStartTime="00:42.347"
+			timeWallClock="12:19:50"
+			time="00:42.347"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RemoveButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[@text='REMOVE']"
+				itempath="form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[@text='REMOVE']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.RemoveButton"
+				id="fcb0ff286ed9443b976555110015548f"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="155"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.400"
+			timeRelativeToTestModuleStartTime="00:43.400"
+			timeWallClock="12:19:51"
+			time="00:43.400"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\removedevice.cs"
+				codeline="159"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

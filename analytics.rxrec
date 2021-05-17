@@ -51,6 +51,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -88,6 +90,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/?/?/container[@accessibilitylabel='Status Everything OK SPC QA 8091 AUTO Last run: Today Add a Device']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today Add a Device']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today']/container[@accessibilitylabel='SPC QA 8091 AUTO Last run: Today']/container[@accessibilitylabel='SPC QA 8091']/container[@accessibilityid='deviceImage']/container[@caption='']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -125,6 +129,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']/container[@caption='']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
@@ -196,6 +202,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Product Overview']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</swiperecorditem>
 		<explicitdelayitem
@@ -233,10 +241,12 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Analytics']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="2000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -244,6 +254,28 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fe4a8e89-f16c-42c5-bbab-e581f3c50537">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
@@ -270,11 +302,137 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="2000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
 		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fe4a8e89-f16c-42c5-bbab-e581f3c50537">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="0299da9d-fb52-4a18-a83d-6e5e77575929"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c798ee49-c3e1-4324-b591-360be8abc2ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="picture"
+				rect="54,165,54,54"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="platformclass"
+					type="System.String">
+						com.facebook.react.views.image.g
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						163660232
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="8ef30612-1c86-47e9-873f-2d2c934d4876"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8630d7d1-0e05-467c-9948-274da923385a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Analytics']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -302,16 +460,142 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="0af8abf0-33a8-4634-aaab-0d92c6682583"
+			id="07df800c-4430-4a53-b18c-1949a219900a"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="2000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
 		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fe4a8e89-f16c-42c5-bbab-e581f3c50537">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="0299da9d-fb52-4a18-a83d-6e5e77575929"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c798ee49-c3e1-4324-b591-360be8abc2ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="picture"
+				rect="54,165,54,54"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="platformclass"
+					type="System.String">
+						com.facebook.react.views.image.g
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						163660232
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="8ef30612-1c86-47e9-873f-2d2c934d4876"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8630d7d1-0e05-467c-9948-274da923385a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Analytics']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -339,16 +623,142 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="07df800c-4430-4a53-b18c-1949a219900a"
+			id="32b9103b-6261-46a7-bea6-1d783131ebc9"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel='Quarterly']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 		<explicitdelayitem
-		duration="5000ms"
+		duration="2000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
 		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fe4a8e89-f16c-42c5-bbab-e581f3c50537">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="0299da9d-fb52-4a18-a83d-6e5e77575929"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c798ee49-c3e1-4324-b591-360be8abc2ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="picture"
+				rect="54,165,54,54"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="platformclass"
+					type="System.String">
+						com.facebook.react.views.image.g
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						163660232
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="8ef30612-1c86-47e9-873f-2d2c934d4876"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8630d7d1-0e05-467c-9948-274da923385a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']//?/?/?/?/?/?/container[@accessibilitylabel='Analytics']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -376,16 +786,40 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="32b9103b-6261-46a7-bea6-1d783131ebc9"
+			id="0af8abf0-33a8-4634-aaab-0d92c6682583"
 			sourcename="RepositoryEditor">
 				<path>
-					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']
+					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
-		<explicitdelayitem
-		duration="5000ms"
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
 		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fe4a8e89-f16c-42c5-bbab-e581f3c50537">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="792081cf-928d-47f8-bc6a-dfc286be7470"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.pentair.pentairhome']/form
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

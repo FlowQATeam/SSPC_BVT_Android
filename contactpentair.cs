@@ -114,27 +114,48 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.ContactPentair.Touch();
             Delay.Milliseconds(300);
             
-            try {
-                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ComPentairPentairhome.PentairSupport'", repo.ComPentairPentairhome.PentairSupportInfo, new ActionTimeout(120000), new RecordItemIndex(7));
-                //repo.ComPentairPentairhome.PentairSupportInfo.WaitForExists(120000);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.Contact_PentairDeopDown' at Center", repo.ComPentairPentairhome.UIWindow.Contact_PentairDeopDownInfo, new RecordItemIndex(8));
+            repo.ComPentairPentairhome.UIWindow.Contact_PentairDeopDown.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.DeviceSupport' at Center", repo.ComPentairPentairhome.UIWindow.DeviceSupportInfo, new RecordItemIndex(10));
+            repo.ComPentairPentairhome.UIWindow.DeviceSupport.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ContactPentairButton' at Center", repo.ComPentairPentairhome.UIWindow.ContactPentairButtonInfo, new RecordItemIndex(12));
+            repo.ComPentairPentairhome.UIWindow.ContactPentairButton.Touch();
+            Delay.Milliseconds(300);
+            
+            try {
+                //Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 2m to exist. Associated repository item: 'ComPentairPentairhome.PentairSupport'", repo.ComPentairPentairhome.PentairSupportInfo, new ActionTimeout(120000), new RecordItemIndex(13));
+                //repo.ComPentairPentairhome.PentairSupportInfo.WaitForExists(120000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(13)); }
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(14));
             Delay.Duration(15000, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='WE'RE WAITING TO HEAR FROM YOU') on item 'ComPentairPentairhome.WEREWAITINGTOHEARFROMYOU'.", repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='WE'RE WAITING TO HEAR FROM YOU') on item 'ComPentairPentairhome.WEREWAITINGTOHEARFROMYOU'.", repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, new RecordItemIndex(15));
             Validate.AttributeEqual(repo.ComPentairPentairhome.WEREWAITINGTOHEARFROMYOUInfo, "InnerText", "WE'RE WAITING TO HEAR FROM YOU");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(16));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(11));
-            repo.ComPentairPentairhome.ContactPentairBack.Touch();
-            Delay.Milliseconds(300);
+            //Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(17));
+            //repo.ComPentairPentairhome.ContactPentairBack.Touch();
+            //Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(18));
+            //Delay.Duration(10000, false);
             
         }
 

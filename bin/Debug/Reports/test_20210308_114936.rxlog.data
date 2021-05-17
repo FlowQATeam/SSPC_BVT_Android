@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.14s"
+		durationms="8144"
+		type="root"
+		rid="1304dcd811928d17"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="08-Mar-21 11:49:39 AM"
+		timestampiso="2021-03-08T06:19:39"
+		endtime="08-Mar-21 11:49:47 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="test">
+		<detail>
+			test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.297"
+			timeRelativeToTestModuleStartTime="00:05.297"
+			timeWallClock="11:49:44"
+			time="00:05.297"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '1500' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.TimerHrsAndroid'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//androidelement[@contentdescription='hourPicker']"
+				itempath=".//androidelement[@contentdescription='hourPicker']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.TimerHrsAndroid"
+				id="1314e82a72fc407f8276a2677752d1ae"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\test.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

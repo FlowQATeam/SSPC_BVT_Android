@@ -121,36 +121,88 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.Analytics.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
+            Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.WeeklyAnalytics' at Center", repo.ComPentairPentairhome.WeeklyAnalyticsInfo, new RecordItemIndex(10));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(10));
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.WeeklyAnalytics' at Center", repo.ComPentairPentairhome.WeeklyAnalyticsInfo, new RecordItemIndex(11));
             repo.ComPentairPentairhome.WeeklyAnalytics.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.MonthlyAnalytics' at Center", repo.ComPentairPentairhome.MonthlyAnalyticsInfo, new RecordItemIndex(12));
-            repo.ComPentairPentairhome.MonthlyAnalytics.Touch();
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(13));
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(14));
+            repo.ComPentairPentairhome.ContactPentairBack.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
+            Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.QuarterlyAnalytics' at Center", repo.ComPentairPentairhome.QuarterlyAnalyticsInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Analytics' at Center", repo.ComPentairPentairhome.AnalyticsInfo, new RecordItemIndex(16));
+            repo.ComPentairPentairhome.Analytics.Touch();
+            Delay.Milliseconds(300);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
+            //Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.QuarterlyAnalytics' at Center", repo.ComPentairPentairhome.QuarterlyAnalyticsInfo, new RecordItemIndex(18));
             repo.ComPentairPentairhome.QuarterlyAnalytics.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(15));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DaillyAnalytics' at Center", repo.ComPentairPentairhome.DaillyAnalyticsInfo, new RecordItemIndex(16));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(20));
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(21));
+            repo.ComPentairPentairhome.ContactPentairBack.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(22));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Analytics' at Center", repo.ComPentairPentairhome.AnalyticsInfo, new RecordItemIndex(23));
+            repo.ComPentairPentairhome.Analytics.Touch();
+            Delay.Milliseconds(300);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(24));
+            //Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.DaillyAnalytics' at Center", repo.ComPentairPentairhome.DaillyAnalyticsInfo, new RecordItemIndex(25));
             repo.ComPentairPentairhome.DaillyAnalytics.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(17));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(26));
+            //Delay.Duration(2000, false);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(27));
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.ContactPentairBack' at Center", repo.ComPentairPentairhome.ContactPentairBackInfo, new RecordItemIndex(28));
+            repo.ComPentairPentairhome.ContactPentairBack.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(29));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Analytics' at Center", repo.ComPentairPentairhome.AnalyticsInfo, new RecordItemIndex(30));
+            repo.ComPentairPentairhome.Analytics.Touch();
+            Delay.Milliseconds(300);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(31));
+            //Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.MonthlyAnalytics' at Center", repo.ComPentairPentairhome.MonthlyAnalyticsInfo, new RecordItemIndex(32));
+            repo.ComPentairPentairhome.MonthlyAnalytics.Touch();
+            Delay.Milliseconds(300);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(33));
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(34));
+            //Delay.Duration(2000, false);
             
         }
 

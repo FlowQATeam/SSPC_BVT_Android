@@ -92,8 +92,8 @@ namespace SSPC_iOS
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'USB-3432585431453498'.", new RecordItemIndex(0));
-            Host.Local.RunMobileApp("USB-3432585431453498", "com.pentair.pentairhome", false);
+            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device " + Ranorex.Core.Remoting.RemoteServiceLocator.GetCurrentDeviceName() + ".", new RecordItemIndex(0));
+            Host.Local.RunMobileApp(Endpoint, "com.pentair.pentairhome", false);
             Delay.Milliseconds(3500);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(1));

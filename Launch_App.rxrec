@@ -32,7 +32,7 @@ mode="Global">
 	<recorditems>
 		<runmobileapprecorditem
 		application="com.pentair.pentairhome"
-		devicename="USB-3432585431453498"
+		devicename="Current Endpoint (None)"
 		duration="3500ms"
 		enabled="True"
 		optional="False"
@@ -40,6 +40,10 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="DeviceDisplayName"
+				variable="Endpoint">
+				</binding>
 			</bindings>
 		</runmobileapprecorditem>
 		<explicitdelayitem
@@ -73,6 +77,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</swiperecorditem>
 		<swiperecorditem
@@ -97,6 +103,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</swiperecorditem>
 		<swiperecorditem
@@ -121,6 +129,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/androidelement/androidelement
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</swiperecorditem>
 		<touchrecorditem
@@ -149,6 +159,8 @@ mode="Global">
 				<path>
 					/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</touchrecorditem>
 	</recorditems>

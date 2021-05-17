@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="48.11s"
+		durationms="48109"
+		type="root"
+		rid="2396276f22a6eb96"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="03-Feb-21 9:21:46 PM"
+		timestampiso="2021-02-03T15:51:46"
+		endtime="03-Feb-21 9:22:34 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CancelEmptyWater">
+		<detail>
+			CancelEmptyWater
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.751"
+			timeRelativeToTestModuleStartTime="00:06.751"
+			timeWallClock="21:21:53"
+			time="00:06.751"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.771"
+			timeRelativeToTestModuleStartTime="00:06.771"
+			timeWallClock="21:21:53"
+			time="00:06.771"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.434"
+			timeRelativeToTestModuleStartTime="00:09.434"
+			timeWallClock="21:21:56"
+			time="00:09.434"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.444"
+			timeRelativeToTestModuleStartTime="00:11.444"
+			timeWallClock="21:21:58"
+			time="00:11.444"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.182"
+			timeRelativeToTestModuleStartTime="00:13.182"
+			timeWallClock="21:21:59"
+			time="00:13.182"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.186"
+			timeRelativeToTestModuleStartTime="00:18.186"
+			timeWallClock="21:22:04"
+			time="00:18.186"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '10.0' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ManualScrollUp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]"
+				itempath="form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.ManualScrollUp"
+				id="a71098141d91406f834371f017d6fbd0"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="106"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.754"
+			timeRelativeToTestModuleStartTime="00:19.754"
+			timeWallClock="21:22:06"
+			time="00:19.754"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.762"
+			timeRelativeToTestModuleStartTime="00:24.762"
+			timeWallClock="21:22:11"
+			time="00:24.762"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.EMPTYWATER' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']"
+				itempath="form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.EMPTYWATER"
+				id="59aae09b80da412296c989c2aeba4127"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="113"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.434"
+			timeRelativeToTestModuleStartTime="00:26.434"
+			timeWallClock="21:22:13"
+			time="00:26.434"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.436"
+			timeRelativeToTestModuleStartTime="00:36.436"
+			timeWallClock="21:22:23"
+			time="00:36.436"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.CancelEmptyWater' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']"
+				itempath="form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.CancelEmptyWater"
+				id="ab14a731663a40a3875fdb549bce0fc6"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="120"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.101"
+			timeRelativeToTestModuleStartTime="00:38.101"
+			timeWallClock="21:22:24"
+			time="00:38.101"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\CancelEmptyWater.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

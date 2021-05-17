@@ -103,60 +103,62 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(3));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Settingsicon' at Center", repo.ComPentairPentairhome.SettingsiconInfo, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(4));
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Settingsicon' at Center", repo.ComPentairPentairhome.SettingsiconInfo, new RecordItemIndex(5));
             repo.ComPentairPentairhome.Settingsicon.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ProductSupport'.", repo.ComPentairPentairhome.ProductSupportInfo, new RecordItemIndex(6));
-            repo.ComPentairPentairhome.ProductSupport.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", "250"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '350' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ProductSupport'.", repo.ComPentairPentairhome.ProductSupportInfo, new RecordItemIndex(7));
+            repo.ComPentairPentairhome.ProductSupport.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", "350"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(9));
             repo.ComPentairPentairhome.RemoveDevice.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveCrossButton' at Center", repo.ComPentairPentairhome.RemoveCrossButtonInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveCrossButton' at Center", repo.ComPentairPentairhome.RemoveCrossButtonInfo, new RecordItemIndex(11));
             repo.ComPentairPentairhome.RemoveCrossButton.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(12));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(13));
             repo.ComPentairPentairhome.RemoveDevice.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(14));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveCancelButton' at Center", repo.ComPentairPentairhome.RemoveCancelButtonInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveCancelButton' at Center", repo.ComPentairPentairhome.RemoveCancelButtonInfo, new RecordItemIndex(15));
             repo.ComPentairPentairhome.RemoveCancelButton.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveDevice' at Center", repo.ComPentairPentairhome.RemoveDeviceInfo, new RecordItemIndex(17));
             repo.ComPentairPentairhome.RemoveDevice.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(18));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveButton' at Center", repo.ComPentairPentairhome.RemoveButtonInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.RemoveButton' at Center", repo.ComPentairPentairhome.RemoveButtonInfo, new RecordItemIndex(19));
             repo.ComPentairPentairhome.RemoveButton.Touch();
             Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(20));
             Delay.Duration(2000, false);
             
         }

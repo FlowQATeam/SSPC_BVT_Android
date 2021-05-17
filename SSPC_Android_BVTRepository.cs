@@ -289,6 +289,7 @@ namespace SSPC_iOS
             RepoItemInfo _homeiconInfo;
             RepoItemInfo _changewifinetworkInfo;
             RepoItemInfo _email_inputInfo;
+            RepoItemInfo _addadevicefirstInfo;
             RepoItemInfo _passordinputInfo;
             RepoItemInfo _getstartedloginInfo;
             RepoItemInfo _viewpassordInfo;
@@ -383,6 +384,7 @@ namespace SSPC_iOS
             RepoItemInfo _factory_reset_infoInfo;
             RepoItemInfo _resetlinkInfo;
             RepoItemInfo _resetbuttonInfo;
+            RepoItemInfo _wifipasswordchaangeInfo;
 
             /// <summary>
             /// Creates a new ComPentairPentairhome  folder.
@@ -396,108 +398,110 @@ namespace SSPC_iOS
                 _ampm = new SSPC_Android_BVTRepositoryFolders.AMPMFolder(this);
                 _timeminutes = new SSPC_Android_BVTRepositoryFolders.TimeMinutesFolder(this);
                 _timerhours = new SSPC_Android_BVTRepositoryFolders.TimerHoursFolder(this);
-                _skipInfo = new RepoItemInfo(this, "Skip", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
-                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
-                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/?/?/?/?/picture[1]", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
-                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form[@title='MainActivity']/androidelement[@rid='content']", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
-                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
-                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
-                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/text[@text='Change WiFi Network']", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
-                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form[@title='MainActivity']//text[@contentdescription='LoginEmailTextField']", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
-                _passordinputInfo = new RepoItemInfo(this, "PassordInput", "form[@title='MainActivity']//text[@contentdescription='SignInPasswordField']", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
-                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", "form[@title='MainActivity']//androidelement[@contentdescription='LoginEmailNextButton']", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
-                _viewpassordInfo = new RepoItemInfo(this, "ViewPassord", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']", 30000, null, "6470d2c6-179a-4f24-ae1e-790f2ae12d7c");
-                _loginInfo = new RepoItemInfo(this, "LOGIN", "form[@title='MainActivity']//androidelement[@contentdescription='SignInSignInButton']", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
-                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
-                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
-                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
-                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", "form[@title='Status']//button[@resourceid='R.string.yes' and @text='OK']", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
-                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
-                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement/androidelement/text[3]", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
-                _manualInfo = new RepoItemInfo(this, "Manual", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
-                _automodeInfo = new RepoItemInfo(this, "AutoMode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Auto']", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
-                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
-                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/picture[1]", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
-                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
-                _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
-                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
-                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
-                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[2]/text[@text~'^(Monthly|Weekly|Daily|Disable)']", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
-                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
-                _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
-                _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
-                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[4]/androidelement[1]/text[@text='Disable']", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
-                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
-                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
-                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Timer']", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
-                _timermodehrsInfo = new RepoItemInfo(this, "TimerModeHrs", ".//text[@accessibilitylabel=$TimerModeHrs]", 30000, null, "9bd35de3-cf06-4710-ab76-01747ae7533c");
-                _timermodeminsInfo = new RepoItemInfo(this, "TimerModeMins", ".//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]", 30000, null, "32246d19-00e7-415d-8b6c-9a8b9dec292e");
-                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Product Overview']", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
-                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", "form[@title='MainActivity']//picture[@contentdescription='headerRightImage']", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
-                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
-                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
-                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[4]/text[@text='Contact Pentair']", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
-                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
-                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
-                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
-                _textnotificationsInfo = new RepoItemInfo(this, "TextNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", 30000, null, "af6e59ef-0221-4ea9-8129-b3002934c7a5");
-                _wifiInfo = new RepoItemInfo(this, "WiFi", "form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[5]/text[@text='WiFi']", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
-                _configurationsInfo = new RepoItemInfo(this, "Configurations", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Configurations']", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
-                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/androidelement[2]", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
-                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[5]/text", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
-                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[4]/text", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
-                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/androidelement[2]/picture", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
-                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/androidelement[2]/picture", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
-                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[1]", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
-                _analyticsInfo = new RepoItemInfo(this, "Analytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[7]/text[@text='Analytics']", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
-                _dailyInfo = new RepoItemInfo(this, "Daily", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
-                _weeklyInfo = new RepoItemInfo(this, "Weekly", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/text[@text='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
-                _monthlyInfo = new RepoItemInfo(this, "Monthly", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/?/?/?/?/androidelement[1]/androidelement[3]/text[@text='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
-                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
-                _weeklyanalyticsInfo = new RepoItemInfo(this, "WeeklyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']", 30000, null, "643e52be-fc1b-4022-a75a-1cbdff3a9003");
-                _monthlyanalyticsInfo = new RepoItemInfo(this, "MonthlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']", 30000, null, "0af8abf0-33a8-4634-aaab-0d92c6682583");
-                _daillyanalyticsInfo = new RepoItemInfo(this, "DaillyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']", 30000, null, "32b9103b-6261-46a7-bea6-1d783131ebc9");
-                _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", ".//container[@accessibilitylabel='Remove Device']", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
-                _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", ".//container[@accessibilitylabel='REMOVE']", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
-                _removecancelbuttonInfo = new RepoItemInfo(this, "RemoveCancelButton", ".//container[@accessibilitylabel='CANCEL']", 30000, null, "25696fa1-c51b-4557-b218-9ad53c829bc4");
-                _removecrossbuttonInfo = new RepoItemInfo(this, "RemoveCrossButton", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/close2@2x.png']", 30000, null, "6469f44f-2daf-4ced-ba45-7c2258b9f165");
-                _settingsscrollupInfo = new RepoItemInfo(this, "SettingsScrollUp", ".//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']", 30000, null, "a6ea21be-ce99-4ffd-a8c9-87cb3b98082f");
-                _nicknameInfo = new RepoItemInfo(this, "nickname", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[5]/text[@text='Nickname']", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
-                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", "form[@title='(none)']/?/?/container/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
-                _current_addressInfo = new RepoItemInfo(this, "current_address", ".//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']", 30000, null, "0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221");
-                _startmanualInfo = new RepoItemInfo(this, "StartManual", "form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
-                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[5]/text[1]", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
-                _scheduledayInfo = new RepoItemInfo(this, "ScheduleDay", ".//container[@accessibilitylabel=$DayInitial]", 30000, null, "3fa958b8-bdad-4a90-be3c-5e205013d65d");
-                _sspcsupportInfo = new RepoItemInfo(this, "SSPCSupport", ".//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div", 30000, null, "21012d44-7afa-41a8-832f-e09421a35dbd");
-                _pentairsupportInfo = new RepoItemInfo(this, "PentairSupport", ".//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]", 30000, null, "dde58a2c-bb7b-4e2a-88e5-b68052936121");
-                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[6]/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
-                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
-                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
-                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
-                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/text[2]", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
-                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement/androidelement[4]/androidelement", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
-                _timerhrsandroidInfo = new RepoItemInfo(this, "TimerHrsAndroid", ".//androidelement[@contentdescription='hourPicker']", 30000, null, "1314e82a-72fc-407f-8276-a2677752d1ae");
-                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
-                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/picture", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
-                _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
-                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", "form[@title='(none)']/?/?/container/?/?/?/?/?/?/androidelement[3]/androidelement[1]/text[@text='E Main St, Orange']", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
-                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", "form[@title='(none)']/?/?/container/androidelement/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='22475 E Munoz St, Queen Creek']", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
-                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
-                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", "form[@title='Status']//button[@resourceid='R.string.yes']", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
-                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
-                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
-                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", "form[@title='MainActivity']//androidelement[@contentdescription='save']/text[@text='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
-                _histyInfo = new RepoItemInfo(this, "Histy", "form[@title='MainActivity']//androidelement[@contentdescription='chartImage']/text[@text='History']", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
-                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
-                _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
-                _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
-                _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
-                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
-                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
-                _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
-                _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", ".//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
-                _resetlinkInfo = new RepoItemInfo(this, "Resetlink", ".//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
-                _resetbuttonInfo = new RepoItemInfo(this, "RESETButton", ".//container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']", 30000, null, "7db32416-300f-4a39-9892-6184b661dc0a");
+                _skipInfo = new RepoItemInfo(this, "Skip", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", "", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
+                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]", "", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
+                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/?/?/?/?/picture[1]", "", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
+                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form[@title='MainActivity']/androidelement[@rid='content']", "", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
+                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", "", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
+                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture", "", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
+                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/text[@text='Change WiFi Network']", "", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
+                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form[@title='MainActivity']//text[@contentdescription='LoginEmailTextField']", "", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
+                _addadevicefirstInfo = new RepoItemInfo(this, "AddADevicefirst", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/text", "", 30000, null, "748bbb93-6e8a-4aab-a971-310edf167496");
+                _passordinputInfo = new RepoItemInfo(this, "PassordInput", "form[@title='MainActivity']//text[@contentdescription='SignInPasswordField']", "", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
+                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", "form[@title='MainActivity']//androidelement[@contentdescription='LoginEmailNextButton']", "", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
+                _viewpassordInfo = new RepoItemInfo(this, "ViewPassord", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']", "", 30000, null, "6470d2c6-179a-4f24-ae1e-790f2ae12d7c");
+                _loginInfo = new RepoItemInfo(this, "LOGIN", "form[@title='MainActivity']//androidelement[@contentdescription='SignInSignInButton']", "", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
+                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/text[@text='Run Test']", "", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
+                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form[@title='MainActivity']//androidelement[@contentdescription='cancelWaterTest']/text[@text='CANCEL']", "", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
+                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]", "", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
+                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", "form[@title='Status']//button[@resourceid='R.string.yes' and @text='OK']", "", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
+                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='EMPTY WATER']", "", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
+                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement/androidelement/text[3]", "", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
+                _manualInfo = new RepoItemInfo(this, "Manual", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Manual']", "", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
+                _automodeInfo = new RepoItemInfo(this, "AutoMode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Auto']", "", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
+                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", "", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
+                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/picture[1]", "", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
+                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[2]", "", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
+                _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", "", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
+                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", "", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
+                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", "", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
+                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[2]/text[@text~'^(Monthly|Weekly|Daily|Disable)']", "", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
+                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", "", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
+                _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", "", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
+                _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", "", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
+                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[4]/androidelement[1]/text[@text='Disable']", "", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
+                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[4]/text", "", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
+                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement[10]/text", "", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
+                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text='Timer']", "", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
+                _timermodehrsInfo = new RepoItemInfo(this, "TimerModeHrs", ".//text[@accessibilitylabel=$TimerModeHrs]", "", 30000, null, "9bd35de3-cf06-4710-ab76-01747ae7533c");
+                _timermodeminsInfo = new RepoItemInfo(this, "TimerModeMins", ".//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]", "", 30000, null, "32246d19-00e7-415d-8b6c-9a8b9dec292e");
+                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Product Overview']", "", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
+                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", "form[@title='MainActivity']//picture[@contentdescription='headerRightImage']", "", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
+                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Notifications']", "", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
+                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Product Support']", "", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
+                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[4]/text[@text='Contact Pentair']", "", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
+                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[1]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", "", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
+                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", "", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
+                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[3]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", "", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
+                _textnotificationsInfo = new RepoItemInfo(this, "TextNotifications", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/androidelement/androidelement[2]/androidelement/androidelement[2]/text[@resourceid='R.string.config_helpPackageNameValue']", "", 30000, null, "af6e59ef-0221-4ea9-8129-b3002934c7a5");
+                _wifiInfo = new RepoItemInfo(this, "WiFi", "form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[5]/text[@text='WiFi']", "", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
+                _configurationsInfo = new RepoItemInfo(this, "Configurations", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Configurations']", "", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
+                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/androidelement[2]", "", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
+                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[5]/text", "", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
+                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[2]/androidelement[4]/text", "", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
+                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/androidelement[2]/picture", "", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
+                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/androidelement[2]/picture", "", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
+                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[1]", "", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
+                _analyticsInfo = new RepoItemInfo(this, "Analytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[7]/text[@text='Analytics']", "", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
+                _dailyInfo = new RepoItemInfo(this, "Daily", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='Daily']", "", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
+                _weeklyInfo = new RepoItemInfo(this, "Weekly", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/text[@text='Weekly']", "", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
+                _monthlyInfo = new RepoItemInfo(this, "Monthly", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/?/?/?/?/androidelement[1]/androidelement[3]/text[@text='Monthly']", "", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
+                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']", "", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
+                _weeklyanalyticsInfo = new RepoItemInfo(this, "WeeklyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']", "", 30000, null, "643e52be-fc1b-4022-a75a-1cbdff3a9003");
+                _monthlyanalyticsInfo = new RepoItemInfo(this, "MonthlyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']", "", 30000, null, "0af8abf0-33a8-4634-aaab-0d92c6682583");
+                _daillyanalyticsInfo = new RepoItemInfo(this, "DaillyAnalytics", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[1]/text[@text='Daily']", "", 30000, null, "32b9103b-6261-46a7-bea6-1d783131ebc9");
+                _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", "form[@title='MainActivity']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text[@text='Remove Device']", "", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
+                _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[4]/text[@text='REMOVE']", "", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
+                _removecancelbuttonInfo = new RepoItemInfo(this, "RemoveCancelButton", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[2]/androidelement[5]/text[@text='CANCEL']", "", 30000, null, "25696fa1-c51b-4557-b218-9ad53c829bc4");
+                _removecrossbuttonInfo = new RepoItemInfo(this, "RemoveCrossButton", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[1]/picture[1]", "", 30000, null, "6469f44f-2daf-4ced-ba45-7c2258b9f165");
+                _settingsscrollupInfo = new RepoItemInfo(this, "SettingsScrollUp", ".//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']", "", 30000, null, "a6ea21be-ce99-4ffd-a8c9-87cb3b98082f");
+                _nicknameInfo = new RepoItemInfo(this, "nickname", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[5]/text[@text='Nickname']", "", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
+                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", "form[@title='(none)']/?/?/container/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", "", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
+                _current_addressInfo = new RepoItemInfo(this, "current_address", ".//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']", "", 30000, null, "0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221");
+                _startmanualInfo = new RepoItemInfo(this, "StartManual", "form[@title='MainActivity']//androidelement[@contentdescription='saveButton']/text[@text='Start']", "", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
+                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[5]/text[1]", "", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
+                _scheduledayInfo = new RepoItemInfo(this, "ScheduleDay", ".//container[@accessibilitylabel=$DayInitial]", "", 30000, null, "3fa958b8-bdad-4a90-be3c-5e205013d65d");
+                _sspcsupportInfo = new RepoItemInfo(this, "SSPCSupport", ".//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div", "", 30000, null, "21012d44-7afa-41a8-832f-e09421a35dbd");
+                _pentairsupportInfo = new RepoItemInfo(this, "PentairSupport", ".//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]", "", 30000, null, "dde58a2c-bb7b-4e2a-88e5-b68052936121");
+                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[6]/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
+                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]", "", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
+                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[4]/text[@text='ACCEPT']", "", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
+                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", "form[@title='(none)']/?/?/container/?/?/?/?/androidelement[1]/androidelement[5]/text[@text='CANCEL']", "", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
+                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/text[2]", "", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
+                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement/androidelement[4]/androidelement", "", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
+                _timerhrsandroidInfo = new RepoItemInfo(this, "TimerHrsAndroid", ".//androidelement[@contentdescription='hourPicker']", "", 30000, null, "1314e82a-72fc-407f-8276-a2677752d1ae");
+                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text[@text='Address']", "", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
+                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement/picture", "", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
+                _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", "", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
+                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[5]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement[3]/androidelement[2]/androidelement/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[2]/androidelement[1]/text[1]", "", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
+                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", "form[@title='(none)']/?/?/container/androidelement/?/?/?/?/?/androidelement[1]/androidelement[1]/text[@text='22475 E Munoz St, Queen Creek']", "", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
+                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", "form[@title='MainActivity']//androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
+                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", "form[@title='Status']//button[@resourceid='R.string.yes']", "", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
+                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", "", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
+                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", "form[@title='MainActivity']//dom[@browsername='Ranorex Android Browser']//h2[@innertext='Sump Controller Support']", "", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
+                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", "form[@title='MainActivity']//androidelement[@contentdescription='save']/text[@text='Save']", "", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
+                _histyInfo = new RepoItemInfo(this, "Histy", "form[@title='MainActivity']//androidelement[@contentdescription='chartImage']/text[@text='History']", "", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
+                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", "", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
+                _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", "", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
+                _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", "", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
+                _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", "", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
+                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", "", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
+                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", "form[@title='MainActivity']/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/androidelement[1]/picture", "", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
+                _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", "", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
+                _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement[3]/androidelement/androidelement/androidelement[3]/androidelement[2]/picture", "", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
+                _resetlinkInfo = new RepoItemInfo(this, "Resetlink", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[3]/androidelement[2]/text[@text='Reset']", "", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
+                _resetbuttonInfo = new RepoItemInfo(this, "RESETButton", "form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement[4]/text[@text='RESET']", "", 30000, null, "7db32416-300f-4a39-9892-6184b661dc0a");
+                _wifipasswordchaangeInfo = new RepoItemInfo(this, "WifiPasswordChaange", "?/?/androidelement[@rid='content']/androidelement/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[6]/text", "", 30000, null, "c9be9fed-a67c-4fae-a729-02ca22a9e98a");
             }
 
             /// <summary>
@@ -713,6 +717,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _email_inputInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddADevicefirst item.
+            /// </summary>
+            [RepositoryItem("748bbb93-6e8a-4aab-a971-310edf167496")]
+            public virtual Ranorex.Text AddADevicefirst
+            {
+                get
+                {
+                    return _addadevicefirstInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddADevicefirst item info.
+            /// </summary>
+            [RepositoryItemInfo("748bbb93-6e8a-4aab-a971-310edf167496")]
+            public virtual RepoItemInfo AddADevicefirstInfo
+            {
+                get
+                {
+                    return _addadevicefirstInfo;
                 }
             }
 
@@ -1992,11 +2020,11 @@ namespace SSPC_iOS
             /// The RemoveDevice item.
             /// </summary>
             [RepositoryItem("c56dc28a-6af0-45bc-879e-14d5651e8f83")]
-            public virtual Ranorex.Container RemoveDevice
+            public virtual Ranorex.Text RemoveDevice
             {
                 get
                 {
-                    return _removedeviceInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _removedeviceInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2016,11 +2044,11 @@ namespace SSPC_iOS
             /// The RemoveButton item.
             /// </summary>
             [RepositoryItem("fcb0ff28-6ed9-443b-9765-55110015548f")]
-            public virtual Ranorex.Container RemoveButton
+            public virtual Ranorex.Text RemoveButton
             {
                 get
                 {
-                    return _removebuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _removebuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2040,11 +2068,11 @@ namespace SSPC_iOS
             /// The RemoveCancelButton item.
             /// </summary>
             [RepositoryItem("25696fa1-c51b-4557-b218-9ad53c829bc4")]
-            public virtual Ranorex.Container RemoveCancelButton
+            public virtual Ranorex.Text RemoveCancelButton
             {
                 get
                 {
-                    return _removecancelbuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _removecancelbuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2064,11 +2092,11 @@ namespace SSPC_iOS
             /// The RemoveCrossButton item.
             /// </summary>
             [RepositoryItem("6469f44f-2daf-4ced-ba45-7c2258b9f165")]
-            public virtual Ranorex.Container RemoveCrossButton
+            public virtual Ranorex.Picture RemoveCrossButton
             {
                 get
                 {
-                    return _removecrossbuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _removecrossbuttonInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2904,11 +2932,11 @@ namespace SSPC_iOS
             /// The Factory_Reset_info item.
             /// </summary>
             [RepositoryItem("a755e82d-7dd0-45b2-bc9a-b958582e8676")]
-            public virtual Ranorex.Container Factory_Reset_info
+            public virtual Ranorex.Picture Factory_Reset_info
             {
                 get
                 {
-                    return _factory_reset_infoInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _factory_reset_infoInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 
@@ -2928,11 +2956,11 @@ namespace SSPC_iOS
             /// The Resetlink item.
             /// </summary>
             [RepositoryItem("f7d012fd-2bdd-4689-b37d-e26b029ac7a5")]
-            public virtual Ranorex.Container Resetlink
+            public virtual Ranorex.Text Resetlink
             {
                 get
                 {
-                    return _resetlinkInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _resetlinkInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2952,11 +2980,11 @@ namespace SSPC_iOS
             /// The RESETButton item.
             /// </summary>
             [RepositoryItem("7db32416-300f-4a39-9892-6184b661dc0a")]
-            public virtual Ranorex.Container RESETButton
+            public virtual Ranorex.Text RESETButton
             {
                 get
                 {
-                    return _resetbuttonInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _resetbuttonInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
@@ -2969,6 +2997,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _resetbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WifiPasswordChaange item.
+            /// </summary>
+            [RepositoryItem("c9be9fed-a67c-4fae-a729-02ca22a9e98a")]
+            public virtual Ranorex.Text WifiPasswordChaange
+            {
+                get
+                {
+                    return _wifipasswordchaangeInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WifiPasswordChaange item info.
+            /// </summary>
+            [RepositoryItemInfo("c9be9fed-a67c-4fae-a729-02ca22a9e98a")]
+            public virtual RepoItemInfo WifiPasswordChaangeInfo
+            {
+                get
+                {
+                    return _wifipasswordchaangeInfo;
                 }
             }
 
@@ -3034,6 +3086,7 @@ namespace SSPC_iOS
         public partial class UIWindowFolder : RepoGenBaseFolder
         {
             RepoItemInfo _continueonprovisiomInfo;
+            RepoItemInfo _contactpentairbuttonInfo;
             RepoItemInfo _sumpcontrollerInfo;
             RepoItemInfo _addadeviceInfo;
             RepoItemInfo _bluetoothcontinueInfo;
@@ -3043,6 +3096,8 @@ namespace SSPC_iOS
             RepoItemInfo _wifipasswordinputInfo;
             RepoItemInfo _wificontinueInfo;
             RepoItemInfo _nicknameinputInfo;
+            RepoItemInfo _devicesupportInfo;
+            RepoItemInfo _contact_pentairdeopdownInfo;
             RepoItemInfo _addresscontinueInfo;
             RepoItemInfo _nicknamesaveInfo;
             RepoItemInfo _installationcompletecontinueInfo;
@@ -3054,20 +3109,23 @@ namespace SSPC_iOS
             public UIWindowFolder(RepoGenBaseFolder parentFolder) :
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
-                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "androidelement[@rid='content']//androidelement[@contentdescription='shadowButton']/text", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
-                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
-                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
-                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
-                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
-                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/text[@text=$Wifissid]", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
-                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[8]/text", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
-                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
-                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
-                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
-                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/?/?/androidelement[1]/text[1]", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
-                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", "container[@rid='content']/container[@containertype='Frame']/?/?/?/androidelement[1]/androidelement[4]/text[@text='CONTINUE']", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
-                _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
+                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "androidelement[@rid='content']//androidelement[@contentdescription='shadowButton']/text", "", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
+                _contactpentairbuttonInfo = new RepoItemInfo(this, "ContactPentairButton", ".//androidelement[@contentdescription='shadowButton']/text[@text='CONTACT PENTAIR']", "", 30000, null, "f8d460c6-d9a5-4052-8a85-756ad46040ee");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[11]/androidelement/androidelement/androidelement/text[1]", "", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement", "", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
+                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
+                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/text[@text=$DeviceID]", "", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
+                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
+                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement/text[@text=$Wifissid]", "", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
+                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[1]/androidelement[1]/androidelement/androidelement[1]/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement[8]/text", "", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
+                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
+                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/androidelement[4]/androidelement[2]/text[1]", "", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
+                _devicesupportInfo = new RepoItemInfo(this, "DeviceSupport", "container[@rid='content']/container[@containertype='Frame']/androidelement/?/?/?/?/?/androidelement[2]/androidelement[1]/text[@text='Device Support']", "", 30000, null, "7dffc257-34f4-4a74-b4eb-23126d8ed93f");
+                _contact_pentairdeopdownInfo = new RepoItemInfo(this, "Contact_PentairDeopDown", "androidelement[@rid='content']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[4]/androidelement[1]/picture", "", 30000, null, "98f685bf-e631-443e-b640-a425965ce700");
+                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", "androidelement[@rid='content']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[@contentdescription='shadowButton']/text[@text='CONTINUE']", "", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
+                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "container[@rid='content']/container[@containertype='Frame']/?/?/?/?/?/?/?/androidelement[1]/text[1]", "", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
+                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", "container[@rid='content']/container[@containertype='Frame']/?/?/?/androidelement[1]/androidelement[4]/text[@text='CONTINUE']", "", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
+                _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
             }
 
             /// <summary>
@@ -3115,6 +3173,30 @@ namespace SSPC_iOS
                 get
                 {
                     return _continueonprovisiomInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContactPentairButton item.
+            /// </summary>
+            [RepositoryItem("f8d460c6-d9a5-4052-8a85-756ad46040ee")]
+            public virtual Ranorex.Text ContactPentairButton
+            {
+                get
+                {
+                    return _contactpentairbuttonInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContactPentairButton item info.
+            /// </summary>
+            [RepositoryItemInfo("f8d460c6-d9a5-4052-8a85-756ad46040ee")]
+            public virtual RepoItemInfo ContactPentairButtonInfo
+            {
+                get
+                {
+                    return _contactpentairbuttonInfo;
                 }
             }
 
@@ -3335,6 +3417,54 @@ namespace SSPC_iOS
             }
 
             /// <summary>
+            /// The DeviceSupport item.
+            /// </summary>
+            [RepositoryItem("7dffc257-34f4-4a74-b4eb-23126d8ed93f")]
+            public virtual Ranorex.Text DeviceSupport
+            {
+                get
+                {
+                    return _devicesupportInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeviceSupport item info.
+            /// </summary>
+            [RepositoryItemInfo("7dffc257-34f4-4a74-b4eb-23126d8ed93f")]
+            public virtual RepoItemInfo DeviceSupportInfo
+            {
+                get
+                {
+                    return _devicesupportInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Contact_PentairDeopDown item.
+            /// </summary>
+            [RepositoryItem("98f685bf-e631-443e-b640-a425965ce700")]
+            public virtual Ranorex.Picture Contact_PentairDeopDown
+            {
+                get
+                {
+                    return _contact_pentairdeopdownInfo.CreateAdapter<Ranorex.Picture>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Contact_PentairDeopDown item info.
+            /// </summary>
+            [RepositoryItemInfo("98f685bf-e631-443e-b640-a425965ce700")]
+            public virtual RepoItemInfo Contact_PentairDeopDownInfo
+            {
+                get
+                {
+                    return _contact_pentairdeopdownInfo;
+                }
+            }
+
+            /// <summary>
             /// The AddressContinue item.
             /// </summary>
             [RepositoryItem("4fd1ade9-3909-429a-b779-36154d94d0e5")]
@@ -3445,7 +3575,7 @@ namespace SSPC_iOS
             public HoursFolder(RepoGenBaseFolder parentFolder) :
                     base("Hours", ".//iospicker[@componentrowcounts='[12]']", parentFolder, 30000, null, false, "660f785d-ed74-4ce2-a7e6-b7c402a17395", "")
             {
-                _schdulehrsInfo = new RepoItemInfo(this, "SchduleHrs", ".//listitem[@text=$TimeHrs]", 30000, null, "9613783b-b93f-407c-80e4-97f09947b781");
+                _schdulehrsInfo = new RepoItemInfo(this, "SchduleHrs", ".//listitem[@text=$TimeHrs]", "", 30000, null, "9613783b-b93f-407c-80e4-97f09947b781");
             }
 
             /// <summary>
@@ -3511,7 +3641,7 @@ namespace SSPC_iOS
             public MinutesFolder(RepoGenBaseFolder parentFolder) :
                     base("Minutes", ".//iospicker[@componentrowcounts='[60]']", parentFolder, 30000, null, false, "1b317da3-894c-4377-ba91-2b2e63083c24", "")
             {
-                _scheduleminsInfo = new RepoItemInfo(this, "ScheduleMins", ".//listitem[@text=$TimeMins]", 30000, null, "3c6a2953-c2dd-47d5-aab6-c57516768607");
+                _scheduleminsInfo = new RepoItemInfo(this, "ScheduleMins", ".//listitem[@text=$TimeMins]", "", 30000, null, "3c6a2953-c2dd-47d5-aab6-c57516768607");
             }
 
             /// <summary>
@@ -3577,7 +3707,7 @@ namespace SSPC_iOS
             public AMPMFolder(RepoGenBaseFolder parentFolder) :
                     base("AMPM", ".//iospicker[@componentrowcounts='[2]']", parentFolder, 30000, null, false, "a0f67023-31a6-45c1-a5de-49f2a47fd025", "")
             {
-                _scheduleampmInfo = new RepoItemInfo(this, "ScheduleAMPM", ".///list[@accessibilitylabel='Component 0']/listitem[@text=$TimeAmPm]", 30000, null, "97d2b7de-d180-409a-8d86-c611b6936497");
+                _scheduleampmInfo = new RepoItemInfo(this, "ScheduleAMPM", ".///list[@accessibilitylabel='Component 0']/listitem[@text=$TimeAmPm]", "", 30000, null, "97d2b7de-d180-409a-8d86-c611b6936497");
             }
 
             /// <summary>
@@ -3643,7 +3773,7 @@ namespace SSPC_iOS
             public TimeMinutesFolder(RepoGenBaseFolder parentFolder) :
                     base("TimeMinutes", ".//iospicker[@componentrowcounts='[60]']", parentFolder, 30000, null, false, "e87b84af-407e-41b6-80fa-df5f0efeeec2", "")
             {
-                _timerminsInfo = new RepoItemInfo(this, "TimerMins", ".//listitem[@text=$TimerMins]", 30000, null, "796ec2d7-c73b-4512-8250-353a4388231f");
+                _timerminsInfo = new RepoItemInfo(this, "TimerMins", ".//listitem[@text=$TimerMins]", "", 30000, null, "796ec2d7-c73b-4512-8250-353a4388231f");
             }
 
             /// <summary>
@@ -3709,7 +3839,7 @@ namespace SSPC_iOS
             public TimerHoursFolder(RepoGenBaseFolder parentFolder) :
                     base("TimerHours", ".//iospicker[@componentrowcounts='[12]']", parentFolder, 30000, null, false, "cef7e1c2-a5df-4d2c-ac74-38e12ca0faa9", "")
             {
-                _timerhrsInfo = new RepoItemInfo(this, "timerHrs", ".//listitem[@text=$TimerHrs]", 30000, null, "5d7ae532-70af-4cc9-9b6f-531961ff4f67");
+                _timerhrsInfo = new RepoItemInfo(this, "timerHrs", ".//listitem[@text=$TimerHrs]", "", 30000, null, "5d7ae532-70af-4cc9-9b6f-531961ff4f67");
             }
 
             /// <summary>
@@ -3777,9 +3907,9 @@ namespace SSPC_iOS
             public NodeREDDashboardAppFolder(RepoGenBaseFolder parentFolder) :
                     base("NodeREDDashboard", "/dom[@domain='3.127.177.145:8082']", parentFolder, 30000, null, false, "4b98e7c3-e30c-40ce-bec1-d116df6ef7bf", "")
             {
-                _ngmdiconInfo = new RepoItemInfo(this, "NgMdIcon", ".//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']", 30000, null, "acefd3cc-4d65-45ba-a10e-fdbbe5f8b589");
-                _mdbuttonmdinkripplemdnostylengsInfo = new RepoItemInfo(this, "MdButtonMdInkRippleMdNoStyleNgS", ".//tag[@tagname='md-list']/tag[6]/div/button", 30000, null, "849862bb-5959-43c3-bfbe-95d4e5805efc");
-                _textInfo = new RepoItemInfo(this, "Text", ".//input[@type='text']", 30000, null, "bb766a82-8c0c-4720-87a6-6a8eb03e4df3");
+                _ngmdiconInfo = new RepoItemInfo(this, "NgMdIcon", ".//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']", "", 30000, null, "acefd3cc-4d65-45ba-a10e-fdbbe5f8b589");
+                _mdbuttonmdinkripplemdnostylengsInfo = new RepoItemInfo(this, "MdButtonMdInkRippleMdNoStyleNgS", ".//tag[@tagname='md-list']/tag[6]/div/button", "", 30000, null, "849862bb-5959-43c3-bfbe-95d4e5805efc");
+                _textInfo = new RepoItemInfo(this, "Text", ".//input[@type='text']", "", 30000, null, "bb766a82-8c0c-4720-87a6-6a8eb03e4df3");
             }
 
             /// <summary>
@@ -3897,11 +4027,11 @@ namespace SSPC_iOS
             public GoogleAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Google", "/dom[@domain='www.google.com']", parentFolder, 30000, null, false, "47b23a98-2f5e-40fa-9324-6a4fd4552a0c", "")
             {
-                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form[#'tsf']//input[@title='Search']", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
-                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
-                _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
-                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{2,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
-                _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
+                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form[#'tsf']//input[@title='Search']", "", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
+                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']", "", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
+                _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", "", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
+                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{2,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", "", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
+                _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", "", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
             }
 
             /// <summary>

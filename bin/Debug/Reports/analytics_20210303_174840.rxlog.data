@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1m"
+		durationms="62359"
+		type="root"
+		rid="4f111d41a756250"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="03-Mar-21 5:48:43 PM"
+		timestampiso="2021-03-03T12:18:43"
+		endtime="03-Mar-21 5:49:45 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="analytics">
+		<detail>
+			analytics
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.451"
+			timeRelativeToTestModuleStartTime="00:07.451"
+			timeWallClock="17:48:50"
+			time="00:07.451"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.470"
+			timeRelativeToTestModuleStartTime="00:07.470"
+			timeWallClock="17:48:50"
+			time="00:07.470"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WeeklyAnalytics' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[2]/text[@text='Weekly']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.WeeklyAnalytics"
+				id="643e52befc1b4022a75a1cbdff3a9003"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="92"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.086"
+			timeRelativeToTestModuleStartTime="00:49.086"
+			timeWallClock="17:49:32"
+			time="00:49.086"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.097"
+			timeRelativeToTestModuleStartTime="00:51.097"
+			timeWallClock="17:49:34"
+			time="00:51.097"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.QuarterlyAnalytics' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[4]/text[@text='Quarterly']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.QuarterlyAnalytics"
+				id="07df800c44304a53b18c1949a219900a"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="99"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.775"
+			timeRelativeToTestModuleStartTime="00:52.775"
+			timeWallClock="17:49:36"
+			time="00:52.775"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.776"
+			timeRelativeToTestModuleStartTime="00:54.776"
+			timeWallClock="17:49:38"
+			time="00:54.776"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.MonthlyAnalytics' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']"
+				itempath="form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement/androidelement[3]/text[@text='Monthly']"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.MonthlyAnalytics"
+				id="0af8abf033a84634aaab0d92c6682583"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="106"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.359"
+			timeRelativeToTestModuleStartTime="01:00.359"
+			timeWallClock="17:49:43"
+			time="01:00.359"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\analytics.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

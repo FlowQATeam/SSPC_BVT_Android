@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.4m"
+		durationms="81938"
+		type="root"
+		rid="16646d4cd67f6c09"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="03-Feb-21 8:10:51 PM"
+		timestampiso="2021-02-03T14:40:51"
+		endtime="03-Feb-21 8:12:13 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ClickSPCtile">
+		<detail>
+			ClickSPCtile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.478"
+			timeRelativeToTestModuleStartTime="00:07.478"
+			timeWallClock="20:10:59"
+			time="00:07.478"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Nickname
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.496"
+			timeRelativeToTestModuleStartTime="00:07.496"
+			timeWallClock="20:10:59"
+			time="00:07.496"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.511"
+			timeRelativeToTestModuleStartTime="00:12.511"
+			timeWallClock="20:11:04"
+			time="00:12.511"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//text[@contentdescription='deviceName' and @text='Sump Controller']"
+				itempath="form[@title='MainActivity']//text[@contentdescription='deviceName' and @text=$Nickname]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="95"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.384"
+			timeRelativeToTestModuleStartTime="00:14.384"
+			timeWallClock="20:11:06"
+			time="00:14.384"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.394"
+			timeRelativeToTestModuleStartTime="00:16.394"
+			timeWallClock="20:11:08"
+			time="00:16.394"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				itempath="form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="102"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.833"
+			timeRelativeToTestModuleStartTime="00:17.833"
+			timeWallClock="20:11:09"
+			time="00:17.833"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.839"
+			timeRelativeToTestModuleStartTime="00:19.839"
+			timeWallClock="20:11:11"
+			time="00:19.839"
+			level="Info"
+			category="Touch">
+			<message>
+				(Optional Action)<br/>Touch item 'ComPentairPentairhome.AppFeedbackClose' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				itempath="form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose"
+				id="c5211c823ee946b7914e935a920a095b"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="110"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.931"
+			timeRelativeToTestModuleStartTime="01:19.931"
+			timeWallClock="20:12:11"
+			time="01:19.931"
+			level="Warn"
+			category="Module">
+			<message>
+				(Optional Action) Failed to find item 'SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="113"
+				loglvl="Warn"
+				id="c5211c823ee946b7914e935a920a095b"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form[@title='(none)']/?/?/container/androidelement/androidelement/androidelement[2]/androidelement[1]/androidelement[1]/androidelement[1]/androidelement[1]/picture[1]"
+				fullname="SSPC_Android_BVTRepository.ComPentairPentairhome.AppFeedbackClose">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.931"
+			timeRelativeToTestModuleStartTime="01:19.931"
+			timeWallClock="20:12:11"
+			time="01:19.931"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_Android_BVT\ClickSPCtile.cs"
+				codeline="115"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
