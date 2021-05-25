@@ -402,7 +402,7 @@ namespace SSPC_iOS
                 _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/picture[1]", "", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
                 _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form[@title='MainActivity']/androidelement/androidelement/androidelement/androidelement/androidelement/androidelement/?/?/?/?/picture[1]", "", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
                 _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form[@title='MainActivity']/androidelement[@rid='content']", "", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
-                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']", "", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
+                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form[@title='MainActivity']//picture", "", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
                 _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form[@title='MainActivity']/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement[1]/androidelement[2]/picture", "", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
                 _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form[@title='MainActivity']/androidelement/androidelement/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/?/androidelement/androidelement[3]/androidelement/text[@text='Change WiFi Network']", "", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
                 _email_inputInfo = new RepoItemInfo(this, "Email_input", "form[@title='MainActivity']//text[@contentdescription='LoginEmailTextField']", "", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
@@ -628,11 +628,11 @@ namespace SSPC_iOS
             /// The LastScreen_Next_button item.
             /// </summary>
             [RepositoryItem("a160189d-551d-4c0f-a37b-858ef718fc53")]
-            public virtual Ranorex.AndroidElement LastScreen_Next_button
+            public virtual Ranorex.Picture LastScreen_Next_button
             {
                 get
                 {
-                    return _lastscreen_next_buttonInfo.CreateAdapter<Ranorex.AndroidElement>(true);
+                    return _lastscreen_next_buttonInfo.CreateAdapter<Ranorex.Picture>(true);
                 }
             }
 

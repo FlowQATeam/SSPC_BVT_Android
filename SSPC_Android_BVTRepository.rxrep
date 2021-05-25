@@ -63,13 +63,13 @@ name="SSPC_Android_BVTRepository">
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
-			capname="androidelement"
+			capname="picture"
 			id="a160189d-551d-4c0f-a37b-858ef718fc53"
 			name="LastScreen_Next_button"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
 			robustPath=""
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//androidelement[@contentdescription='AppWalkthroughNextButton']
+				/mobileapp[@title='com.pentair.pentairhome']/form[@title='MainActivity']//picture
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"

@@ -1,11 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="TimerMode.rxrec" />
+    <Element value="SSPC_Android_BVT.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="SSPC_Android_BVT.rxtst" />
-    <Element value="TimerMode.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

@@ -10,6 +10,6 @@
       <string>{CD393739-EE34-416A-86AD-E8F279672D0C}</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution SSPC_Android_BVT[SSPC_Android_BVT[TimerMode.rxrec[]wifi.rxrec[]]]]&#xD;&#xA;Solution SSPC_Android_BVT\SSPC_Android_BVT&#xD;&#xA;Solution SSPC_Android_BVT\SSPC_Android_BVT" />
+  <ProjectBrowserState value="[Solution SSPC_Android_BVT[SSPC_Android_BVT[TimerMode.rxrec[]wifi.rxrec[]]]]&#xD;&#xA;Solution SSPC_Android_BVT\SSPC_Android_BVT\SSPC_Android_BVT.rxtst&#xD;&#xA;Solution SSPC_Android_BVT\SSPC_Android_BVT\notifications.rxrec" />
   <StartupProject value="{CD393739-EE34-416A-86AD-E8F279672D0C}" />
 </Properties>
